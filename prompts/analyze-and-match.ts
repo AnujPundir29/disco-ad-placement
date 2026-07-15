@@ -26,9 +26,12 @@ ${JSON.stringify(personas, null, 2)}
    Infer conservatively from the text; note guesses as assumptions, not facts.
 
 2. **Judge input quality**:
-   - "clear": enough signal to plan confidently.
-   - "vague": you can plan, but only by making assumptions — list every assumption you make,
-     and write clarifying questions you would ask the advertiser.
+   - "clear": what the product is, who buys it, and how it's positioned are all identifiable
+     from the text. Minor unknowns (exact AOV, geography, SKU details) do NOT make an input
+     vague — estimate them and move on.
+   - "vague": a load-bearing fact — what the product actually is, or who the customer is —
+     must be assumed before you can plan. List every assumption you make, and write
+     clarifying questions you would ask the advertiser (at most 4, most important first).
    - "off_catalog": no shopper audience in this catalog plausibly buys this product (e.g. B2B
      software, services with no consumer purchase). Do not force a plan: leave rankedPublishers
      and selectedPersonas empty, put ALL publishers in excludedPublishers, and use
@@ -44,6 +47,10 @@ ${JSON.stringify(personas, null, 2)}
      product for retirees" is good; "not relevant" is not.
    - Be selective: most catalogs have a few strong fits, not fifteen. A fitScore under 55
      means the publisher belongs in excludedPublishers instead.
+   - Fit means the publisher's audience plausibly SHOPS FOR this product category on that
+     publisher. Demographic overlap alone is not fit: a women's apparel publisher is not a
+     pet-food channel just because its readers might own dogs. Category and purchase-intent
+     match outrank demographic resemblance.
 
 4. **Select 3–5 personas** who would plausibly buy this product. For each, say why they are
    relevant and the single key message an ad should communicate to them. Respect their
