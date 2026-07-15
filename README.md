@@ -19,8 +19,8 @@ npm run sweep                # optional: run all 15 sample advertisers through t
 
 ## How it works
 
-Two LLM calls (Gemini Flash via the AI SDK — provider swappable in one line, `lib/llm.ts`),
-everything else is code:
+Two LLM calls (Gemini Flash via the AI SDK; setting `OPENAI_API_KEY` switches the whole
+pipeline to OpenAI — the provider seam is `lib/llm.ts`), everything else is code:
 
 1. **Analyze & match** (`prompts/analyze-and-match.ts`, temp 0.2): profile the business, rate
    input quality (`clear` / `vague` / `off_catalog`), rank or exclude *every* publisher with

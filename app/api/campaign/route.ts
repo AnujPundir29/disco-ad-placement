@@ -1,7 +1,10 @@
 import { z } from "zod";
 import { generateCampaignPlan } from "../../../lib/pipeline";
 
-export const maxDuration = 60; // two sequential LLM calls; Vercel hobby caps at 60s
+// Two sequential LLM calls; worst case observed ~57s on gemini-3-flash-preview.
+// 120s needs Vercel fluid compute (default on new projects); if the deploy ever
+// rejects this, drop back to 60.
+export const maxDuration = 120;
 
 const bodySchema = z.object({
   advertiser: z.string().trim().min(3, "Describe the business in a sentence or two").max(1000),
