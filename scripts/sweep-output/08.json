@@ -1,161 +1,152 @@
 {
   "analysis": {
     "businessProfile": {
-      "productSummary": "A novel, premium lifestyle or wellness product designed specifically to support mothers in their daily routines.",
-      "category": "wellness_dtc",
-      "priceTier": "premium",
-      "estimatedAovUsd": 60,
-      "brandVoice": "playful"
+      "productSummary": "A consumer product positioned for mothers — likely a physical or DTC offering that claims to make moms' lives easier or better.",
+      "category": "mom_products (unspecified — could be family/household, apparel, wellness, or convenience)",
+      "priceTier": "mid",
+      "estimatedAovUsd": 74,
+      "brandVoice": "warm, helpful, trustworthy — mother-focused (reassuring, practical, slightly playful)"
     },
     "inputQuality": {
       "rating": "vague",
       "assumptions": [
-        "The product is a consumer physical good (DTC) rather than a service or B2B product.",
-        "The target audience 'moms' refers primarily to millennial and Gen X mothers (ages 25-45) who are open to wellness, convenience, or lifestyle innovations.",
-        "The product is positioned in the premium price tier with an estimated AOV of around $60.",
-        "The product category aligns with wellness, self-care, or daily convenience for busy parents."
+        "The product is a consumer good sold to individual mothers (not B2B or a pure service).",
+        "Target buyer is most likely moms aged ~25–45 (young to mid-life parents) with household purchasing responsibility.",
+        "Price positioning is mid-tier (not ultra-luxury or ultra-discount); AOV estimated ~$70–$80 to match family-oriented DTC purchases.",
+        "Primary sales channel is retail or DTC (online), so publisher inventory that drives consumer shopping is relevant."
       ],
       "clarifyingQuestions": [
-        "What specific category does your product fall into (e.g., wellness, apparel, baby gear, home goods)?",
-        "What is the retail price point or expected average order value (AOV) of this product?",
-        "Are 'moms' the end-users of the product, or are they buying it for their children/families?",
-        "How would you describe your brand voice (e.g., clinical, playful, authoritative, minimalist)?"
+        "What exactly is the product (category): baby/kids product, household convenience product, apparel for moms, wellness for moms, subscription box, or something else?",
+        "What is the target mom profile (age range of mothers, presence/age of kids) and the primary purchase motivation (time-savings, health, style, giftability)?",
+        "Expected price per purchase / target AOV and whether you plan to sell via DTC (website), retail, or subscription?",
+        "Are there any positioning/claim constraints (e.g., must be science-backed, organic, sustainable, playful brand voice)?"
       ]
     },
     "rankedPublishers": [
       {
         "id": "pub_015",
-        "fitScore": 88,
+        "fitScore": 92,
         "reasons": [
-          "High concentration of family households (28-52 age skew) matches the target demographic of mothers.",
-          "67% female audience provides strong gender alignment.",
-          "Convenience-motivated audience notes align perfectly with busy mothers looking for solutions."
+          "Kitchenly explicitly targets 'Family and couples households' (notes) with an audience age skew 28-52 — that directly overlaps typical mom demographics.",
+          "Category match: meal_kits and subscription grocery convenience align with time-poor parents and subscription-first buying behaviors.",
+          "Avg order value $74 is close to the estimated AOV and Kitchenly's purchase intent (meal kits) maps to family-focused buys."
         ]
       },
       {
-        "id": "pub_012",
-        "fitScore": 85,
+        "id": "pub_001",
+        "fitScore": 84,
         "reasons": [
-          "89% female audience ensures highly efficient targeting for a mom-focused product.",
-          "Age skew of 22-42 captures the prime millennial mother demographic.",
-          "Wellness DTC focus is an excellent match for a 'new kind of thing' aimed at self-care or health."
-        ]
-      },
-      {
-        "id": "pub_002",
-        "fitScore": 82,
-        "reasons": [
-          "82% female audience in the 25-44 age range aligns perfectly with active, modern mothers.",
-          "Strong crossover with wellness and beauty notes fits a premium self-care or lifestyle product."
+          "Swiftcart is instant_delivery and 'convenience' focused with 'high-frequency purchasers' and 'impulse-friendly' notes — strong fit for time-pressed moms buying household/quick items.",
+          "Audience skews 18–34 and mid income, matching younger moms and convenience-first shopping behavior."
         ]
       },
       {
         "id": "pub_008",
-        "fitScore": 78,
+        "fitScore": 76,
         "reasons": [
-          "71% female audience in the 28-48 age range represents health-conscious mothers buying for their households.",
-          "Values-driven, clean-ingredient focus is highly appealing to modern mothers."
+          "Pantrygood is grocery-focused with 'organic' and 'natural' subcategories and an audience 28–48 that is 71% female — good fit if the product is ingredient- or wellness-oriented for moms.",
+          "Notes show 'values-driven shoppers' sensitive to clean-ingredient and sustainability claims, matching many moms' purchase drivers for family foods and household products."
         ]
       },
       {
-        "id": "pub_003",
-        "fitScore": 70,
+        "id": "pub_002",
+        "fitScore": 68,
         "reasons": [
-          "74% female audience in the 28-50 age range fits the target demographic.",
-          "Audience is actively spending on self-care, making them highly receptive to premium wellness innovations."
+          "Movewell's audience skews 25–44 and is 82% female — strong demographic overlap for moms shopping for activewear or comfortable clothing.",
+          "Notes: 'Fitness-engaged shoppers' and crossover with wellness/beauty provide a credible audience if the product is apparel or self-care for moms."
         ]
       },
       {
-        "id": "pub_016",
-        "fitScore": 65,
+        "id": "pub_006",
+        "fitScore": 62,
         "reasons": [
-          "94% female audience in the 28-48 age range provides excellent demographic alignment.",
-          "Targets professional women who value sustainability and convenience, matching working mothers."
-        ]
-      },
-      {
-        "id": "pub_014",
-        "fitScore": 60,
-        "reasons": [
-          "78% female audience in the 28-48 age range matches the target demographic.",
-          "Non-toxic kitchenware focus appeals to safety-conscious mothers with families."
+          "Everbody targets women 30–55 (99% female) and emphasizes fit and inclusive sizing — a direct match if the product is women's apparel (including postpartum/comfortable mom-wear).",
+          "Audience location (US-South/Midwest) and mid AOV ($89) are reasonable for mid-tier mom-focused apparel or staple purchases."
         ]
       }
     ],
     "excludedPublishers": [
       {
-        "id": "pub_001",
-        "reason": "Audience skews younger (18-34) and is highly impulse/convenience focused with a low AOV, making it less ideal for a premium, mom-targeted product launch."
+        "id": "pub_003",
+        "reason": "Studiogrid is appointment-based (fitness classes, spa, yoga) and optimizes bookings rather than retail product purchases, so it's a poor fit unless the advertiser is selling wellness services."
       },
       {
         "id": "pub_004",
-        "reason": "Audience skews older (45-65), which is past the primary demographic for new mothers."
+        "reason": "Marlowe & Co. skews older (age 45–65) and sells higher-AOV workwear; its audience is affluent mid-life women, not the primary 25–45 mom cohort implied by 'moms.'"
       },
       {
         "id": "pub_005",
-        "reason": "Audience skews very old (50-70) and conservative, which does not align with a modern product targeting active mothers."
-      },
-      {
-        "id": "pub_006",
-        "reason": "While female-skewed, the focus is heavily on plus-size workwear and intimates, which is too specific compared to general lifestyle/wellness channels."
+        "reason": "Linden Park's audience is 50–70 and oriented to high-AOV classic apparel, which mismatches a product targeted at younger parents or family-focused buys."
       },
       {
         "id": "pub_007",
-        "reason": "This is a pet-focused subscription publisher, which is irrelevant for a product specifically designed for human mothers."
+        "reason": "Pawline is pet-focused (pet_food, pet_supplies) — unless the 'thing for moms' is a pet product, the channel's purchase intent is centered on pets, not moms/kids household items."
       },
       {
         "id": "pub_009",
-        "reason": "This is a broad pet supply publisher, which does not target the specific lifestyle or wellness needs of mothers."
+        "reason": "Ruffco is the largest pet audience in the catalog (pet_food, pet_pharmacy); its commerce intent is pet-specific and not a natural home for a non-pet mom product."
       },
       {
         "id": "pub_010",
-        "reason": "Focuses on basic socks and underwear with a balanced gender split, lacking the targeted female/mother audience focus."
+        "reason": "Heartfoot specializes in basics and socks with gifting season spikes; it's focused on gifting/seasonal basics rather than broad family or mom-specific shopping behavior."
       },
       {
         "id": "pub_011",
-        "reason": "Focuses on high-AOV home textiles and bedding, which is too niche and expensive for a general mom-focused product launch."
+        "reason": "Northbed is premium bedding/home textiles (high AOV $164) appealing to design-conscious buyers — a good match only if the product is higher-end home goods rather than a general mom product."
+      },
+      {
+        "id": "pub_012",
+        "reason": "Daily Form is a science-forward supplements shop (women-focused) whose audience is skeptical of unsubstantiated claims—it's only suitable if the advertiser's product is an evidence-backed supplement for moms."
       },
       {
         "id": "pub_013",
-        "reason": "Audience skews very young (18-34, Gen Z/younger millennial) and is focused on minimalist beauty, which misses the core busy mom demographic."
+        "reason": "Velvetline targets younger Gen Z and early millennials (18–34) with beauty DTC interests and an identity-driven purchasing style rather than the mainstream mom/parent household intent."
+      },
+      {
+        "id": "pub_014",
+        "reason": "Hearthstone Goods sells premium cookware (avg order $198) to sustainability-motivated buyers — relevant only if the product is a high-end kitchen/home item for moms."
+      },
+      {
+        "id": "pub_016",
+        "reason": "Stride & Stem is premium women's shoes for professional women (high AOV $142) and targets a narrower high-income professional segment rather than time-constrained parents."
       },
       {
         "id": "pub_017",
-        "reason": "Has a nearly equal gender split (52% female) and targets tech-adjacent urban professionals rather than mothers."
+        "reason": "Cloudfoot focuses on shoes and activewear with a mixed-gender urban professional audience — not a primary channel for broad mom-targeted household or kids products."
       },
       {
         "id": "pub_018",
-        "reason": "Focuses entirely on pet toys and treats, which is irrelevant for a product targeted at mothers."
+        "reason": "Tailcrate is pet-supplies and subscription toys/treats for pets; its purchase intent is pet-focused, not family/mom products."
       },
       {
         "id": "pub_019",
-        "reason": "Focuses specifically on personalized haircare, which is too narrow a category for a general mom-focused product."
+        "reason": "Strandlab is personalized haircare (18–38, DTC) with a strong personalization onboarding model—it's not an obvious fit unless the advertiser is selling beauty/haircare for moms."
       },
       {
         "id": "pub_020",
-        "reason": "Focuses on functional beverages and gut health, which is a decent wellness fit but too narrow compared to broader lifestyle and wellness publishers."
+        "reason": "Pop & Sip sells functional beverages aimed at health-curious drinkers — relevant for a beverage brand but not a general 'thing for moms' unless the product is a functional drink."
       }
     ],
     "selectedPersonas": [
       {
         "id": "persona_002",
-        "whyRelevant": "Directly represents the core target audience of mothers who are time-poor and looking for solutions that make their lives easier.",
-        "keyMessage": "Designed by parents, for parents—reclaim your time with this simple, stress-free solution."
+        "whyRelevant": "The Busy Parent is time-poor, buys in bulk, and loves subscriptions and family-friendly solutions — she maps directly to Kitchenly, Swiftcart, and Pantrygood audiences.",
+        "keyMessage": "Saves time and reduces stress for your family — simple to order, trusted by parents, and built for busy households."
+      },
+      {
+        "id": "persona_007",
+        "whyRelevant": "The Convenience-First Millennial values speed and frictionless commerce (instant delivery, subscriptions) and overlaps Swiftcart and Kitchenly behavior.",
+        "keyMessage": "Get what you need fast — one-click ordering or subscription options that fit your on-the-go life."
       },
       {
         "id": "persona_001",
-        "whyRelevant": "Fits the profile of a modern millennial mom who prioritizes self-care, health, and high-quality, evidence-backed products.",
-        "keyMessage": "The clean, science-backed self-care innovation designed to help busy moms thrive, not just survive."
+        "whyRelevant": "The Wellness Optimizer (28–40, female) overlaps Pantrygood and (if product is wellness) Daily Form audiences — relevant when moms prioritize evidence-backed, clean ingredients.",
+        "keyMessage": "Designed for family health — clear, science-backed ingredients and outcomes you can trust for your kids and yourself."
       },
       {
         "id": "persona_008",
-        "whyRelevant": "Represents the practical mom who wants to ensure any 'new thing' she buys for herself or her family offers clear, proven value.",
-        "keyMessage": "An essential upgrade for your daily routine that pays off in peace of mind and everyday comfort."
-      },
-      {
-        "id": "persona_006",
-        "whyRelevant": "Many modern moms are highly conscious of the environmental impact of the products they bring into their homes for their families.",
-        "keyMessage": "A smarter, sustainable choice for your home that's gentle on the planet and perfect for your family."
+        "whyRelevant": "The Value-Conscious Shopper responds to clear value props, bundles and discounts — she will convert on Kitchenly or Swiftcart offers that demonstrate savings across family purchases.",
+        "keyMessage": "Family-tested value — meaningful savings, bundles, and easy returns so you stretch your household budget without surprises."
       }
     ]
   },
@@ -163,27 +154,27 @@
     "variants": [
       {
         "personaId": "persona_002",
-        "headline": "The 2-Minute Daily Reset Designed By Busy Parents For Busy Parents",
-        "body": "Between soccer practice and endless laundry, you do it all. This simple daily wellness routine fits into your chaotic schedule in under two minutes. No complicated steps, just trusted, family-friendly support that keeps you moving. Try it completely risk-free with our easy, hassle-free returns.",
-        "rationale": "This copy directly addresses the busy parent's need for time-saving convenience, family-friendly trust, and hassle-free returns without any complicated onboarding or luxury pretense."
+        "headline": "More time, less chaos: a simple solution for busy moms",
+        "body": "Built for busy households: one-click ordering, bulk packs, and a flexible subscription you can pause anytime. Fast shipping and clear returns mean fewer errands and more family time.",
+        "rationale": "Emphasizes time-saving features (one-click, bulk, subscription) and easy returns to match a dual-income parent's need for convenience and low stress."
+      },
+      {
+        "personaId": "persona_007",
+        "headline": "One-click moms' essentials — fast delivery or auto-subscribe",
+        "body": "Get what you need in one tap: instant checkout, fast delivery options, or an auto-subscribe plan with adjustable cadence and pause-anytime control. Designed for city parents who value speed and no-fuss replenishment.",
+        "rationale": "Leans into speed, one-click convenience, and flexible subscription controls to appeal to a convenience-first millennial who values frictionless experiences."
       },
       {
         "personaId": "persona_001",
-        "headline": "The Science-Backed Daily Wellness Formula Built for Modern Mothers",
-        "body": "Optimize your daily routine with our clean, nutrient-dense formula designed to support cellular-level recovery and sustained maternal energy. We share every single ingredient and its scientific purpose so you can track real, measurable physical outcomes. No fillers, just targeted support.",
-        "rationale": "This variant speaks directly to the wellness optimizer by highlighting ingredient transparency, science-backed claims, and clear physical outcomes."
+        "headline": "Transparent ingredients and clear outcomes for family health",
+        "body": "Comes with a full ingredient breakdown, plain-language notes on how each part supports daily wellbeing, and simple usage guidance so you can track effects for your kids and yourself—clear info, no fluff.",
+        "rationale": "Focuses on ingredient transparency and outcome-focused guidance to satisfy a wellness-minded mom who wants evidence and measurable benefits."
       },
       {
         "personaId": "persona_008",
-        "headline": "The Smart Maternal Wellness Upgrade With Thousands of 5-Star Reviews",
-        "body": "Skip the overpriced wellness trends. Our daily maternal wellness essential delivers premium physical support at a practical cost. Combine your routine with our custom bundle options to maximize your daily value, backed by thousands of honest reviews from mothers who did the math.",
-        "rationale": "This copy emphasizes smart budgeting, everyday value, bundles, and reviews to win over the value-conscious shopper while avoiding vague luxury claims."
-      },
-      {
-        "personaId": "persona_006",
-        "headline": "Sustainably Sourced Maternal Wellness Gentle on You and the Planet",
-        "body": "Meet the daily wellness routine that respects your body and the environment. We use biodegradable packaging and trace our clean ingredients directly to ethical, renewable farms. No greenwashing, no excess waste—just transparent, responsible support for your motherhood journey.",
-        "rationale": "This copy targets the sustainability buyer by highlighting biodegradable packaging, supply chain transparency, and ethical sourcing while avoiding vague eco-friendly jargon."
+        "headline": "Bundles, clear pricing, and easy returns for smart shoppers",
+        "body": "Choose value bundles to lower per-item costs, read honest customer reviews on the product page, and rely on straightforward returns. Practical savings and clear value so your household budget goes further.",
+        "rationale": "Highlights bundles, transparent pricing, reviews, and easy returns to appeal to a budget-aware shopper who comparison-shops for clear value."
       }
     ]
   },
@@ -192,69 +183,69 @@
     "bidStrategy": {
       "type": "manual_cpc",
       "suggestedRangeUsd": [
-        0.6,
-        1.2
+        0.74,
+        1.48
       ],
       "rationale": "Mid-AOV product: pay per click at 1-2% of order value, a sustainable CPC if roughly 1 in 30 clicks converts"
     },
     "budget": {
-      "suggestedMonthlyUsd": 9375,
-      "suggestedDailyUsd": 313,
-      "rationale": "$1500/publisher/month floor for statistically useful volume × 5 publishers × 1.25 premium-tier multiplier"
+      "suggestedMonthlyUsd": 7500,
+      "suggestedDailyUsd": 250,
+      "rationale": "$1500/publisher/month floor for statistically useful volume × 5 publishers × 1 mid-tier multiplier"
     },
     "publisherAllocations": [
       {
         "publisherId": "pub_015",
         "publisherName": "Kitchenly",
+        "sharePct": 24,
+        "monthlyBudgetUsd": 1800,
+        "estCpmUsd": 18,
+        "projectedMonthlyImpressions": 100000,
+        "rationale": "92/100 fit score → 24% of budget"
+      },
+      {
+        "publisherId": "pub_001",
+        "publisherName": "Swiftcart",
         "sharePct": 22,
-        "monthlyBudgetUsd": 2063,
-        "estCpmUsd": 18,
-        "projectedMonthlyImpressions": 114611,
-        "rationale": "88/100 fit score → 22% of budget"
-      },
-      {
-        "publisherId": "pub_012",
-        "publisherName": "Daily Form",
-        "sharePct": 21,
-        "monthlyBudgetUsd": 1969,
-        "estCpmUsd": 18,
-        "projectedMonthlyImpressions": 109389,
-        "rationale": "85/100 fit score → 21% of budget"
-      },
-      {
-        "publisherId": "pub_002",
-        "publisherName": "Movewell",
-        "sharePct": 20,
-        "monthlyBudgetUsd": 1875,
-        "estCpmUsd": 18,
-        "projectedMonthlyImpressions": 104167,
-        "rationale": "82/100 fit score → 20% of budget"
+        "monthlyBudgetUsd": 1650,
+        "estCpmUsd": 12,
+        "projectedMonthlyImpressions": 137500,
+        "rationale": "84/100 fit score → 22% of budget"
       },
       {
         "publisherId": "pub_008",
         "publisherName": "Pantrygood",
-        "sharePct": 19,
-        "monthlyBudgetUsd": 1781,
+        "sharePct": 20,
+        "monthlyBudgetUsd": 1500,
         "estCpmUsd": 25,
-        "projectedMonthlyImpressions": 71240,
-        "rationale": "78/100 fit score → 19% of budget"
+        "projectedMonthlyImpressions": 60000,
+        "rationale": "76/100 fit score → 20% of budget"
       },
       {
-        "publisherId": "pub_003",
-        "publisherName": "Studiogrid",
-        "sharePct": 17,
-        "monthlyBudgetUsd": 1594,
-        "estCpmUsd": 25,
-        "projectedMonthlyImpressions": 63760,
-        "rationale": "70/100 fit score → 17% of budget"
+        "publisherId": "pub_002",
+        "publisherName": "Movewell",
+        "sharePct": 18,
+        "monthlyBudgetUsd": 1350,
+        "estCpmUsd": 18,
+        "projectedMonthlyImpressions": 75000,
+        "rationale": "68/100 fit score → 18% of budget"
+      },
+      {
+        "publisherId": "pub_006",
+        "publisherName": "Everbody",
+        "sharePct": 16,
+        "monthlyBudgetUsd": 1200,
+        "estCpmUsd": 12,
+        "projectedMonthlyImpressions": 100000,
+        "rationale": "62/100 fit score → 16% of budget"
       }
     ],
     "targeting": {
       "personaIds": [
         "persona_002",
+        "persona_007",
         "persona_001",
-        "persona_008",
-        "persona_006"
+        "persona_008"
       ],
       "geos": [
         "nationwide"
@@ -265,19 +256,19 @@
         "kids_products",
         "pet_food",
         "convenience",
-        "wellness",
-        "fitness",
-        "supplements"
+        "instant_delivery",
+        "subscription_services",
+        "quick_commerce"
       ]
     },
     "flightDays": 30,
     "assumptions": [
-      "The product is a consumer physical good (DTC) rather than a service or B2B product.",
-      "The target audience 'moms' refers primarily to millennial and Gen X mothers (ages 25-45) who are open to wellness, convenience, or lifestyle innovations.",
-      "The product is positioned in the premium price tier with an estimated AOV of around $60.",
-      "The product category aligns with wellness, self-care, or daily convenience for busy parents.",
+      "The product is a consumer good sold to individual mothers (not B2B or a pure service).",
+      "Target buyer is most likely moms aged ~25–45 (young to mid-life parents) with household purchasing responsibility.",
+      "Price positioning is mid-tier (not ultra-luxury or ultra-discount); AOV estimated ~$70–$80 to match family-oriented DTC purchases.",
+      "Primary sales channel is retail or DTC (online), so publisher inventory that drives consumer shopping is relevant.",
       "CPMs are heuristic estimates by audience income tier, not quoted rates",
-      "Estimated AOV of $60 inferred from the advertiser's description"
+      "Estimated AOV of $74 inferred from the advertiser's description"
     ]
   }
 }

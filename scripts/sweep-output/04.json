@@ -1,152 +1,160 @@
 {
   "analysis": {
     "businessProfile": {
-      "productSummary": "Hand-poured, natural soy wax candles crafted in small batches in Vermont, primarily marketed as premium gifts.",
-      "category": "home_decor",
-      "priceTier": "premium",
-      "estimatedAovUsd": 50,
-      "brandVoice": "artisanal, clean, and understated"
+      "productSummary": "Small-batch, hand-poured soy-wax candles made in Vermont, marketed as natural/giftable home fragrance (no synthetic fragrances).",
+      "category": "home",
+      "priceTier": "mid",
+      "estimatedAovUsd": 45,
+      "brandVoice": "artisanal, natural, cozy, gift-forward — emphasizes craftsmanship, ingredient transparency, and Vermont provenance."
     },
     "inputQuality": {
-      "rating": "vague",
+      "rating": "clear",
       "assumptions": [
-        "Assumed a premium price tier ($25-$35 per candle) due to the 'small-batch', 'hand-poured', and 'natural soy' descriptions.",
-        "Assumed an average order value of $50, representing a typical purchase of 1-2 candles or a gift set.",
-        "Assumed the primary purchase drivers are gifting, home aesthetics, and clean wellness/self-care."
+        "Average price per order is in the $30–60 range (estimated AOV $45) rather than luxury >$100.",
+        "Primary shoppers skew female and buy for gifting or self-care occasions.",
+        "Distribution is DTC / consumer retail across the U.S. (no single-store exclusivity)."
       ],
       "clarifyingQuestions": [
-        "What is your exact retail price per candle and your current average order value (AOV)?",
-        "Do you offer custom gift packaging, gift notes, or seasonal gift sets?",
-        "Are your primary sales channels direct-to-consumer online, or do you have a heavy retail/wholesale presence?"
+        "What is your typical price per SKU and do you sell multi-candle gift sets or gift-wrap options?",
+        "Do you have geographic priorities (e.g., Northeast / national) or retail/wholesale partners we should avoid/target?",
+        "What's your target customer profile (age, household income) or top-performing acquisition channel to date?",
+        "Are sustainability certifications or ingredient provenance (e.g., organic, fair-wax) important claims you can substantiate?"
       ]
     },
     "rankedPublishers": [
       {
-        "id": "pub_011",
-        "fitScore": 95,
-        "reasons": [
-          "Matches the 'home' category with design-conscious buyers who have a high cross-sell affinity for home and wellness.",
-          "Strong geographic alignment with the US-Northeast, fitting the Vermont heritage story.",
-          "High-income audience matches the premium price tier of artisanal, hand-poured candles."
-        ]
-      },
-      {
         "id": "pub_014",
-        "fitScore": 90,
+        "fitScore": 92,
         "reasons": [
-          "Focuses on non-toxic home goods, aligning perfectly with natural soy wax and zero synthetic fragrances.",
-          "Audience purchasing is heavily driven by gifting and home life events, matching the advertiser's primary use case.",
-          "High-income demographic supports premium pricing."
+          "Category & audience match: Hearthstone Goods is a home-focused publisher with 'non_toxic' and sustainability-motivated kitchen buyers—these readers are already primed for clean-ingredient home goods.",
+          "Gifting overlap: Notes call out gifting and new-home life events as purchase drivers, aligning with the advertiser's 'mostly bought as gifts' positioning.",
+          "AOV & audience: High-income, design-conscious buyers (age 28–48) can comfortably support a mid-premium candle AOV."
         ]
       },
       {
-        "id": "pub_010",
-        "fitScore": 85,
+        "id": "pub_011",
+        "fitScore": 88,
         "reasons": [
-          "Features a strong gifting subcategory and massive seasonal gifting uplift, aligning with the 'mostly bought as gifts' profile.",
-          "Average order value of $52 is a perfect match for the estimated candle gift purchase size.",
-          "Audience responds well to social-good and artisanal craftsmanship messaging."
+          "Home / design fit: Northbed's audience is explicitly 'design-conscious' and has high cross-sell with home and wellness—strong for premium scented candles as decor/gifts.",
+          "Audience & price: High-income skew (AOV 164 on publisher) indicates willingness to pay for quality home items and giftable presentation.",
+          "Geo & demo: Top geos (US-Northeast, US-West) align with artisanal New England provenance messaging."
         ]
       },
       {
         "id": "pub_008",
-        "fitScore": 80,
+        "fitScore": 85,
         "reasons": [
-          "Values-driven, high-income shoppers who actively seek out clean-ingredient, natural, and sustainable products.",
-          "Strong alignment with the 'natural soy wax, no synthetic fragrances' product formulation."
+          "Values alignment: Pantrygood targets 'values-driven shoppers' responsive to clean-ingredient and sustainability claims—this matches 'natural soy wax / no synthetic fragrances.'",
+          "Demographics & spending: Audience skews 28–48, female-leaning, high income—appropriate for mid-premium, gift-focused purchases.",
+          "Category adjacency: Organic/natural groceries buyers often cross-shop clean-beauty and non-toxic home products like candles."
+        ]
+      },
+      {
+        "id": "pub_010",
+        "fitScore": 78,
+        "reasons": [
+          "Gifting focus: Heartfoot lists 'gifting' in subcategories and 'strong gifting season uplift', making it a direct channel for gift-oriented candles.",
+          "Audience & timing: Nationwide audience and AOV 52 are aligned with a mid-priced candle offering and seasonal gift campaigns.",
+          "Message fit: Audience responds to social-good messaging which pairs with natural / small-batch provenance."
+        ]
+      },
+      {
+        "id": "pub_004",
+        "fitScore": 76,
+        "reasons": [
+          "Affluent, quality-seeking audience: Marlowe & Co. reaches older, affluent women (45–65) who respond to 'quality' messaging—good for premium, giftable home goods.",
+          "High AOV & low impulse: Audience favors craftsmanship and heritage messaging which matches artisanal Vermont-made positioning.",
+          "Geo overlap: Strong in US-South and US-Northeast where provenance (Vermont) can be a positive signal."
         ]
       },
       {
         "id": "pub_003",
-        "fitScore": 70,
+        "fitScore": 72,
         "reasons": [
-          "Wellness-focused audience actively spending on self-care, spa, and yoga experiences.",
-          "Natural, clean-burning candles are a highly complementary product for creating a relaxing home-spa environment."
+          "Self-care/wellness fit: Studiogrid's audience spends on spa/yoga/fitness and is 'actively spending on self-care', where candles are often purchased as part of wellness rituals or spa gifts.",
+          "Demographic & spending: Skewed female and higher income with appointment-based spending habits—good for promoted gift sets or self-care bundles.",
+          "Contextual adjacency: Users booking spa/yoga may be receptive to natural, non-toxic candle claims."
         ]
       }
     ],
     "excludedPublishers": [
       {
         "id": "pub_001",
-        "reason": "This instant delivery platform focuses on low-AOV convenience and grocery items, which is a poor fit for premium, artisanal gift candles."
+        "reason": "Swiftcart is instant-delivery convenience/grocery focused with low AOV and late-night impulse traffic; it’s not a primary channel for mid-premium, gift-focused small-batch candles."
       },
       {
         "id": "pub_002",
-        "reason": "This publisher focuses on activewear and fitness apparel, which lacks direct alignment with home decor or gifting fragrance products."
-      },
-      {
-        "id": "pub_004",
-        "reason": "This platform targets older women shopping specifically for workwear and casual apparel, rather than home goods or gifts."
+        "reason": "Movewell is an activewear/apparel publisher whose audience shops fitness apparel — apparel buy-intent outweighs home/gifting opportunities for candles."
       },
       {
         "id": "pub_005",
-        "reason": "This publisher is dedicated to high-AOV classic apparel and conservative fashion, which does not capture home fragrance or gifting intent."
+        "reason": "Linden Park targets older (50–70) conservative apparel shoppers focused on classic workwear, making it a category mismatch for home/gift candles despite high AOV."
       },
       {
         "id": "pub_006",
-        "reason": "This platform focuses on inclusive-sized women's workwear and intimates, offering no logical crossover for home decor."
+        "reason": "Everbody is a plus-size apparel publisher where purchase intent is apparel/fit-focused rather than home gifting, so audience behavior doesn't align with candle purchases."
       },
       {
         "id": "pub_007",
-        "reason": "This is a pet-specific subscription and supply publisher, which is completely irrelevant to premium home candles."
+        "reason": "Pawline's audience is pet-focused and subscription-heavy for pet food/supplies, not a natural channel for consumer home-gift candles."
       },
       {
         "id": "pub_009",
-        "reason": "This is a high-volume pet supply and pharmacy platform with no audience alignment for artisanal home gifts."
+        "reason": "Ruffco serves a broad pet audience (largest pet publisher) whose shopping intent centers on pet products, not home fragrance or gifts."
       },
       {
         "id": "pub_012",
-        "reason": "This science-forward wellness platform features an audience highly skeptical of non-clinical health claims, making artisanal candles a poor fit."
+        "reason": "Daily Form is science-forward supplements for wellness; its audience is skeptical of unsubstantiated claims and prefers evidence-backed products—unless the candle brand has demonstrable, relevant benefit claims, fit is weak."
       },
       {
         "id": "pub_013",
-        "reason": "This platform targets Gen Z and younger millennials for skincare and makeup, which is less aligned than dedicated home and gifting channels."
+        "reason": "Velvetline is beauty-focused toward Gen Z/minimalist skincare shoppers; while aesthetically relevant, primary purchase intent is beauty products rather than home gifts, lowering direct fit."
       },
       {
         "id": "pub_015",
-        "reason": "This service focuses on family meal kits and convenience food, which does not translate to premium artisanal gifting behavior."
+        "reason": "Kitchenly's meal-kit, family-oriented audience is convenience-driven for food purchases and less likely to be in a gifting frame for artisan candles."
       },
       {
         "id": "pub_016",
-        "reason": "This publisher is dedicated to sustainable women's footwear and professional apparel, rather than home goods."
+        "reason": "Stride & Stem targets high-AOV sustainable shoes for professional women; footwear purchase intent dominates and is not a natural home-goods cross-sell environment."
       },
       {
         "id": "pub_017",
-        "reason": "This platform targets urban professionals shopping for sustainable footwear and activewear, which does not capture home decor intent."
+        "reason": "Cloudfoot's focus on tech-adjacent shoes and active comfort makes it an apparel/shoe channel rather than a home-gift channel for candles."
       },
       {
         "id": "pub_018",
-        "reason": "This is a playful dog toy and treat subscription service with no relevance to premium home fragrance."
+        "reason": "Tailcrate focuses on pet toys/treats for millennials treating dogs as family; pet-playful positioning does not align with artisanal candle gifting."
       },
       {
         "id": "pub_019",
-        "reason": "This platform focuses on personalized haircare via quiz-based onboarding, which does not match the purchase journey for candles."
+        "reason": "Strandlab's strength is personalized haircare with quiz-driven onboarding; audience purchase intent is beauty personalization rather than home fragrance gifting."
       },
       {
         "id": "pub_020",
-        "reason": "This publisher focuses on functional beverages and gut health, which has very low affinity for premium home decor gifting."
+        "reason": "Pop & Sip targets functional beverages and gut-health shoppers whose buying context centers on ingestibles and wellness drinks, not home-gift candles."
       }
     ],
     "selectedPersonas": [
       {
         "id": "persona_010",
-        "whyRelevant": "The advertiser explicitly states their candles are 'mostly bought as gifts.' This persona is actively looking for premium, impressive-looking, and high-quality items to gift.",
-        "keyMessage": "Give the gift of cozy, hand-poured Vermont craftsmanship with clean, natural soy candles."
+        "whyRelevant": "This persona is explicitly in 'gifting' mode and looks for 'impressive-looking' purchases, gift-wrap, and last-minute shipping—directly matching 'mostly bought as gifts'.",
+        "keyMessage": "Beautifully packaged, Vermont-made candles that arrive gift-ready — perfect for memorable, last-minute presents."
       },
       {
         "id": "persona_006",
-        "whyRelevant": "This persona prioritizes environmental footprint and clean ingredients, making them highly receptive to natural soy wax and the absence of synthetic fragrances.",
-        "keyMessage": "Breathe easy with 100% natural soy wax candles, hand-poured without synthetic fragrances."
+        "whyRelevant": "The Sustainability Buyer values specific sustainability and ingredient transparency; the advertiser's 'natural soy wax' and 'no synthetic fragrances' claims align well.",
+        "keyMessage": "Made from natural soy wax with no synthetic fragrances and clear Vermont provenance — a genuinely sustainable, small-batch choice."
       },
       {
         "id": "persona_005",
-        "whyRelevant": "This persona values heritage, craftsmanship, and quality over trends, aligning perfectly with small-batch, hand-poured Vermont candles.",
-        "keyMessage": "Experience the quiet luxury of hand-poured, small-batch Vermont craftsmanship."
+        "whyRelevant": "The Affluent Classic buys fewer but higher-AOV, quality-focused home goods and responds to craftsmanship and heritage messaging — a fit for artisanal Vermont candles.",
+        "keyMessage": "Hand-poured in Vermont with artisanal craftsmanship — a timeless, high-quality gift that lasts."
       },
       {
-        "id": "persona_001",
-        "whyRelevant": "This persona treats their home environment as a wellness system and avoids synthetic chemicals, making non-toxic candles highly appealing.",
-        "keyMessage": "Clean up your home environment with non-toxic, synthetic-fragrance-free soy candles."
+        "id": "persona_003",
+        "whyRelevant": "The Gen Z Aesthete seeks small-batch, aesthetic-forward products and discovers via visual channels; candles with distinctive packaging and provenance can drive social discovery.",
+        "keyMessage": "Small-batch, photo-ready candles with a minimalist Vermont aesthetic — style-forward gifts that signal taste and values."
       }
     ]
   },
@@ -154,27 +162,27 @@
     "variants": [
       {
         "personaId": "persona_010",
-        "headline": "The Perfect Hand-Poured Gift From Vermont",
-        "body": "Delight them with our premium hand-poured soy candles, presented in elegant, gift-ready packaging. Crafted in small batches in Vermont with zero synthetic fragrances, these sets make a lasting impression. Fast, reliable shipping options ensure your thoughtful gift arrives right on time.",
-        "rationale": "This copy highlights premium presentation, gift-ready packaging, and fast shipping, satisfying the Gifter's need for an impressive, timely present."
+        "headline": "Hand‑poured Vermont candles — gift-ready, naturally scented",
+        "body": "Small-batch, hand-poured in Vermont from natural soy wax with no synthetic fragrances. Designed as an impressive, gift-ready choice—perfect for birthdays, holidays, and those last-minute special moments.",
+        "rationale": "Focuses squarely on giftability and an impressive presentation while naming hand‑poured Vermont provenance and natural soy wax to match this shopper’s priorities."
       },
       {
         "personaId": "persona_006",
-        "headline": "100% Natural Soy Wax Candles, Hand-Poured in Vermont",
-        "body": "Our candles are crafted in small, traceable batches in Vermont using only 100% natural soy wax and zero synthetic fragrances. By keeping our ingredient list minimal and sourcing transparently, we ensure a clean, plant-based burn that respects the environment.",
-        "rationale": "It appeals to the sustainability buyer by focusing on traceable Vermont sourcing, a 100% natural soy wax ingredient claim, and zero synthetic fragrances."
+        "headline": "Small-batch soy candles — no synthetic fragrances, hand‑poured in Vermont",
+        "body": "Made with natural soy wax and no synthetic fragrances, hand‑poured in Vermont in small batches so ingredient choices and origin are clear. A plant‑based, artisan option for buyers who prioritize materials and provenance.",
+        "rationale": "Calls out specific sustainability attributes (soy wax, no synthetic fragrances, small‑batch Vermont production) and emphasizes origin and ingredient clarity to address greenwashing concerns."
       },
       {
         "personaId": "persona_005",
-        "headline": "Quiet Luxury: Hand-Poured Vermont Soy Candles",
-        "body": "Experience the understated elegance of candles poured individually by hand in Vermont. Crafted in small, disciplined batches with premium natural soy wax and no synthetic fragrances, they offer a clean, enduring burn. A timeless addition to any home that values true craftsmanship.",
-        "rationale": "Emphasizes traditional craftsmanship, small-batch heritage, and understated elegance, avoiding trendy buzzwords."
+        "headline": "Hand‑poured Vermont soy candles — artisanal and timeless",
+        "body": "Small-batch, hand‑poured in Vermont using natural soy wax with no synthetic fragrances. Quietly crafted with attention to detail, these candles make an enduring, understated gift for a well-appointed home.",
+        "rationale": "Uses restrained, craft-forward language and Vermont provenance to appeal to an affluent buyer who values workmanship and timeless, understated gifts."
       },
       {
-        "personaId": "persona_001",
-        "headline": "Optimize Your Indoor Air: Zero Synthetic Fragrances",
-        "body": "Support a clean home environment with our hand-poured Vermont soy candles. Made with 100% natural soy wax and completely free from synthetic fragrances, they eliminate unwanted airborne toxins from your space, ensuring your breathing environment remains pure and optimized.",
-        "rationale": "Focuses on optimizing the indoor breathing environment with transparent, clean ingredient claims (100% natural soy, zero synthetics)."
+        "personaId": "persona_003",
+        "headline": "Photo‑ready Vermont candles — small‑batch, minimalist, naturally scented",
+        "body": "Hand‑poured in Vermont from natural soy wax with no synthetic fragrances. Clean, minimalist styling and curated small‑batch scents that look great on your feed and make taste-driven, giftable statements.",
+        "rationale": "Speaks to visual, values-driven Gen Z buyers with aesthetic-forward wording, minimalist styling, and clear natural ingredients while keeping a playful, shareable tone."
       }
     ]
   },
@@ -183,61 +191,61 @@
     "bidStrategy": {
       "type": "manual_cpc",
       "suggestedRangeUsd": [
-        0.5,
-        1
+        0.45,
+        0.9
       ],
       "rationale": "Mid-AOV product: pay per click at 1-2% of order value, a sustainable CPC if roughly 1 in 30 clicks converts"
     },
     "budget": {
-      "suggestedMonthlyUsd": 9375,
-      "suggestedDailyUsd": 313,
-      "rationale": "$1500/publisher/month floor for statistically useful volume × 5 publishers × 1.25 premium-tier multiplier"
+      "suggestedMonthlyUsd": 7500,
+      "suggestedDailyUsd": 250,
+      "rationale": "$1500/publisher/month floor for statistically useful volume × 5 publishers × 1 mid-tier multiplier"
     },
     "publisherAllocations": [
       {
-        "publisherId": "pub_011",
-        "publisherName": "Northbed",
-        "sharePct": 23,
-        "monthlyBudgetUsd": 2156,
-        "estCpmUsd": 25,
-        "projectedMonthlyImpressions": 86240,
-        "rationale": "95/100 fit score → 23% of budget"
-      },
-      {
         "publisherId": "pub_014",
         "publisherName": "Hearthstone Goods",
-        "sharePct": 21,
-        "monthlyBudgetUsd": 1969,
+        "sharePct": 22,
+        "monthlyBudgetUsd": 1650,
         "estCpmUsd": 25,
-        "projectedMonthlyImpressions": 78760,
-        "rationale": "90/100 fit score → 21% of budget"
+        "projectedMonthlyImpressions": 66000,
+        "rationale": "92/100 fit score → 22% of budget"
       },
       {
-        "publisherId": "pub_010",
-        "publisherName": "Heartfoot",
-        "sharePct": 20,
-        "monthlyBudgetUsd": 1875,
-        "estCpmUsd": 18,
-        "projectedMonthlyImpressions": 104167,
-        "rationale": "85/100 fit score → 20% of budget"
+        "publisherId": "pub_011",
+        "publisherName": "Northbed",
+        "sharePct": 21,
+        "monthlyBudgetUsd": 1575,
+        "estCpmUsd": 25,
+        "projectedMonthlyImpressions": 63000,
+        "rationale": "88/100 fit score → 21% of budget"
       },
       {
         "publisherId": "pub_008",
         "publisherName": "Pantrygood",
-        "sharePct": 19,
-        "monthlyBudgetUsd": 1781,
+        "sharePct": 20,
+        "monthlyBudgetUsd": 1500,
         "estCpmUsd": 25,
-        "projectedMonthlyImpressions": 71240,
-        "rationale": "80/100 fit score → 19% of budget"
+        "projectedMonthlyImpressions": 60000,
+        "rationale": "85/100 fit score → 20% of budget"
       },
       {
-        "publisherId": "pub_003",
-        "publisherName": "Studiogrid",
-        "sharePct": 17,
-        "monthlyBudgetUsd": 1594,
+        "publisherId": "pub_010",
+        "publisherName": "Heartfoot",
+        "sharePct": 19,
+        "monthlyBudgetUsd": 1425,
+        "estCpmUsd": 18,
+        "projectedMonthlyImpressions": 79167,
+        "rationale": "78/100 fit score → 19% of budget"
+      },
+      {
+        "publisherId": "pub_004",
+        "publisherName": "Marlowe & Co.",
+        "sharePct": 18,
+        "monthlyBudgetUsd": 1350,
         "estCpmUsd": 25,
-        "projectedMonthlyImpressions": 63760,
-        "rationale": "70/100 fit score → 17% of budget"
+        "projectedMonthlyImpressions": 54000,
+        "rationale": "76/100 fit score → 18% of budget"
       }
     ],
     "targeting": {
@@ -245,7 +253,7 @@
         "persona_010",
         "persona_006",
         "persona_005",
-        "persona_001"
+        "persona_003"
       ],
       "geos": [
         "nationwide"
@@ -263,11 +271,11 @@
     },
     "flightDays": 30,
     "assumptions": [
-      "Assumed a premium price tier ($25-$35 per candle) due to the 'small-batch', 'hand-poured', and 'natural soy' descriptions.",
-      "Assumed an average order value of $50, representing a typical purchase of 1-2 candles or a gift set.",
-      "Assumed the primary purchase drivers are gifting, home aesthetics, and clean wellness/self-care.",
+      "Average price per order is in the $30–60 range (estimated AOV $45) rather than luxury >$100.",
+      "Primary shoppers skew female and buy for gifting or self-care occasions.",
+      "Distribution is DTC / consumer retail across the U.S. (no single-store exclusivity).",
       "CPMs are heuristic estimates by audience income tier, not quoted rates",
-      "Estimated AOV of $50 inferred from the advertiser's description"
+      "Estimated AOV of $45 inferred from the advertiser's description"
     ]
   }
 }

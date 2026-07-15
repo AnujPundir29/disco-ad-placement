@@ -1,248 +1,285 @@
 {
   "analysis": {
     "businessProfile": {
-      "productSummary": "A low-cost, impulse-driven consumer product, likely a snack or functional beverage, marketed with a nonchalant, low-friction trial offer.",
-      "category": "functional_beverages",
-      "priceTier": "budget",
-      "estimatedAovUsd": 25,
-      "brandVoice": "playful"
+      "productSummary": "A direct-to-consumer trial/intro offer for a consumer FMCG (likely a wellness, beauty, or functional beverage) aimed at younger adults willing to 'try' new products.",
+      "category": "dtc_consumer_goods (assumed: wellness/beauty/functional_beverage)",
+      "priceTier": "mid",
+      "estimatedAovUsd": 45,
+      "brandVoice": "casual/playful — low-friction, try-it-now messaging (inferred from the 'just try it' prompt)"
     },
     "inputQuality": {
       "rating": "vague",
       "assumptions": [
-        "The product is a low-cost consumer good (CPG) with a low barrier to entry.",
-        "The phrase 'just try it' implies an impulse-buy nature rather than a high-consideration purchase.",
-        "The advertiser intends to use a casual, experimental brand voice to drive trial.",
-        "The product is likely a physical good compatible with retail delivery or subscription trial."
+        "The advertiser is selling a consumer packaged product (FMCG) rather than a service or B2B product.",
+        "The specific vertical is wellness/beauty/functional beverage (chosen because 'just try it' implies a trialable consumable).",
+        "Pricing is mid-tier, with an estimated AOV around $35–55 (a typical trial/subscription entry price).",
+        "Goal is to drive trial sign-ups or first-time purchases rather than enterprise sales or purely awareness."
       ],
       "clarifyingQuestions": [
-        "What specific product or service are you selling?",
-        "What is the actual price point or average order value for a first-time customer?",
-        "Are you targeting a specific lifestyle category like fitness, pets, or beauty?",
-        "Is there a specific 'hook' or benefit beyond the low-friction trial?"
+        "What exactly is the product category (beauty, beverage, supplement, pet product, apparel, etc.)?",
+        "What is your target audience (age, gender, regions) and primary campaign goal — trials, subscriptions, or one-time purchases?",
+        "What is the expected price point / AOV and do you offer a subscription after trial?",
+        "What creative assets do you have (video, lifestyle imagery, scientific/ingredient claims) and any regulatory constraints?"
       ]
     },
     "rankedPublishers": [
       {
-        "id": "pub_001",
-        "fitScore": 92,
+        "id": "pub_013",
+        "fitScore": 88,
         "reasons": [
-          "Lowest AOV in the catalog ($28) aligns with a budget-tier impulse product.",
-          "Notes specifically mention 'impulse-friendly' and 'high-frequency' traffic, perfect for a 'just try it' message."
+          "Category match: Velvetline is a DTC beauty publisher (skews to Gen Z/younger millennials) — an ideal audience for sample/trial beauty products.",
+          "Audience fit: Velvetline's 18-34 skew and 91% female audience aligns with trial-focused beauty buyers who discover via lifestyle channels.",
+          "AOV compatibility: Velvetline's avg_order_value $61 is close to the assumed mid AOV (≈$45), supporting trial-to-full-purchase conversion.",
+          "Notes alignment: Minimalist/aesthetic-driven purchasing on Velvetline matches a casual 'try it' brand voice."
         ]
       },
       {
         "id": "pub_020",
-        "fitScore": 85,
+        "fitScore": 86,
         "reasons": [
-          "Matches the assumed functional beverage category.",
-          "Audience is 'indulgence-seeking' and 'health-curious', making them prime targets for a low-risk trial of a new drink."
+          "Category match: Pop & Sip specializes in functional beverages and gut-health drinks — direct fit if the product is a functional beverage.",
+          "Audience fit: 22-42 skew and wellness-curious audience maps to trial buyers of new functional drinks.",
+          "AOV match: Pop & Sip's $42 AOV closely matches the assumed trial price point.",
+          "Notes alignment: Pop & Sip's overlap with wellness and premium grocery supports sampling and subscription upsell."
         ]
       },
       {
-        "id": "pub_018",
-        "fitScore": 74,
+        "id": "pub_012",
+        "fitScore": 82,
         "reasons": [
-          "Explicitly mentions that a 'playful brand voice converts best', which matches the advertiser's nonchalant tone.",
-          "Low AOV ($35) supports a low-friction trial strategy."
+          "Category match: Daily Form is wellness_dtc (vitamins/supplements) and is built for trial-and-subscription models.",
+          "Audience fit: 22-42, highly female audience that prefers science-backed claims — useful if the trial needs credibility.",
+          "Notes alignment: Daily Form's 'science-forward' audience will convert better if advertiser provides ingredient/transparency claims."
         ]
       },
       {
-        "id": "pub_013",
-        "fitScore": 62,
+        "id": "pub_019",
+        "fitScore": 78,
         "reasons": [
-          "Gen Z and Millennial audience responds well to identity-driven, minimalist, and experimental brand tones.",
-          "AOV of $61 is manageable for a trial-focused campaign in the beauty/lifestyle space."
+          "Category match: Strandlab focuses on personalized beauty/haircare and uses quiz-based onboarding — good for trial-to-subscription flows.",
+          "Audience fit: 18-38 skew (personalization-motivated) who respond to sample offers and quizzes that reduce friction.",
+          "Notes alignment: Strandlab's onboarding approach can lift conversions for a 'try it' product that benefits from personalization."
+        ]
+      },
+      {
+        "id": "pub_015",
+        "fitScore": 70,
+        "reasons": [
+          "Audience & intent: Kitchenly (meal kits) reaches convenience-motivated households nationwide and can be a strong channel for edible/consumable trials aimed at families/couples.",
+          "Scale & AOV: Kitchenly's large impression volume and $74 AOV supports both trial and subscription upsell for food/beverage adjacent products.",
+          "Notes alignment: Audience is food-interested and convenience-motivated — receptive to try-now offers that reduce effort."
+        ]
+      },
+      {
+        "id": "pub_001",
+        "fitScore": 66,
+        "reasons": [
+          "Purchase behavior: Swiftcart drives high-frequency, impulse purchases (instant delivery/convenience) — good for trial or sample-size, low-friction buys.",
+          "Audience fit: 18-34 skew and late-night impulse traffic supports a casual 'just try it' positioning targeting quick conversions.",
+          "AOV compatibility: Swiftcart's $28 AOV fits lower-end trials or add-on purchases to increase trial distribution."
         ]
       }
     ],
     "excludedPublishers": [
       {
         "id": "pub_002",
-        "reason": "High AOV and fitness focus require more specific performance claims than a vague trial offer provides."
+        "reason": "Movewell is an activewear apparel publisher (female fitness apparel, subscription clothing) — it does not primarily support beauty/beverage trial purchases."
       },
       {
         "id": "pub_003",
-        "reason": "Appointment-based wellness services are high-consideration and do not fit an impulse-buy 'just try it' model."
+        "reason": "Studiogrid sells appointment-based wellness services (fitness classes, spa) where trialing a consumable product is not the primary commerce behavior."
       },
       {
         "id": "pub_004",
-        "reason": "Older affluent demographic responds to quality and craftsmanship messaging, not nonchalant or vague prompts."
+        "reason": "Marlowe & Co. targets older affluent women (45-65) with high-AOV workwear; its audience buys less on impulse and is less likely to be the early-trial cohort for a youth-oriented 'try it' product."
       },
       {
         "id": "pub_005",
-        "reason": "Conservative brand sensibility and the highest apparel AOV in the catalog are incompatible with this casual tone."
+        "reason": "Linden Park is a high-AOV classic apparel publisher skewing 50-70; its conservative shoppers are unlikely to be the primary early adopters for an experimental trial FMCG."
       },
       {
         "id": "pub_006",
-        "reason": "Audience values specific fit-focused and inclusive messaging rather than generic trial offers."
+        "reason": "Everbody focuses on inclusive women's apparel and fit messaging, not on DTC consumable trials — category mismatch for a beauty/beverage/supplement trial."
       },
       {
         "id": "pub_007",
-        "reason": "Subscription-heavy and premium positioning requires more trust-building than a 'just try it' message allows."
+        "reason": "Pawline is pet-focused (pet food/subscription) and while pet owners buy consumables, it's specialized toward pet health rather than human-focused beauty/beverage trials."
       },
       {
         "id": "pub_008",
-        "reason": "Values-driven shoppers require ingredient transparency and sustainability claims which are absent here."
+        "reason": "Pantrygood specializes in organic grocery shoppers with a high-income skew focused on pantry/subscriptions; while related, its shoppers expect established grocery SKUs rather than small DTC trial offers unless the product is packaged grocery-grade."
       },
       {
         "id": "pub_009",
-        "reason": "Broad pet audience is better suited for established brands with clear utility rather than experimental trial messaging."
+        "reason": "Ruffco is the largest pet audience in the catalog (repeat pet purchases) and is not appropriate unless the product is pet-specific."
       },
       {
         "id": "pub_010",
-        "reason": "Audience responds to social-good and gifting messaging, which requires more substance than the current input."
+        "reason": "Heartfoot is a basics/gifting apparel publisher where the primary purchase behavior is apparel gifting, not consumable sample trials."
       },
       {
         "id": "pub_011",
-        "reason": "High AOV and design-conscious urban buyers require specific aesthetic or functional value propositions."
-      },
-      {
-        "id": "pub_012",
-        "reason": "Audience is explicitly skeptical of unsubstantiated claims and requires science-forward messaging."
+        "reason": "Northbed is high-AOV home textiles where shoppers are design-conscious and purchase infrequently; poor match for low-AOV trial FMCG offers."
       },
       {
         "id": "pub_014",
-        "reason": "Sustainability-motivated kitchen buyers require deep product education and have a very high AOV."
-      },
-      {
-        "id": "pub_015",
-        "reason": "Meal kits are high-commitment subscriptions that clash with a low-friction impulse-buy strategy."
+        "reason": "Hearthstone Goods targets high-AOV cookware/kitchen shoppers buying durable goods, not trial-size consumables."
       },
       {
         "id": "pub_016",
-        "reason": "Professional women at this price point require specific claims about sustainability or utility."
+        "reason": "Stride & Stem is premium sustainable shoes for professional women (high AOV); not a commerce environment for consumable trials."
       },
       {
         "id": "pub_017",
-        "reason": "Tech-adjacent professionals expect comfort and sustainability details rather than a vague call to action."
+        "reason": "Cloudfoot focuses on sustainable footwear/active shoes (comfort + sustainability); its purchase intent is apparel/shoes rather than consumable trials."
       },
       {
-        "id": "pub_019",
-        "reason": "Personalization-motivated audience requires a high-friction quiz-based onboarding that contradicts 'just try it'."
+        "id": "pub_018",
+        "reason": "Tailcrate is a pet supplies/toys subscription publisher centered on playful pet products — relevant only if the advertised trial is pet-focused."
       }
     ],
     "selectedPersonas": [
       {
+        "id": "persona_001",
+        "whyRelevant": "The Wellness Optimizer (28-40, female) actively tries science-backed wellness products and pays for evidence-based trials; aligns with Daily Form and Pop & Sip audiences.",
+        "keyMessage": "Clinically-formulated trial sized for measurable benefits — try a risk-free sample backed by transparent ingredients and outcomes."
+      },
+      {
         "id": "persona_003",
-        "whyRelevant": "This persona values brand voice, novelty, and discovery over technical performance claims.",
-        "keyMessage": "Low stakes, high vibe—just give it a go."
+        "whyRelevant": "The Gen Z Aesthete discovers through visual lifestyle channels and loves aesthetic-forward, novel trial products — matches Velvetline and Strandlab audiences.",
+        "keyMessage": "Limited-run, Instagram-ready trial — look good, feel new; try a small pack that fits your vibe."
       },
       {
         "id": "persona_007",
-        "whyRelevant": "Urban millennials who value speed and frictionlessness will respond to a low-effort trial offer.",
-        "keyMessage": "The easiest decision you'll make today."
+        "whyRelevant": "The Convenience-First Millennial values speed and low friction and will convert on easy, fast trials — aligns with Swiftcart and Kitchenly placements.",
+        "keyMessage": "Get a trial delivered fast with one-click checkout and easy subscription opt-in/opt-out."
       },
       {
-        "id": "persona_008",
-        "whyRelevant": "If the price point is low, this persona will trial a product based on clear value and low risk.",
-        "keyMessage": "A small price for a big discovery."
+        "id": "persona_009",
+        "whyRelevant": "The Fitness Enthusiast will sample performance-focused consumables (functional beverages or supplements) and respond to performance claims — good fit for Pop & Sip and Daily Form.",
+        "keyMessage": "Performance-supporting formula optimized for workouts — try a sample and feel the difference in recovery/energy."
       }
     ]
   },
   "creatives": {
     "variants": [
       {
+        "personaId": "persona_001",
+        "headline": "Trial-size sample with full ingredient transparency",
+        "body": "Get a trial-size sample with a complete ingredient list and clear usage guidance so you can track any changes. Short, low-commitment pack designed to let you measure effects and decide if it fits your regimen.",
+        "rationale": "Focuses on ingredient transparency and measurable outcomes to appeal to a data-driven wellness optimizer who avoids hype."
+      },
+      {
         "personaId": "persona_003",
-        "headline": "Low stakes, high vibe. Just give it a go.",
-        "body": "We are skipping the corporate pitch. This is a functional drink that looks as good as it tastes. No complex claims, just a playful addition to your daily routine. If you are looking for a new favorite that fits your aesthetic, give this a try. It is that simple.",
-        "rationale": "This copy uses a nonchalant, anti-corporate tone and focuses on the visual and lifestyle fit to appeal to the Gen Z aesthetic preference."
+        "headline": "Limited-run, Instagram-ready trial pack",
+        "body": "A small, photo-ready sample in distinctive packaging—perfect for your feed. Includes a brief brand note so you know what the product stands for; try it, style it, and decide if the vibe fits you.",
+        "rationale": "Leans on visual packaging, limited availability, and brand values to match the Gen Z Aesthete's emphasis on aesthetic and identity."
       },
       {
         "personaId": "persona_007",
-        "headline": "The easiest decision you will make today.",
-        "body": "Skip the grocery run and the decision fatigue. This functional beverage is designed for speed and convenience. One simple order gets it to your door so you can keep moving. It is a low-cost, low-friction way to stay refreshed without any of the hassle. Just try it.",
-        "rationale": "The messaging emphasizes speed, low friction, and ease of purchase to cater to the convenience-first millennial mindset."
+        "headline": "One-click trial — fast delivery and easy subscription",
+        "body": "Order a trial in one tap, get a small pack shipped fast, and opt into a subscription from your account with a single toggle. Try it now—quick checkout, fast arrival, simple subscription control.",
+        "rationale": "Highlights speed, one-click checkout, and effortless subscription opt-in/opt-out to match a convenience-first millennial's expectations."
       },
       {
-        "personaId": "persona_008",
-        "headline": "A small price for a big discovery.",
-        "body": "Looking for a high-value find without the premium price tag? This functional beverage offers a smart, budget-friendly way to refresh your routine. It is a low-cost impulse buy that delivers real satisfaction. Check out why value-conscious shoppers are making the switch. Give it a try today.",
-        "rationale": "This variant highlights the low-cost and high-value nature of the product to appeal to shoppers who prioritize smart deals and reviews."
+        "personaId": "persona_009",
+        "headline": "Training-friendly sample — try it for recovery & energy",
+        "body": "Small sample formulated for workouts so you can test post-session recovery and steady energy for yourself. Use it around training days and judge how it fits your performance routine before committing.",
+        "rationale": "Emphasizes workout relevance and self-testing of recovery/energy without overclaiming, aligning with a performance-focused fitness buyer."
       }
     ]
   },
   "config": {
-    "objective": "awareness",
+    "objective": "conversions",
     "bidStrategy": {
-      "type": "cpm",
+      "type": "manual_cpc",
       "suggestedRangeUsd": [
-        10.8,
-        14.85
+        0.45,
+        0.9
       ],
-      "rationale": "Impulse-priced product under $40: buy impressions around the estimated $13.5 blended CPM and let placement volume drive discovery"
+      "rationale": "Mid-AOV product: pay per click at 1-2% of order value, a sustainable CPC if roughly 1 in 30 clicks converts"
     },
     "budget": {
-      "suggestedMonthlyUsd": 4500,
-      "suggestedDailyUsd": 150,
-      "rationale": "$1500/publisher/month floor for statistically useful volume × 4 publishers × 0.75 budget-tier multiplier"
+      "suggestedMonthlyUsd": 7500,
+      "suggestedDailyUsd": 250,
+      "rationale": "$1500/publisher/month floor for statistically useful volume × 5 publishers × 1 mid-tier multiplier"
     },
     "publisherAllocations": [
       {
-        "publisherId": "pub_001",
-        "publisherName": "Swiftcart",
-        "sharePct": 29,
-        "monthlyBudgetUsd": 1305,
+        "publisherId": "pub_013",
+        "publisherName": "Velvetline",
+        "sharePct": 22,
+        "monthlyBudgetUsd": 1650,
         "estCpmUsd": 12,
-        "projectedMonthlyImpressions": 108750,
-        "rationale": "92/100 fit score → 29% of budget"
+        "projectedMonthlyImpressions": 137500,
+        "rationale": "88/100 fit score → 22% of budget"
       },
       {
         "publisherId": "pub_020",
         "publisherName": "Pop & Sip",
-        "sharePct": 27,
-        "monthlyBudgetUsd": 1215,
+        "sharePct": 21,
+        "monthlyBudgetUsd": 1575,
         "estCpmUsd": 18,
-        "projectedMonthlyImpressions": 67500,
-        "rationale": "85/100 fit score → 27% of budget"
+        "projectedMonthlyImpressions": 87500,
+        "rationale": "86/100 fit score → 21% of budget"
       },
       {
-        "publisherId": "pub_018",
-        "publisherName": "Tailcrate",
-        "sharePct": 24,
-        "monthlyBudgetUsd": 1080,
-        "estCpmUsd": 12,
-        "projectedMonthlyImpressions": 90000,
-        "rationale": "74/100 fit score → 24% of budget"
-      },
-      {
-        "publisherId": "pub_013",
-        "publisherName": "Velvetline",
+        "publisherId": "pub_012",
+        "publisherName": "Daily Form",
         "sharePct": 20,
-        "monthlyBudgetUsd": 900,
+        "monthlyBudgetUsd": 1500,
+        "estCpmUsd": 18,
+        "projectedMonthlyImpressions": 83333,
+        "rationale": "82/100 fit score → 20% of budget"
+      },
+      {
+        "publisherId": "pub_019",
+        "publisherName": "Strandlab",
+        "sharePct": 19,
+        "monthlyBudgetUsd": 1425,
         "estCpmUsd": 12,
-        "projectedMonthlyImpressions": 75000,
-        "rationale": "62/100 fit score → 20% of budget"
+        "projectedMonthlyImpressions": 118750,
+        "rationale": "78/100 fit score → 19% of budget"
+      },
+      {
+        "publisherId": "pub_015",
+        "publisherName": "Kitchenly",
+        "sharePct": 17,
+        "monthlyBudgetUsd": 1275,
+        "estCpmUsd": 18,
+        "projectedMonthlyImpressions": 70833,
+        "rationale": "70/100 fit score → 17% of budget"
       }
     ],
     "targeting": {
       "personaIds": [
+        "persona_001",
         "persona_003",
         "persona_007",
-        "persona_008"
+        "persona_009"
       ],
       "geos": [
         "nationwide"
       ],
       "interests": [
+        "wellness",
+        "fitness",
+        "supplements",
+        "clean_beauty",
+        "organic_grocery",
         "beauty",
         "fashion",
-        "functional_beverages",
-        "home_decor",
-        "small_batch",
-        "instant_delivery",
-        "meal_kits",
-        "subscription_services"
+        "functional_beverages"
       ]
     },
     "flightDays": 30,
     "assumptions": [
-      "The product is a low-cost consumer good (CPG) with a low barrier to entry.",
-      "The phrase 'just try it' implies an impulse-buy nature rather than a high-consideration purchase.",
-      "The advertiser intends to use a casual, experimental brand voice to drive trial.",
-      "The product is likely a physical good compatible with retail delivery or subscription trial.",
+      "The advertiser is selling a consumer packaged product (FMCG) rather than a service or B2B product.",
+      "The specific vertical is wellness/beauty/functional beverage (chosen because 'just try it' implies a trialable consumable).",
+      "Pricing is mid-tier, with an estimated AOV around $35–55 (a typical trial/subscription entry price).",
+      "Goal is to drive trial sign-ups or first-time purchases rather than enterprise sales or purely awareness.",
       "CPMs are heuristic estimates by audience income tier, not quoted rates",
-      "Estimated AOV of $25 inferred from the advertiser's description"
+      "Estimated AOV of $45 inferred from the advertiser's description"
     ]
   }
 }

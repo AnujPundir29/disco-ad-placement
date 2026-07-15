@@ -1,11 +1,11 @@
 {
   "analysis": {
     "businessProfile": {
-      "productSummary": "High-end technical outerwear and ski shells designed for professional ski patrollers and serious backcountry skiers.",
-      "category": "activewear",
+      "productSummary": "High-performance technical outerwear (patroller-grade shells) for serious backcountry skiers.",
+      "category": "apparel (technical/outdoor outerwear)",
       "priceTier": "luxury",
-      "estimatedAovUsd": 700,
-      "brandVoice": "serious, technical, and performance-driven"
+      "estimatedAovUsd": 850,
+      "brandVoice": "authoritative, technical, pro-grade — performance-first and durability-focused"
     },
     "inputQuality": {
       "rating": "clear",
@@ -15,112 +15,124 @@
     "rankedPublishers": [
       {
         "id": "pub_017",
-        "fitScore": 85,
+        "fitScore": 78,
         "reasons": [
-          "High concentration of tech-adjacent urban professionals in US-West and US-Northeast who have the disposable income for $650+ outerwear and a high propensity for outdoor sports like skiing.",
-          "Balanced gender split (52% female, 47% male) aligns well with backcountry skiing demographics.",
-          "Audience values high-quality, sustainable, and functional apparel."
+          "Category match: Cloudfoot is an apparel publisher covering activewear (one of the closest category matches in the catalog).",
+          "Audience fit: age skew 25-45 and nearly even gender split (52/47) aligns with typical backcountry skier demographics.",
+          "Income/intent: income_tier mid-high and 'tech-adjacent urban professionals' in notes indicate users who buy premium technical gear.",
+          "Caveat: publisher avg order value (USD 118) is well below product price, so expect lower on-site conversion but good top-of-funnel awareness."
         ]
       },
       {
         "id": "pub_002",
+        "fitScore": 70,
+        "reasons": [
+          "Category adjacency: Movewell is focused on activewear and fitness apparel (strong overlap with performance clothing buyers).",
+          "Audience intent: 'Fitness-engaged shoppers' (age 25-44, income mid-high) are receptive to technical fabric/ performance claims.",
+          "Gender skew: heavy female audience (82%) makes this especially useful if the brand targets women skiers or a women's line.",
+          "Caveat: low publisher AOV (USD 78) versus product price — likely good for consideration and product education rather than immediate checkout."
+        ]
+      },
+      {
+        "id": "pub_016",
+        "fitScore": 62,
+        "reasons": [
+          "Audience & positioning: Stride & Stem targets professional, high-income women with an interest in sustainable apparel — a reachable segment for premium women's ski shells.",
+          "AOV & spend: publisher AOV (USD 142) is higher than many apparel pubs here, indicating willingness to purchase higher-ticket apparel.",
+          "Messaging overlap: notes around sustainability and quality align if the brand emphasizes materials, durability, and reduced waste."
+        ]
+      },
+      {
+        "id": "pub_011",
         "fitScore": 60,
         "reasons": [
-          "Audience is highly fitness-engaged and actively purchases activewear.",
-          "Strong presence in US-West, a key geographic region for backcountry skiing.",
-          "While heavily female-skewing (82%), it represents a highly relevant segment of affluent women looking for high-performance athletic apparel."
+          "High-income reach: Northbed's audience is high-income, design-conscious urban/suburban buyers (income_tier: high) who buy big-ticket discretionary items.",
+          "Cross-sell signal: notes call out 'high cross-sell with home and wellness' — suggests this audience is comfortable making premium lifestyle purchases outside the publisher's main category.",
+          "Use-case: good for reaching affluent buyers as part of a broader lifestyle or gifting push despite being a home publisher rather than apparel-focused."
         ]
       }
     ],
     "excludedPublishers": [
       {
         "id": "pub_001",
-        "reason": "Extremely low average order value ($28) and convenience focus do not align with a $650+ luxury technical outerwear product."
+        "reason": "Swiftcart is instant convenience/grocery delivery (AOV USD 28, impulse-driven); shoppers there are not the right place to convert $650+ technical outerwear purchases."
       },
       {
         "id": "pub_003",
-        "reason": "Focuses on local wellness and fitness class bookings rather than premium physical apparel retail."
+        "reason": "Studiogrid is a wellness services marketplace (fitness classes/spa) focused on bookings, not high-ticket apparel retail."
       },
       {
         "id": "pub_004",
-        "reason": "Audience consists of older women seeking casual and workwear apparel, not high-performance backcountry ski gear."
+        "reason": "Marlowe & Co. targets older affluent women with mid-life casual/workwear (96% female, category not focused on technical outdoor performance apparel)."
       },
       {
         "id": "pub_005",
-        "reason": "Conservative brand sensibility and focus on classic workwear/casual apparel do not match the technical, rugged nature of backcountry ski shells."
+        "reason": "Linden Park skews 50-70 women and sells classic workwear — audience buys premium clothing but the publisher's product focus is conservative/classic rather than technical outdoor gear."
       },
       {
         "id": "pub_006",
-        "reason": "Focuses on inclusive everyday workwear and intimates with a mid-tier price point, lacking the high-income demographic needed for $650+ outerwear."
+        "reason": "Everbody is focused on plus-size women's intimates and workwear (very strong female representation and fit/size messaging) rather than technical outerwear for backcountry use."
       },
       {
         "id": "pub_007",
-        "reason": "Pet food and supplies subscription service with no relevance to high-end ski apparel."
+        "reason": "Pawline is a pet category (pet food/supplies), so its shopping intent and category affinity don't match premium ski shells."
       },
       {
         "id": "pub_008",
-        "reason": "Organic grocery subscription service whose audience is focused on nutrition and wellness rather than high-end outdoor sports gear."
+        "reason": "Pantrygood is grocery/organic-focused (AOV USD 86) with values-driven food shoppers, not consumers seeking high-ticket technical outerwear."
       },
       {
         "id": "pub_009",
-        "reason": "Broad demographic pet supply retailer with low relevance to luxury technical ski outerwear."
+        "reason": "Ruffco is a large pet retailer audience (pet food/supplies); category mismatch makes it an unlikely place to reach buyers for $650+ ski shells."
       },
       {
         "id": "pub_010",
-        "reason": "Focuses on low-AOV basics like socks and underwear, which does not align with a $650+ luxury price point."
-      },
-      {
-        "id": "pub_011",
-        "reason": "Home textiles and bedding retailer with no connection to outdoor activewear or technical ski gear."
+        "reason": "Heartfoot sells basics (socks/underwear) with gifting season strengths but low AOV (USD 52) and product mismatch for pro-grade ski shells."
       },
       {
         "id": "pub_012",
-        "reason": "DTC vitamin and supplement subscription service with a low AOV and no relevance to technical outerwear."
+        "reason": "Daily Form focuses on vitamins/supplements (science-forward wellness DTC) — audience intent is health supplements, not premium outdoor apparel purchases."
       },
       {
         "id": "pub_013",
-        "reason": "Beauty and skincare retailer catering to Gen Z and younger millennials with a mid-tier budget, mismatching the luxury price point."
+        "reason": "Velvetline is beauty-focused (skincare/makeup) with a very young, female-skewed audience unlikely to shop for high-ticket backcountry shells on that site."
       },
       {
         "id": "pub_014",
-        "reason": "Premium cookware and kitchenware retailer with no crossover into outdoor performance apparel."
+        "reason": "Hearthstone Goods is specialty cookware/home (AOV USD 198) — while high-income, its shoppers are focused on kitchen/home purchases rather than technical outerwear."
       },
       {
         "id": "pub_015",
-        "reason": "Mass-market meal kit subscription service with no relevance to high-end backcountry skiing gear."
-      },
-      {
-        "id": "pub_016",
-        "reason": "Focuses on women's professional shoes and sustainable fashion rather than technical, unisex outdoor performance gear."
+        "reason": "Kitchenly is meal kits (convenience food subscription) with family households; category and shopping intent do not align with premium ski outerwear."
       },
       {
         "id": "pub_018",
-        "reason": "Playful pet toy and treat subscription service that is completely irrelevant to serious backcountry skiers."
+        "reason": "Tailcrate is a pet subscription/toy publisher aimed at millennials treating pets as family, not a destination for $650+ technical apparel."
       },
       {
         "id": "pub_019",
-        "reason": "Personalized haircare service with no connection to high-end technical outerwear."
+        "reason": "Strandlab is haircare/personalized beauty with teen/young-adult skew — audience and category don't match premium outdoor gear buyers."
       },
       {
         "id": "pub_020",
-        "reason": "Functional beverage brand focused on gut health and soda alternatives, which does not align with luxury ski apparel."
+        "reason": "Pop & Sip sells functional beverages (gut health/functional drinks) to a wellness-curious audience; not a likely shopping context for luxury technical shells."
       }
     ],
     "selectedPersonas": [
       {
         "id": "persona_009",
-        "whyRelevant": "They prioritize high-performance gear, value technical fabrics, and are willing to pay a premium for apparel that actually performs under extreme conditions.",
-        "keyMessage": "Patrol-tested, professional-grade technical outerwear engineered to survive the harshest backcountry conditions."
+        "whyRelevant": "The Fitness Enthusiast buys technical, performance apparel and responds to fabric/technical claims; they are likely to value a pro-grade ski shell's performance specifications.",
+        "keyMessage": "Pro-grade, tested performance — engineered fabrics and construction that perform in extreme, backcountry conditions."
       },
       {
         "id": "persona_005",
-        "whyRelevant": "They have high disposable income, low price sensitivity, and value long-lasting craftsmanship and heritage over fast-fashion trends.",
-        "keyMessage": "An investment in ultimate durability and timeless, uncompromising protection on the mountain."
+        "whyRelevant": "The Affluent Classic has the disposable income and preference for quality and longevity; they buy less often but will invest in a premium, durable outerwear piece.",
+        "keyMessage": "Crafted for longevity — investment-grade construction and materials you can rely on season after season."
       },
       {
-        "id": "persona_001",
-        "whyRelevant": "They treat outdoor activities as a serious pursuit, value evidence-backed performance claims, and are willing to pay a premium for safety and optimization.",
-        "keyMessage": "Science-backed, professional-grade protection designed to optimize your safety and performance in extreme alpine environments."
+        "id": "persona_010",
+        "whyRelevant": "The Gifter represents high-AOV purchase moments (holidays, life events) where buyers look for impressive, premium products — a $650+ shell fits that remit.",
+        "keyMessage": "An impressive, ready-to-gift, professional-grade shell — premium presentation and expedited shipping available for gift occasions."
       }
     ]
   },
@@ -128,21 +140,21 @@
     "variants": [
       {
         "personaId": "persona_009",
-        "headline": "Engineered for the Backcountry: Patrol-Tested Technical Shells",
-        "body": "Built for elite performance. Our professional-grade technical shells are trusted by ski patrollers to withstand the harshest alpine environments. Featuring high-performance technical fabric designed for maximum mobility and complete storm protection during intense backcountry climbs.",
-        "rationale": "This copy directly appeals to the fitness enthusiast by highlighting athletic performance, mobility, technical fabrics, and the endorsement of professional ski patrollers."
+        "headline": "Patroller-grade shells — engineered for extreme backcountry performance",
+        "body": "Pro-grade shells the patrollers wear — engineered fabrics and construction that perform in extreme backcountry conditions. Built for sustained exertion and layered systems; starts at $650.",
+        "rationale": "Calls out patroller-grade credibility and engineered fabrics, matching the fitness enthusiast’s demand for proven performance and technical detail."
       },
       {
         "personaId": "persona_005",
-        "headline": "An Investment in Mountain Protection: The Professional Ski Shell",
-        "body": "Crafted for ultimate durability and performance, our technical shells are built to endure season after season. Trusted by professional ski patrollers, this outerwear offers understated design and uncompromising protection on the mountain. A timeless piece engineered to last.",
-        "rationale": "This copy lands with the affluent classic by focusing on craftsmanship, longevity, understated aesthetics, and lasting value as a premium investment."
+        "headline": "Investment-grade shell, crafted to last season after season",
+        "body": "Patroller-grade construction and materials you can rely on season after season. Understated, precision-built outerwear focused on longevity and dependable function; starts at $650.",
+        "rationale": "Uses understated, quality-forward language emphasizing longevity and craftsmanship that appeals to an affluent buyer who values investment pieces."
       },
       {
-        "personaId": "persona_001",
-        "headline": "Optimize Alpine Performance: Technically Engineered Ski Shells",
-        "body": "Protect your body in extreme alpine conditions. Engineered with advanced technical fabrics, our shells are trusted by professional ski patrollers for reliable thermal and environmental regulation. Designed to optimize your safety and physical output during demanding backcountry ascents.",
-        "rationale": "This copy addresses the wellness optimizer by framing the outerwear as a tool for physical optimization, thermal regulation, and systematic safety in extreme conditions."
+        "personaId": "persona_010",
+        "headline": "Gift-ready patroller-grade shell — premium presentation, expedited shipping",
+        "body": "Impressive, professional-grade outerwear for serious backcountry skiers. Premium gift presentation, gift wrap, and expedited shipping options available for last-minute gifting; starts at $650.",
+        "rationale": "Highlights premium presentation and expedited shipping so shoppers can confidently buy a high-value, ready-to-gift technical shell."
       }
     ]
   },
@@ -151,41 +163,59 @@
     "bidStrategy": {
       "type": "target_cpa",
       "suggestedRangeUsd": [
-        140,
-        245
+        170,
+        297.5
       ],
-      "rationale": "Considered purchase at ~$700 AOV: bid to a target CPA of 20-35% of order value so first-order economics stay profitable"
+      "rationale": "Considered purchase at ~$850 AOV: bid to a target CPA of 20-35% of order value so first-order economics stay profitable"
     },
     "budget": {
-      "suggestedMonthlyUsd": 4500,
-      "suggestedDailyUsd": 150,
-      "rationale": "$1500/publisher/month floor for statistically useful volume × 2 publishers × 1.5 luxury-tier multiplier"
+      "suggestedMonthlyUsd": 9000,
+      "suggestedDailyUsd": 300,
+      "rationale": "$1500/publisher/month floor for statistically useful volume × 4 publishers × 1.5 luxury-tier multiplier"
     },
     "publisherAllocations": [
       {
         "publisherId": "pub_017",
         "publisherName": "Cloudfoot",
-        "sharePct": 59,
-        "monthlyBudgetUsd": 2655,
+        "sharePct": 29,
+        "monthlyBudgetUsd": 2610,
         "estCpmUsd": 18,
-        "projectedMonthlyImpressions": 147500,
-        "rationale": "85/100 fit score → 59% of budget"
+        "projectedMonthlyImpressions": 145000,
+        "rationale": "78/100 fit score → 29% of budget"
       },
       {
         "publisherId": "pub_002",
         "publisherName": "Movewell",
-        "sharePct": 41,
-        "monthlyBudgetUsd": 1845,
+        "sharePct": 26,
+        "monthlyBudgetUsd": 2340,
         "estCpmUsd": 18,
-        "projectedMonthlyImpressions": 102500,
-        "rationale": "60/100 fit score → 41% of budget"
+        "projectedMonthlyImpressions": 130000,
+        "rationale": "70/100 fit score → 26% of budget"
+      },
+      {
+        "publisherId": "pub_016",
+        "publisherName": "Stride & Stem",
+        "sharePct": 23,
+        "monthlyBudgetUsd": 2070,
+        "estCpmUsd": 25,
+        "projectedMonthlyImpressions": 82800,
+        "rationale": "62/100 fit score → 23% of budget"
+      },
+      {
+        "publisherId": "pub_011",
+        "publisherName": "Northbed",
+        "sharePct": 22,
+        "monthlyBudgetUsd": 1980,
+        "estCpmUsd": 25,
+        "projectedMonthlyImpressions": 79200,
+        "rationale": "60/100 fit score → 22% of budget"
       }
     ],
     "targeting": {
       "personaIds": [
         "persona_009",
         "persona_005",
-        "persona_001"
+        "persona_010"
       ],
       "geos": [
         "US-West",
@@ -206,7 +236,7 @@
     "flightDays": 30,
     "assumptions": [
       "CPMs are heuristic estimates by audience income tier, not quoted rates",
-      "Estimated AOV of $700 inferred from the advertiser's description"
+      "Estimated AOV of $850 inferred from the advertiser's description"
     ]
   }
 }

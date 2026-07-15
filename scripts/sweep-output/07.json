@@ -1,104 +1,107 @@
 {
   "analysis": {
     "businessProfile": {
-      "productSummary": "B2B SaaS that automates patient recall workflows for dental practices.",
-      "category": "B2B SaaS",
+      "productSummary": "B2B SaaS that automates patient-recall and appointment-reminder workflows for dental practices.",
+      "category": "b2b_healthcare_software",
       "priceTier": "premium",
-      "estimatedAovUsd": 150,
-      "brandVoice": "clinical"
+      "estimatedAovUsd": 2400,
+      "brandVoice": "professional, clinical, trust-focused (emphasize compliance, reliability, ROI)"
     },
     "inputQuality": {
       "rating": "off_catalog",
       "assumptions": [
-        "The advertiser is looking to target dental practice owners, dentists, or office managers.",
-        "The product is a B2B software subscription with no direct consumer-facing retail application."
+        "This is sold to dental practice decision-makers (dentists, practice owners, office managers) rather than consumers.",
+        "Pricing is subscription/annual-contract based (not single consumer retail purchases).",
+        "Primary market is dental practices in the U.S."
       ],
       "clarifyingQuestions": [
-        "Are you looking to target dental professionals in their capacity as business owners, or are you looking for consumer-facing channels?",
-        "Since our network is focused on consumer retail and lifestyle brands, would you be open to B2B-specific networks like LinkedIn, dental trade associations, or professional directories?"
+        "Who is the primary buyer (dentist/owner, practice manager, corporate group) and what is a typical contract value or ARR per customer?",
+        "What is your primary marketing objective (lead generation for demos, free-trial signups, direct sales to corporate groups)?",
+        "Which geographies and practice sizes do you target (solo practices vs DSOs; U.S. only or international)?",
+        "Which channels have worked best so far (trade publications, LinkedIn, industry events, email outreach, reseller partnerships)?"
       ]
     },
     "rankedPublishers": [],
     "excludedPublishers": [
       {
         "id": "pub_001",
-        "reason": "This is an instant delivery grocery and convenience service, which does not reach B2B dental practice decision-makers."
+        "reason": "Swiftcart is an instant consumer grocery/convenience delivery service (AOV $28, heavy 18–34 consumer traffic) whose users are consumers making impulse purchases—not dental practice buyers."
       },
       {
         "id": "pub_002",
-        "reason": "This is an activewear apparel brand targeting fitness-engaged consumers, not B2B dental software buyers."
+        "reason": "Movewell is an activewear apparel publisher (female-skewed consumer shoppers, AOV $78) focused on fitness consumers, not small-business decision-makers purchasing practice software."
       },
       {
         "id": "pub_003",
-        "reason": "This is a wellness and fitness booking service targeting consumers looking for self-care, not professional dental software."
+        "reason": "Studiogrid serves consumers booking fitness/spa/yoga appointments (appointment-based self-care audience, majority female) rather than purchasers of B2B dental software."
       },
       {
         "id": "pub_004",
-        "reason": "This is a women's workwear and casual apparel brand targeting older affluent consumers, not B2B dental practices."
+        "reason": "Marlowe & Co. targets affluent mid-life women shopping for apparel (AOV $112); its audience is consumer shoppers, not dental practice owners or managers."
       },
       {
         "id": "pub_005",
-        "reason": "This is a high-AOV classic women's apparel brand, which is entirely irrelevant to B2B dental workflow automation."
+        "reason": "Linden Park is a high-AOV classic women's apparel publisher (older affluent consumers); this readership does not represent buyers of dental practice software."
       },
       {
         "id": "pub_006",
-        "reason": "This is an inclusive plus-size women's apparel brand, which does not align with B2B dental software procurement."
+        "reason": "Everbody focuses on plus-size women's apparel and representation (consumer retail audience, AOV $89), not a channel for reaching dental practice decision-makers."
       },
       {
         "id": "pub_007",
-        "reason": "This is a pet food and supplies subscription service targeting pet owners, not dental business owners."
+        "reason": "Pawline is a pet-food/supplies publisher with subscription pet owners (consumer pet parents, AOV $64) not relevant to B2B dental procurement."
       },
       {
         "id": "pub_008",
-        "reason": "This is an organic grocery subscription service targeting health-conscious consumers, not professional dental SaaS buyers."
+        "reason": "Pantrygood targets organic grocery consumers (wellness-minded shoppers, AOV $86) rather than healthcare practice buyers or administrative staff."
       },
       {
         "id": "pub_009",
-        "reason": "This is a large-scale pet supply and pharmacy retailer, which has no audience overlap with dental practice decision-makers."
+        "reason": "Ruffco is a large consumer pet audience (repeat-purchase pet shoppers nationwide) and does not serve business buyers for dental-practice software."
       },
       {
         "id": "pub_010",
-        "reason": "This is a basics and gifting apparel brand, which does not reach professional B2B software buyers."
+        "reason": "Heartfoot sells basics and gifting-focused apparel (consumer gifting audience, AOV $52) which does not align with a B2B SaaS buyer profile."
       },
       {
         "id": "pub_011",
-        "reason": "This is a premium home bedding and textiles brand, which is a consumer-facing store with no B2B dental utility."
+        "reason": "Northbed targets design-conscious bedding shoppers (high-AOV home consumers) rather than dental practice owners or office managers evaluating software."
       },
       {
         "id": "pub_012",
-        "reason": "This is a science-forward women's vitamin and supplement brand, which does not target dental practice workflows."
+        "reason": "Daily Form is a DTC supplements/wellness publisher with a female consumer audience skeptical of health claims, not a source of dental-practice procurement leads."
       },
       {
         "id": "pub_013",
-        "reason": "This is a DTC beauty and skincare brand targeting Gen Z and millennial consumers, not professional dental practices."
+        "reason": "Velvetline is a beauty/skincare DTC publisher with Gen Z/younger millennial consumers (AOV $61) who are unlikely to be the B2B buyers for practice software."
       },
       {
         "id": "pub_014",
-        "reason": "This is a premium non-toxic cookware and kitchen brand, which does not reach B2B dental software buyers."
+        "reason": "Hearthstone Goods sells high-end kitchen/home goods to sustainability-motivated consumers (AOV $198), not business software decision-makers."
       },
       {
         "id": "pub_015",
-        "reason": "This is a consumer meal kit subscription service, which is completely unrelated to dental patient recall automation."
+        "reason": "Kitchenly is a meal-kit/subscription service targeting families and couples (consumer convenience audience, AOV $74) rather than dental practice buyers."
       },
       {
         "id": "pub_016",
-        "reason": "This is a professional women's shoe brand, which targets individual consumers rather than dental practice procurement."
+        "reason": "Stride & Stem addresses professional women buying sustainable shoes (high-AOV consumer audience) and does not reach dental practice procurement roles."
       },
       {
         "id": "pub_017",
-        "reason": "This is a sustainable shoe and activewear brand targeting tech-adjacent professionals, not B2B dental software buyers."
+        "reason": "Cloudfoot is an apparel/shoe publisher for tech-adjacent urban professionals (consumer retail focus) and not a targeted channel for selling dental-practice SaaS."
       },
       {
         "id": "pub_018",
-        "reason": "This is a playful dog toy and treat subscription service, which does not reach dental practice decision-makers."
+        "reason": "Tailcrate is a consumer pet subscription/toys publisher (millennial pet parents, AOV $35) without a business-buying audience relevant to dental software sales."
       },
       {
         "id": "pub_019",
-        "reason": "This is a personalized DTC haircare brand, which has no relevance to B2B dental practice software."
+        "reason": "Strandlab is a personalized haircare DTC publisher engaging consumers via quizzes (AOV $48) rather than reaching dental offices or practice managers."
       },
       {
         "id": "pub_020",
-        "reason": "This is a functional beverage brand targeting health-curious consumers, which does not align with B2B dental software."
+        "reason": "Pop & Sip is a functional beverage publisher targeting health-curious consumers (AOV $42), not B2B dental-practice buyers."
       }
     ],
     "selectedPersonas": []

@@ -8,3 +8,10 @@ import { openai } from "@ai-sdk/openai";
 export const model = process.env.OPENAI_API_KEY
   ? openai(process.env.OPENAI_MODEL ?? "gpt-5-mini")
   : google(process.env.GEMINI_MODEL ?? "gemini-3-flash-preview");
+
+// gpt-5-mini is a reasoning model and rejects temperature; Gemini honors it.
+// Callers pass their preferred temperature through this so the warning spam
+// (and a silently ignored knob) doesn't leak into the OpenAI path.
+export function temperature(t: number): number | undefined {
+  return process.env.OPENAI_API_KEY ? undefined : t;
+}

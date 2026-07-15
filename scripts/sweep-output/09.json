@@ -1,153 +1,152 @@
 {
   "analysis": {
     "businessProfile": {
-      "productSummary": "Refillable, concentrated cleaning products sold to eco-conscious consumers looking for sustainable alternatives to traditional brands.",
+      "productSummary": "Refillable, concentrated home cleaning products sold to sustainability-minded consumers who want to avoid single‑use plastic.",
       "category": "household_cleaning",
       "priceTier": "mid",
-      "estimatedAovUsd": 45,
-      "brandVoice": "Confident, performance-oriented, and eco-conscious."
+      "estimatedAovUsd": 32,
+      "brandVoice": "sincere, sustainability-forward, evidence-backed"
     },
     "inputQuality": {
       "rating": "clear",
       "assumptions": [
-        "The product is priced competitively with premium grocery cleaning brands.",
-        "The primary sales model includes an initial starter kit followed by a subscription or repeat purchase of refills."
+        "This is a consumer DTC product (or sold via retail/grocery channels) rather than B2B.",
+        "Primary geography is the U.S. (publisher catalog is US-focused).",
+        "Unit economics / AOV are modest (single bottle + refill/subscription); estimated AOV ≈ $25–40.",
+        "The brand plans to use sustainability and ingredient/transparency messaging rather than technical industrial claims."
       ],
       "clarifyingQuestions": []
     },
     "rankedPublishers": [
       {
         "id": "pub_008",
-        "fitScore": 95,
+        "fitScore": 92,
         "reasons": [
-          "Direct category alignment with 'natural' and 'pantry' subcategories.",
-          "Audience is explicitly described as 'values-driven' and responsive to 'sustainability' and 'clean-ingredient' claims.",
-          "AOV of $86 suggests a shopper profile that can afford premium eco-friendly household staples."
+          "Category match: Pantrygood is an organic/natural grocery publisher (subcategories include 'organic' and 'natural'), so shoppers already expect clean-ingredient and sustainability claims.",
+          "Audience match: Age skew 28–48 and 71% female aligns with common buyers of refillable cleaning and household consumables.",
+          "Notes alignment: Publisher notes explicitly call out 'values-driven shoppers' who respond to sustainability and wellness claims — the advertiser's primary audience.",
+          "AOV fit: Pantrygood avg order value $86 supports multi-item or subscription purchases (refills + reusable bottles)."
         ]
       },
       {
         "id": "pub_014",
-        "fitScore": 88,
+        "fitScore": 84,
         "reasons": [
-          "Audience is 'sustainability-motivated' and specifically looks for 'non-toxic' kitchen and home goods.",
-          "High overlap between consumers investing in premium cookware and those seeking high-performance cleaning products for those items."
-        ]
-      },
-      {
-        "id": "pub_015",
-        "fitScore": 78,
-        "reasons": [
-          "Large audience of family and couples households who have high-frequency cleaning needs.",
-          "Convenience-motivated shoppers are likely to appreciate the 'skip the bottle' refill model."
+          "Category and audience fit: Hearthstone Goods is a home/kitchen publisher with 'non_toxic' subcategory and 'sustainability-motivated kitchen buyers' noted — directly aligned with non-toxic, refillable cleaning positioning.",
+          "Purchase intent: Audience buys for kitchen/home and responds to gifting/new-home life events (good for higher-AOV bundle sales like starter kits + refills).",
+          "Demographic/geography: Age skew 28–48 and US-West/Northeast geos align with premium sustainability buyers."
         ]
       },
       {
         "id": "pub_001",
-        "fitScore": 72,
+        "fitScore": 78,
         "reasons": [
-          "Includes a 'household' subcategory with high-frequency purchasers.",
-          "Refillable concentrates fit the 'convenience' and 'instant delivery' mindset of shoppers needing to replenish home supplies quickly."
+          "Category match: Swiftcart lists 'household' in subcategories and is an instant-delivery channel where customers frequently purchase household consumables (good for refill/top-up purchases).",
+          "Behavioral fit: High-frequency purchasers and impulse-friendly traffic are useful for acquiring trial purchases or refill top-ups.",
+          "AOV/demographic fit: Avg order value $28 and a young 18–34 skew aligns with lower-ticket refill concentrate purchases and subscription sign-ups."
         ]
       },
       {
-        "id": "pub_017",
-        "fitScore": 68,
+        "id": "pub_011",
+        "fitScore": 70,
         "reasons": [
-          "Audience of tech-adjacent urban professionals responds strongly to 'sustainability' messaging.",
-          "The 'sustainable' subcategory match provides a direct path to the advertiser's target demographic."
+          "Home audience: Northbed focuses on bedding/bath and is called out as having strong cross-sell with home and wellness — relevant channel to reach shoppers buying home-care products.",
+          "Design-conscious buyers: Useful for premium positioning of reusable bottles and well-designed refill systems (supports higher AOV promotions).",
+          "Audience purchasing power: High avg order value $164 indicates willingness to pay for premium home goods and sustainable upgrades."
         ]
       },
       {
-        "id": "pub_016",
-        "fitScore": 62,
+        "id": "pub_015",
+        "fitScore": 60,
         "reasons": [
-          "Professional women audience that values 'sustainability' and 'machine-washable' (cleanliness) claims.",
-          "High compatibility with the advertiser's goal of showing up where people already care about environmental impact."
-        ]
-      },
-      {
-        "id": "pub_007",
-        "fitScore": 58,
-        "reasons": [
-          "Pet owners are 'health-conscious' and often seek non-toxic cleaning solutions to keep floors and surfaces safe for animals.",
-          "Subscription-heavy model aligns with the refillable nature of the product."
+          "Household & subscription overlap: Kitchenly serves family/couple households that prioritize convenience and subscriptions, matching a refill-subscription product play.",
+          "Purchase cadence: Meal-kit customers are accustomed to recurring deliveries and household staples, making them receptive to subscription refills.",
+          "Scale: Large monthly impressions and nationwide reach help reach Busy Parent and Convenience-First audiences at scale."
         ]
       }
     ],
     "excludedPublishers": [
       {
         "id": "pub_002",
-        "reason": "Focus is strictly on activewear and fitness apparel with no household or home goods subcategories."
+        "reason": "Movewell is an activewear apparel publisher (female skewer, AOV $78) with no household/cleaning category—audience shops for fitness apparel, not cleaning supplies."
       },
       {
         "id": "pub_003",
-        "reason": "Service-based booking platform for fitness and spa treatments with no physical product purchase intent for home maintenance."
+        "reason": "Studiogrid is a wellness services (fitness/spa) publisher focused on bookings and appointments, not product purchases of household cleaning."
       },
       {
         "id": "pub_004",
-        "reason": "Audience of older affluent women is focused on high-end workwear and casual apparel rather than utility household products."
+        "reason": "Marlowe & Co. targets older affluent women with workwear apparel; its commerce is apparel-focused rather than household cleaning."
       },
       {
         "id": "pub_005",
-        "reason": "Conservative brand sensibility and high-AOV classic apparel focus do not align with modern eco-refill cleaning trends."
+        "reason": "Linden Park is high-AOV classic women's apparel with conservative sensibility and no home/household subcategories to reach cleaning-product buyers."
       },
       {
         "id": "pub_006",
-        "reason": "Niche focus on plus-size apparel and intimates provides no relevant context for household cleaning supplies."
+        "reason": "Everbody is an apparel publisher (plus-size women) focused on fit and representation, not household consumables or sustainability product purchasing."
+      },
+      {
+        "id": "pub_007",
+        "reason": "Pawline is pet-focused (pet food/supplies) and while pet owners buy household items, the publisher's inventory and audience purchase intent centers on pet subscriptions rather than home cleaning."
       },
       {
         "id": "pub_009",
-        "reason": "While a large audience, it lacks the specific 'sustainability' or 'premium natural' focus found in higher-ranked publishers."
+        "reason": "Ruffco is a broad pet retailer with repeat-purchase behavior for pet products but lacks a household-cleaning shopping context to drive relevant conversions."
       },
       {
         "id": "pub_010",
-        "reason": "Primarily a gifting and basics apparel site; social-good messaging is present but the category fit is poor."
-      },
-      {
-        "id": "pub_011",
-        "reason": "Focuses on high-AOV luxury textiles like bedding and bath linens rather than functional cleaning utilities."
+        "reason": "Heartfoot sells apparel basics and gifts; although it responds to social-good messaging, the site focuses on apparel/gifting rather than household cleaning purchases."
       },
       {
         "id": "pub_012",
-        "reason": "Audience is focused on science-forward internal wellness and is noted to be skeptical of health-related claims."
+        "reason": "Daily Form is wellness DTC (vitamins/supplements) with a science-forward audience that is skeptical of unsubstantiated claims, but the site is not a home/household shopping environment."
       },
       {
         "id": "pub_013",
-        "reason": "Gen Z beauty and makeup focus with a minimalist aesthetic that does not translate to household cleaning needs."
+        "reason": "Velvetline is beauty (skincare/makeup) aimed at Gen Z and younger millennial identity-driven shoppers; it's not a grocery/home channel for cleaning supplies."
+      },
+      {
+        "id": "pub_016",
+        "reason": "Stride & Stem is sustainable apparel (shoes) for professional women—audience values sustainability but the publisher commerce is apparel-first, not household cleaning."
+      },
+      {
+        "id": "pub_017",
+        "reason": "Cloudfoot focuses on sustainable apparel and shoes (comfort + sustainability messaging) but does not provide a direct household/cleaning purchase context."
       },
       {
         "id": "pub_018",
-        "reason": "Playful and fun brand voice for dog toys is a poor match for a performance-focused cleaning product."
+        "reason": "Tailcrate is pet subscription/toy focused with a playful voice; its commerce and creative context are pet-centric rather than household cleaning."
       },
       {
         "id": "pub_019",
-        "reason": "Personalized haircare focus is too narrow and unrelated to general home sustainability products."
+        "reason": "Strandlab is personalized haircare (quiz-driven DTC) with an audience seeking personalization in beauty, not a home-cleaning purchase path."
       },
       {
         "id": "pub_020",
-        "reason": "Beverage-focused audience looking for gut health and indulgence, not home cleaning solutions."
+        "reason": "Pop & Sip is a functional beverages publisher targeting health-curious drinkers—good audience overlap on wellness but no household/cleaning shopping context."
       }
     ],
     "selectedPersonas": [
       {
         "id": "persona_006",
-        "whyRelevant": "The perfect match; they specifically seek out refillable products and environmental footprint transparency.",
-        "keyMessage": "The high-performance clean you expect, without the single-use plastic waste."
+        "whyRelevant": "Primary target: explicitly values refillable products and sustainability, researches supply chains, and penalizes vague eco-claims—matches the advertiser's zero-plastic/refill positioning.",
+        "keyMessage": "Specific sustainability proof: refillable system that eliminates single-use plastic, with certifications and concrete impact metrics (e.g., 'X bottles avoided/year')."
       },
       {
         "id": "persona_002",
-        "whyRelevant": "Busy parents manage high-volume cleaning needs and value the convenience of space-saving concentrates and subscriptions.",
-        "keyMessage": "Powerful, family-safe cleaning that saves space and never runs out."
+        "whyRelevant": "Busy Parents buy household staples in bulk and favor subscriptions/recurring delivery—an ideal buyer for concentrated refills and reusable bottle starter kits.",
+        "keyMessage": "Saves time and space—concentrated refills and scheduled deliveries replace frequent trips to buy single-use bottles."
       },
       {
         "id": "persona_001",
-        "whyRelevant": "Wellness optimizers care about ingredient transparency and reducing toxins in their home environment.",
-        "keyMessage": "A science-backed, non-toxic clean that works as well as the big brands."
+        "whyRelevant": "Wellness Optimizers care about ingredient transparency and evidence-backed claims, so they will adopt non-toxic cleaning products that prove performance versus big brands.",
+        "keyMessage": "Clinically tested, ingredient-transparent formula: performs as well as leading brands without toxic residues."
       },
       {
-        "id": "persona_008",
-        "whyRelevant": "Refillable concentrates are often more cost-effective per use than buying new plastic bottles every time.",
-        "keyMessage": "Stop paying for water and plastic—get a better clean for a better price."
+        "id": "persona_007",
+        "whyRelevant": "Convenience-First Millennials prefer frictionless purchase flows (instant delivery, subscriptions) and can be reached on instant-delivery and meal/grocer channels where they already buy household items.",
+        "keyMessage": "One-click refills and fast delivery—set it and forget it with subscription refills to avoid single-use bottles."
       }
     ]
   },
@@ -155,39 +154,39 @@
     "variants": [
       {
         "personaId": "persona_006",
-        "headline": "End the Cycle of Single-Use Plastic with Concentrated Refills",
-        "body": "Our high-performance formulas eliminate the need for disposable plastic bottles. By shipping concentrates, we drastically reduce carbon emissions in our supply chain. You get a professional-grade clean that aligns with your ethical standards and environmental commitments.",
-        "rationale": "Focuses on tangible environmental impact and supply chain efficiency to satisfy the need for specific sustainability claims."
+        "headline": "Refillable concentrates—ditch single‑use plastic for good",
+        "body": "A refillable cleaner system that replaces disposable bottles with concentrated refills to cut single‑use plastic and transport volume. We publish sourcing and certification details on our site and deliver cleaning performance comparable to leading brands.",
+        "rationale": "This version gives concrete sustainability details (refillable system, reduced transport, where to find sourcing/certification info) to satisfy a shopper who vets environmental claims and hates vague greenwashing."
       },
       {
         "personaId": "persona_002",
-        "headline": "Space-Saving Refills That Keep Your Busy Household Running",
-        "body": "Stop hauling heavy plastic bottles from the store. Our compact concentrates save precious cabinet space and ensure you never run out of supplies. It is the powerful, reliable cleaning solution that fits perfectly into your family schedule without the extra bulk or waste.",
-        "rationale": "Emphasizes household management and space efficiency to appeal to time-poor parents."
+        "headline": "Skip the store: concentrated refills delivered on your schedule",
+        "body": "Set scheduled deliveries to replace frequent trips and bulky bottles. Concentrated refills free up cabinet space and clean as well as the big brands—easy setup, flexible delivery cadence, and straightforward exchanges if plans change.",
+        "rationale": "Focuses on time‑saving, space reduction, and hassle‑free recurring deliveries—practical benefits that resonate with busy parents who prefer convenient, family‑friendly solutions."
       },
       {
         "personaId": "persona_001",
-        "headline": "Optimize Your Home Environment with Science-Backed Concentrates",
-        "body": "Achieve a professional-grade clean without compromising your living space. Our transparent formulas are performance-tested to match leading brands while focusing on ingredient integrity. Use evidence-based cleaning that supports your household optimization goals.",
-        "rationale": "Uses data-driven and outcome-focused language to appeal to a consumer who treats their home as a system."
+        "headline": "Concentrated cleaners that perform—no tradeoff on results",
+        "body": "Concentrated formulas that clean as effectively as leading brands while eliminating single‑use bottles. Check exact active ingredients and usage instructions on each product page so you can evaluate performance and residue before you buy.",
+        "rationale": "Puts outcome and ingredient transparency front and center, appealing to a wellness‑focused buyer who wants evidence and clear information to optimize home health."
       },
       {
-        "personaId": "persona_008",
-        "headline": "Stop Paying for Water and Get a Better Clean for Your Money",
-        "body": "Traditional cleaners are mostly water in expensive plastic. Our concentrated refills mean you only pay for the active ingredients that work. Save money by reusing your bottles and switching to a high-performance system that delivers more value per ounce than the big brands.",
-        "rationale": "Focuses on the economic logic of concentrates versus paying for water and plastic packaging."
+        "personaId": "persona_007",
+        "headline": "One‑click refills—set it and forget single‑use bottles",
+        "body": "Subscribe for one‑click refills and never run out: concentrated cartridges replace bulky bottles and ship compact for faster turnover. Quick sign‑up, simple modifications, and predictable deliveries make it genuinely frictionless.",
+        "rationale": "Emphasizes speed, one‑click subscription convenience, and low friction—key triggers for a convenience‑first millennial who prioritizes fast, easy replenishment."
       }
     ]
   },
   "config": {
-    "objective": "conversions",
+    "objective": "awareness",
     "bidStrategy": {
-      "type": "manual_cpc",
+      "type": "cpm",
       "suggestedRangeUsd": [
-        0.45,
-        0.9
+        16.8,
+        23.1
       ],
-      "rationale": "Mid-AOV product: pay per click at 1-2% of order value, a sustainable CPC if roughly 1 in 30 clicks converts"
+      "rationale": "Impulse-priced product under $40: buy impressions around the estimated $21 blended CPM and let placement volume drive discovery"
     },
     "budget": {
       "suggestedMonthlyUsd": 7500,
@@ -202,7 +201,7 @@
         "monthlyBudgetUsd": 1800,
         "estCpmUsd": 25,
         "projectedMonthlyImpressions": 72000,
-        "rationale": "95/100 fit score → 24% of budget"
+        "rationale": "92/100 fit score → 24% of budget"
       },
       {
         "publisherId": "pub_014",
@@ -211,34 +210,34 @@
         "monthlyBudgetUsd": 1650,
         "estCpmUsd": 25,
         "projectedMonthlyImpressions": 66000,
-        "rationale": "88/100 fit score → 22% of budget"
-      },
-      {
-        "publisherId": "pub_015",
-        "publisherName": "Kitchenly",
-        "sharePct": 19,
-        "monthlyBudgetUsd": 1425,
-        "estCpmUsd": 18,
-        "projectedMonthlyImpressions": 79167,
-        "rationale": "78/100 fit score → 19% of budget"
+        "rationale": "84/100 fit score → 22% of budget"
       },
       {
         "publisherId": "pub_001",
         "publisherName": "Swiftcart",
-        "sharePct": 18,
-        "monthlyBudgetUsd": 1350,
+        "sharePct": 20,
+        "monthlyBudgetUsd": 1500,
         "estCpmUsd": 12,
-        "projectedMonthlyImpressions": 112500,
-        "rationale": "72/100 fit score → 18% of budget"
+        "projectedMonthlyImpressions": 125000,
+        "rationale": "78/100 fit score → 20% of budget"
       },
       {
-        "publisherId": "pub_017",
-        "publisherName": "Cloudfoot",
-        "sharePct": 17,
-        "monthlyBudgetUsd": 1275,
+        "publisherId": "pub_011",
+        "publisherName": "Northbed",
+        "sharePct": 18,
+        "monthlyBudgetUsd": 1350,
+        "estCpmUsd": 25,
+        "projectedMonthlyImpressions": 54000,
+        "rationale": "70/100 fit score → 18% of budget"
+      },
+      {
+        "publisherId": "pub_015",
+        "publisherName": "Kitchenly",
+        "sharePct": 16,
+        "monthlyBudgetUsd": 1200,
         "estCpmUsd": 18,
-        "projectedMonthlyImpressions": 70833,
-        "rationale": "68/100 fit score → 17% of budget"
+        "projectedMonthlyImpressions": 66667,
+        "rationale": "60/100 fit score → 16% of budget"
       }
     ],
     "targeting": {
@@ -246,7 +245,7 @@
         "persona_006",
         "persona_002",
         "persona_001",
-        "persona_008"
+        "persona_007"
       ],
       "geos": [
         "nationwide"
@@ -264,10 +263,12 @@
     },
     "flightDays": 30,
     "assumptions": [
-      "The product is priced competitively with premium grocery cleaning brands.",
-      "The primary sales model includes an initial starter kit followed by a subscription or repeat purchase of refills.",
+      "This is a consumer DTC product (or sold via retail/grocery channels) rather than B2B.",
+      "Primary geography is the U.S. (publisher catalog is US-focused).",
+      "Unit economics / AOV are modest (single bottle + refill/subscription); estimated AOV ≈ $25–40.",
+      "The brand plans to use sustainability and ingredient/transparency messaging rather than technical industrial claims.",
       "CPMs are heuristic estimates by audience income tier, not quoted rates",
-      "Estimated AOV of $45 inferred from the advertiser's description"
+      "Estimated AOV of $32 inferred from the advertiser's description"
     ]
   }
 }

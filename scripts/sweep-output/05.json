@@ -1,155 +1,165 @@
 {
   "analysis": {
     "businessProfile": {
-      "productSummary": "Consumer wellness and self-care products designed to improve physical and mental well-being.",
+      "productSummary": "DTC consumer wellness offering (supplements / functional beverages / self-care services) aimed at helping customers 'feel better.'",
       "category": "wellness_dtc",
       "priceTier": "mid",
-      "estimatedAovUsd": 50,
-      "brandVoice": "empathetic and clinical"
+      "estimatedAovUsd": 62,
+      "brandVoice": "reassuring, outcomes-focused (science-forward when possible)"
     },
     "inputQuality": {
       "rating": "vague",
       "assumptions": [
-        "Assumed the advertiser sells consumer-facing wellness products like supplements, vitamins, or functional beverages rather than medical services or B2B solutions.",
-        "Assumed a mid-tier price point with an average order value of approximately $50 based on typical DTC wellness brands.",
-        "Assumed the brand voice is empathetic, clean, and health-focused."
+        "The business sells consumer-facing wellness products or services (not B2B).",
+        "The product mix is tangible consumer goods and/or bookingable wellness services (supplements, functional drinks, classes, recovery) rather than purely clinical care or software.",
+        "Target customer skews adult wellness consumers (25–45), willing to pay a mid-tier price or subscribe.",
+        "The brand wants an outcomes-focused, evidence-friendly message rather than playful novelty."
       ],
       "clarifyingQuestions": [
-        "What specific products or services do you offer (e.g., supplements, apparel, physical therapy, digital apps)?",
-        "What is your target price point or average order value (AOV)?",
-        "Do you have a specific target demographic (age, gender, or geographic location) in mind?",
-        "Is your business model subscription-based, one-time purchase, or service-booking?"
+        "What exactly do you sell (choose one): physical wellness products (supplements, drinks), services (classes, therapy, spa), or a mix?",
+        "Who is your primary customer (age, gender, geography) and typical order value or price points?",
+        "Do you make clinical or health claims that require substantiation, or is messaging focused on mood/feel-good positioning?",
+        "Is the business primarily subscription-driven or one-time purchases?"
       ]
     },
     "rankedPublishers": [
       {
         "id": "pub_012",
-        "fitScore": 95,
+        "fitScore": 92,
         "reasons": [
-          "Direct category match with wellness_dtc, vitamins, and supplements.",
-          "Audience actively seeks science-forward wellness products, aligning with a 'feel better' brand promise.",
-          "AOV of $38 is highly compatible with our assumed mid-tier $50 AOV."
-        ]
-      },
-      {
-        "id": "pub_020",
-        "fitScore": 88,
-        "reasons": [
-          "Subcategories include functional beverages and gut health, which directly target physical well-being.",
-          "Audience is health-curious and has strong overlap with wellness and premium grocery shoppers.",
-          "AOV of $42 aligns well with our assumed $50 price point."
-        ]
-      },
-      {
-        "id": "pub_003",
-        "fitScore": 85,
-        "reasons": [
-          "Wellness services category (spa, yoga, fitness) attracts users actively spending on self-care and feeling better.",
-          "High-income audience is willing to invest in personal well-being.",
-          "Strong geographic alignment with major US coastal markets."
+          "Category match: 'wellness_dtc' publisher focused on vitamins and supplements—directly aligned with assumed product line.",
+          "Audience: female-skew 22–42 aligns with a wellness-focused buyer (Wellness Optimizer persona).",
+          "Notes: 'Science-forward wellness' means users expect evidence-backed claims, matching the brand voice assumption.",
+          "AOV: publisher avg_order_value $38 supports lower-cost subscription orders and trial purchases typical for supplements."
         ]
       },
       {
         "id": "pub_008",
-        "fitScore": 80,
+        "fitScore": 85,
         "reasons": [
-          "Pantrygood shoppers are highly responsive to clean-ingredient, sustainability, and wellness claims.",
-          "Organic and natural subcategories align with a holistic health positioning.",
-          "AOV of $86 indicates a strong willingness to pay for premium health products."
+          "Category/subcategory match: 'organic' and 'natural' groceries appeal to values-driven wellness shoppers.",
+          "Audience: 28–48 age skew and high income tier match customers who pay premiums for clean-ingredient wellness products.",
+          "Notes: 'Values-driven shoppers' respond to wellness and sustainability claims—fits messaging about feeling better through clean ingredients.",
+          "AOV ($86) is compatible with multi-item wellness bundles or subscription starter packs."
         ]
       },
       {
-        "id": "pub_002",
-        "fitScore": 75,
+        "id": "pub_020",
+        "fitScore": 80,
         "reasons": [
-          "Activewear audience has a strong documented crossover with wellness and beauty.",
-          "Fitness-engaged shoppers are highly motivated by physical well-being and self-care.",
-          "AOV of $78 is compatible with premium wellness offerings."
+          "Category match: 'functional_beverages' directly overlaps if the product includes drinks or boost products.",
+          "Audience: 22–42 skew, health-curious, strong overlap with wellness and premium grocery.",
+          "Notes: 'Health-curious but indulgence-seeking' audience is receptive to feel-better positioning that balances benefits and taste.",
+          "AOV ($42) fits single-purchase trial and consumable repeat buys."
+        ]
+      },
+      {
+        "id": "pub_003",
+        "fitScore": 74,
+        "reasons": [
+          "Category match: 'wellness_services' (fitness_classes, yoga, spa) fits if the business offers experiential services to help people feel better.",
+          "Audience: 28–50 skew and high income tier; users are already spending on self-care and fitness.",
+          "Notes: 'Appointment-based booking' audience has purchase intent for wellness services.",
+          "AOV ($42) aligns with class packages or introductory offers."
         ]
       },
       {
         "id": "pub_011",
-        "fitScore": 65,
+        "fitScore": 66,
         "reasons": [
-          "Bedding and bath products focus on comfort, sleep quality, and home wellness.",
-          "Notes highlight a high cross-sell with general wellness products.",
-          "Affluent, design-conscious audience aligns with premium self-care positioning."
+          "Adjacent fit: if 'feel better' includes sleep or comfort products, Northbed's bedding/bath audience (design-conscious, high AOV $164) is a match for premium sleep-focused wellness items.",
+          "Audience: 28–48, high income and design-conscious—likely to buy higher-priced wellness home goods that improve wellbeing.",
+          "Notes: 'High cross-sell with home and wellness' explicitly calls out overlap."
+        ]
+      },
+      {
+        "id": "pub_002",
+        "fitScore": 60,
+        "reasons": [
+          "Partial fit: Movewell's fitness-engaged shoppers crossover with wellness; good if product targets active lifestyle recovery, supplements, or performance-adjacent wellbeing.",
+          "Audience: 25–44 skew and high female share fits Wellness Optimizer and Fitness Enthusiast personas.",
+          "Notes: 'Strong crossover with wellness and beauty' indicates this publisher can convert wellness DTC offers; AOV $78 supports mid-tier bundles."
         ]
       }
     ],
     "excludedPublishers": [
       {
         "id": "pub_001",
-        "reason": "Focuses on instant convenience delivery and alcohol, which does not align with a health and wellness brand."
+        "reason": "Swiftcart is instant convenience/grocery with low AOV ($28) and impulse late-night shoppers—poor fit for mid-tier, evidence-focused wellness DTC where buyers research claims."
       },
       {
         "id": "pub_004",
-        "reason": "Target audience is older women seeking premium workwear and casual apparel, lacking a wellness connection."
+        "reason": "Marlowe & Co. serves older affluent women (45–65) with workwear—audience and category (apparel) don't align with a general wellness product unless it's premium classic lifestyle goods, which is not specified."
       },
       {
         "id": "pub_005",
-        "reason": "High-AOV conservative apparel publisher with no relevance to health, wellness, or self-care."
+        "reason": "Linden Park targets 50–70 affluent women for classic apparel; demographic and category mismatch for a mid-market wellness DTC brand aimed at younger wellness buyers."
       },
       {
         "id": "pub_006",
-        "reason": "Focuses on inclusive sizing and fit-focused apparel rather than general health or wellness."
+        "reason": "Everbody is plus-size women's apparel focusing on fit and representation—category mismatch for wellness products unless explicitly targeted clothing-for-comfort, which is not stated."
       },
       {
         "id": "pub_007",
-        "reason": "Audience consists of pet owners shopping for pet food and supplies, not human wellness."
+        "reason": "Pawline is pet-focused (pet food/supplies); its audience shops for pet health, not human wellness products."
       },
       {
         "id": "pub_009",
-        "reason": "A pet-focused marketplace with broad demographics that do not target human self-care or wellness."
+        "reason": "Ruffco's massive pet audience is dedicated to pet purchases (pet_food, pet_pharmacy) and unlikely to convert for human wellness goods."
       },
       {
         "id": "pub_010",
-        "reason": "Sells basic apparel like socks and underwear, which lacks a direct health or wellness angle."
+        "reason": "Heartfoot sells basics/gifting (socks/underwear) with gifting-season spikes—category and purchase intent don't align with wellness DTC."
       },
       {
         "id": "pub_013",
-        "reason": "Focuses on Gen Z makeup and skincare aesthetics rather than general physical well-being or health."
+        "reason": "Velvetline is beauty-focused (skincare/makeup) with a Gen Z audience; unless the product is clean-beauty or skincare-focused, it's a weak match for general wellness claims."
       },
       {
         "id": "pub_014",
-        "reason": "Sells premium kitchenware and cookware, which is too specialized and high-AOV for a general wellness brand."
+        "reason": "Hearthstone Goods sells high-end cookware and targets new-home/gifting—audience purchases kitchen goods, not core wellness consumables."
       },
       {
         "id": "pub_015",
-        "reason": "A meal-kit service focused on convenience and family cooking rather than targeted wellness or self-care."
+        "reason": "Kitchenly is meal-kits for families—good for food convenience but not a primary channel for evidence-based wellness supplements or services."
       },
       {
         "id": "pub_016",
-        "reason": "Sells sustainable professional footwear, which does not align with a health or wellness product."
+        "reason": "Stride & Stem sells women's shoes (sustainable) to professional women—category mismatch unless product is footwear-for-comfort, which is not described."
       },
       {
         "id": "pub_017",
-        "reason": "Focuses on comfortable and sustainable footwear, which is too specific and less aligned than activewear or direct wellness."
+        "reason": "Cloudfoot is apparel (shoes/activewear) focused on comfort and sustainability—only marginally relevant unless product ties directly to active recovery or apparel-based comfort."
       },
       {
         "id": "pub_018",
-        "reason": "A subscription service for dog toys and treats, completely irrelevant to human wellness."
+        "reason": "Tailcrate is pet subscription/ toys—audience buys pet items and is unlikely to be an efficient channel for human wellness goods."
       },
       {
         "id": "pub_019",
-        "reason": "Sells personalized haircare, which is too narrow a beauty niche for a general wellness brand."
+        "reason": "Strandlab focuses on personalized haircare/DTC; unless the advertiser's product is hair/wellness related, audience expects personalization-specific offers rather than general wellness."
       }
     ],
     "selectedPersonas": [
       {
         "id": "persona_001",
-        "whyRelevant": "Treats her body like a system to optimize and actively seeks evidence-backed wellness and supplement products.",
-        "keyMessage": "Scientifically formulated to optimize your body's natural systems and help you feel your best."
+        "whyRelevant": "The Wellness Optimizer actively buys supplements, clean-beauty, and evidence-backed products; age and low price sensitivity match the ranked wellness publishers (Daily Form, Pantrygood).",
+        "keyMessage": "Clinically informed solutions that measurably improve how you feel—ingredient transparency and outcomes you can track."
       },
       {
         "id": "persona_009",
-        "whyRelevant": "Highly active individual focused on physical performance, recovery, and functional health products.",
-        "keyMessage": "Support your active lifestyle and speed up recovery with clean, effective wellness essentials."
+        "whyRelevant": "The Fitness Enthusiast purchases performance and recovery products and crosses into wellness categories; Movewell and Studiogrid audiences overlap with this persona.",
+        "keyMessage": "Performance-backed recovery or wellness support that helps you recover faster and feel better for your next workout."
+      },
+      {
+        "id": "persona_007",
+        "whyRelevant": "The Convenience-First Millennial values subscriptions and speed—if the brand offers convenient replenishment (subscriptions), Kitchenly-adjacent channels and Pantrygood/Pop & Sip audiences will convert.",
+        "keyMessage": "Easy, subscription-ready wellness—one-click reorder and fast delivery so you feel better without thinking about it."
       },
       {
         "id": "persona_006",
-        "whyRelevant": "Values clean ingredients, transparency, and organic wellness products that support personal and environmental health.",
-        "keyMessage": "Feel better inside and out with sustainably sourced, clean-ingredient wellness products."
+        "whyRelevant": "The Sustainability Buyer responds to specific sustainability claims and clean ingredients; Pantrygood and Northbed audiences care about supply-chain and product safety, which fits if the brand emphasizes transparent sourcing.",
+        "keyMessage": "Sustainably sourced, transparently made wellness products that make you feel better without costing the planet."
       }
     ]
   },
@@ -157,21 +167,27 @@
     "variants": [
       {
         "personaId": "persona_001",
-        "headline": "Optimize your daily system with clinically backed wellness.",
-        "body": "Support your body's natural baseline with scientifically formulated wellness essentials. Our clinical approach prioritizes full ingredient transparency, targeting biological pathways to help you feel better and function at your absolute peak. Pure, evidence-backed self-care.",
-        "rationale": "This copy appeals to the optimizer's desire for clinical validation and ingredient transparency by highlighting biological pathways and evidence-backed outcomes."
+        "headline": "Trackable, transparent supplements to help you feel better",
+        "body": "View full ingredient lists and exact dosages, plus guided pairings for sleep, mood, and recovery—so you can track real changes over weeks. Science-forward formulations and clear labels to support measurable improvements, not gimmicks.",
+        "rationale": "Focuses on ingredient transparency, measurable outcomes, and integration with tracking—matching an optimizer who pays premiums for evidence-backed, trackable solutions."
       },
       {
         "personaId": "persona_009",
-        "headline": "Accelerate your recovery and support active performance.",
-        "body": "Don't let fatigue slow your progress. Our clean, effective wellness essentials are engineered to support muscle recovery and physical stamina, helping you bounce back faster from high-intensity training. Elevate your daily routine with targeted, professional-grade physical support.",
-        "rationale": "This copy focuses directly on athletic recovery and physical performance, using active language that resonates with a dedicated fitness lifestyle."
+        "headline": "Recovery-focused formulas to get you back stronger",
+        "body": "Targeted recovery and energy support designed for consistent trainers—formulations to help reduce post-workout fatigue and restore what your body needs between sessions. Use pre/post routines to recover faster and stay performance-ready.",
+        "rationale": "Speaks directly to training and recovery needs with performance-forward language that appeals to athletes who buy products to enhance workouts and results."
+      },
+      {
+        "personaId": "persona_007",
+        "headline": "One-click wellness: subscribe, receive, feel better—no hassle",
+        "body": "Subscribe in one click, get fast delivery, and pause or skip anytime. Automatic replenishment of supplements and functional beverages so you feel better without thinking about it—simple checkout, dependable delivery.",
+        "rationale": "Emphasizes speed, frictionless one-click subscription, and flexible delivery—exactly what a convenience-first millennial values."
       },
       {
         "personaId": "persona_006",
-        "headline": "Sustainably sourced wellness that respects your body and the planet.",
-        "body": "True well-being starts with ethical choices. Our clean-ingredient wellness products are crafted using fully traceable, sustainably sourced botanical ingredients. We prioritize transparent supply chains and earth-friendly packaging, ensuring you feel better inside and out.",
-        "rationale": "This copy addresses the buyer's demand for ethical standards by emphasizing supply chain traceability and sustainable sourcing without using vague greenwashing terms."
+        "headline": "Sustainably sourced wellness with full supply-chain transparency",
+        "body": "Ingredients traced to responsible suppliers, minimal recyclable packaging, and supply-chain details on every product page. Choose wellness that helps you feel better while reducing environmental impact—clear, specific sustainability you can verify.",
+        "rationale": "Calls out supply-chain traceability, minimal packaging, and on-page details to satisfy a skeptical sustainability buyer who demands specifics over vague eco messaging."
       }
     ]
   },
@@ -180,8 +196,8 @@
     "bidStrategy": {
       "type": "manual_cpc",
       "suggestedRangeUsd": [
-        0.5,
-        1
+        0.62,
+        1.24
       ],
       "rationale": "Mid-AOV product: pay per click at 1-2% of order value, a sustainable CPC if roughly 1 in 30 clicks converts"
     },
@@ -194,59 +210,59 @@
       {
         "publisherId": "pub_012",
         "publisherName": "Daily Form",
-        "sharePct": 22,
-        "monthlyBudgetUsd": 1650,
+        "sharePct": 23,
+        "monthlyBudgetUsd": 1725,
         "estCpmUsd": 18,
-        "projectedMonthlyImpressions": 91667,
-        "rationale": "95/100 fit score → 22% of budget"
-      },
-      {
-        "publisherId": "pub_020",
-        "publisherName": "Pop & Sip",
-        "sharePct": 21,
-        "monthlyBudgetUsd": 1575,
-        "estCpmUsd": 18,
-        "projectedMonthlyImpressions": 87500,
-        "rationale": "88/100 fit score → 21% of budget"
-      },
-      {
-        "publisherId": "pub_003",
-        "publisherName": "Studiogrid",
-        "sharePct": 20,
-        "monthlyBudgetUsd": 1500,
-        "estCpmUsd": 25,
-        "projectedMonthlyImpressions": 60000,
-        "rationale": "85/100 fit score → 20% of budget"
+        "projectedMonthlyImpressions": 95833,
+        "rationale": "92/100 fit score → 23% of budget"
       },
       {
         "publisherId": "pub_008",
         "publisherName": "Pantrygood",
+        "sharePct": 21,
+        "monthlyBudgetUsd": 1575,
+        "estCpmUsd": 25,
+        "projectedMonthlyImpressions": 63000,
+        "rationale": "85/100 fit score → 21% of budget"
+      },
+      {
+        "publisherId": "pub_020",
+        "publisherName": "Pop & Sip",
+        "sharePct": 20,
+        "monthlyBudgetUsd": 1500,
+        "estCpmUsd": 18,
+        "projectedMonthlyImpressions": 83333,
+        "rationale": "80/100 fit score → 20% of budget"
+      },
+      {
+        "publisherId": "pub_003",
+        "publisherName": "Studiogrid",
         "sharePct": 19,
         "monthlyBudgetUsd": 1425,
         "estCpmUsd": 25,
         "projectedMonthlyImpressions": 57000,
-        "rationale": "80/100 fit score → 19% of budget"
+        "rationale": "74/100 fit score → 19% of budget"
       },
       {
-        "publisherId": "pub_002",
-        "publisherName": "Movewell",
-        "sharePct": 18,
-        "monthlyBudgetUsd": 1350,
-        "estCpmUsd": 18,
-        "projectedMonthlyImpressions": 75000,
-        "rationale": "75/100 fit score → 18% of budget"
+        "publisherId": "pub_011",
+        "publisherName": "Northbed",
+        "sharePct": 17,
+        "monthlyBudgetUsd": 1275,
+        "estCpmUsd": 25,
+        "projectedMonthlyImpressions": 51000,
+        "rationale": "66/100 fit score → 17% of budget"
       }
     ],
     "targeting": {
       "personaIds": [
         "persona_001",
         "persona_009",
+        "persona_007",
         "persona_006"
       ],
       "geos": [
         "US-West",
-        "US-Northeast",
-        "US-South"
+        "US-Northeast"
       ],
       "interests": [
         "wellness",
@@ -261,11 +277,12 @@
     },
     "flightDays": 30,
     "assumptions": [
-      "Assumed the advertiser sells consumer-facing wellness products like supplements, vitamins, or functional beverages rather than medical services or B2B solutions.",
-      "Assumed a mid-tier price point with an average order value of approximately $50 based on typical DTC wellness brands.",
-      "Assumed the brand voice is empathetic, clean, and health-focused.",
+      "The business sells consumer-facing wellness products or services (not B2B).",
+      "The product mix is tangible consumer goods and/or bookingable wellness services (supplements, functional drinks, classes, recovery) rather than purely clinical care or software.",
+      "Target customer skews adult wellness consumers (25–45), willing to pay a mid-tier price or subscribe.",
+      "The brand wants an outcomes-focused, evidence-friendly message rather than playful novelty.",
       "CPMs are heuristic estimates by audience income tier, not quoted rates",
-      "Estimated AOV of $50 inferred from the advertiser's description"
+      "Estimated AOV of $62 inferred from the advertiser's description"
     ]
   }
 }

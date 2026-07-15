@@ -3,7 +3,7 @@ import { analyzeAndMatchPrompt } from "../prompts/analyze-and-match";
 import { creativesPrompt } from "../prompts/creatives";
 import { buildCampaignConfig } from "./budget";
 import { personaById, personas, publishers } from "./data";
-import { model } from "./llm";
+import { model, temperature } from "./llm";
 import { analysisSchema, creativesSchema, type Analysis, type CampaignPlan } from "./types";
 
 // Two LLM calls, everything else is code:
@@ -15,7 +15,7 @@ export async function generateCampaignPlan(advertiserInput: string): Promise<Cam
     model,
     schema: analysisSchema,
     prompt: analyzeAndMatchPrompt(advertiserInput, publishers, personas),
-    temperature: 0.2,
+    temperature: temperature(0.2),
   });
 
   const analysis = reconcileAnalysis(rawAnalysis);
@@ -34,7 +34,7 @@ export async function generateCampaignPlan(advertiserInput: string): Promise<Cam
     model,
     schema: creativesSchema,
     prompt: creativesPrompt(advertiserInput, analysis, selectedPersonas),
-    temperature: 0.8,
+    temperature: temperature(0.8),
   });
 
   // Drop any variant aimed at a persona the analysis didn't select.
