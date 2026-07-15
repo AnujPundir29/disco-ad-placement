@@ -17,3 +17,11 @@ export const exampleAdvertisers = [
   "Bedding. Linen. Actually-breathable stuff made in Portugal. Our customers are mostly people who got tired of the Brooklinen/Parachute aesthetic and want something a little more grown-up.",
   "idk just try it",
 ];
+
+// Zero-based indices that get an accent tag chip in the example picker —
+// the deliberately-tricky inputs worth showing off.
+export const exampleTags: Record<number, string> = {
+  4: "vague", // "We help people feel better."
+  6: "off-catalog", // B2B dental SaaS
+  14: "garbage", // "idk just try it"
+};

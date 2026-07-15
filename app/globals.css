@@ -1,26 +1,84 @@
 @import "tailwindcss";
 
+/* Design tokens — OKLCH, warm-paper light / cool-slate dark.
+   Light on :root, dark on [data-theme="dark"]; @theme inline below exposes
+   them as Tailwind utilities (bg-surface, text-ink-2, font-serif, …) that
+   re-resolve on theme flip. */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg: oklch(0.975 0.004 95);
+  --surface: oklch(1 0 0);
+  --surface-2: oklch(0.965 0.005 95);
+  --border: oklch(0.905 0.006 95);
+  --border-strong: oklch(0.82 0.008 95);
+  --ink: oklch(0.24 0.012 280);
+  --ink-2: oklch(0.47 0.012 280);
+  --ink-3: oklch(0.62 0.01 280);
+  --accent: oklch(0.53 0.19 285);
+  --accent-ink: oklch(0.42 0.17 285);
+  --accent-weak: oklch(0.95 0.035 285);
+  --warn: oklch(0.68 0.14 70);
+  --warn-weak: oklch(0.955 0.045 85);
+  --warn-ink: oklch(0.46 0.1 60);
+  --danger: oklch(0.55 0.19 25);
+  --danger-weak: oklch(0.95 0.04 25);
+  --ok: oklch(0.56 0.12 155);
+}
+
+[data-theme="dark"] {
+  --bg: oklch(0.175 0.008 280);
+  --surface: oklch(0.208 0.01 280);
+  --surface-2: oklch(0.238 0.012 280);
+  --border: oklch(0.3 0.012 280);
+  --border-strong: oklch(0.4 0.014 280);
+  --ink: oklch(0.95 0.006 280);
+  --ink-2: oklch(0.74 0.012 280);
+  --ink-3: oklch(0.58 0.012 280);
+  --accent: oklch(0.72 0.15 285);
+  --accent-ink: oklch(0.82 0.13 285);
+  --accent-weak: oklch(0.3 0.06 285);
+  --warn: oklch(0.8 0.13 75);
+  --warn-weak: oklch(0.32 0.055 75);
+  --warn-ink: oklch(0.86 0.1 80);
+  --danger: oklch(0.7 0.16 25);
+  --danger-weak: oklch(0.33 0.07 25);
+  --ok: oklch(0.72 0.12 155);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-accent-weak: var(--accent-weak);
+  --color-warn: var(--warn);
+  --color-warn-weak: var(--warn-weak);
+  --color-warn-ink: var(--warn-ink);
+  --color-danger: var(--danger);
+  --color-danger-weak: var(--danger-weak);
+  --color-ok: var(--ok);
+  --font-sans: var(--font-space-grotesk);
+  --font-serif: var(--font-newsreader);
+  --font-mono: var(--font-jetbrains-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@keyframes shimmer {
+  0% { background-position: -500px 0; }
+  100% { background-position: 500px 0; }
+}
+
+@keyframes pulsebar {
+  0%, 100% { opacity: 0.35; }
+  50% { opacity: 1; }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans), sans-serif;
 }
