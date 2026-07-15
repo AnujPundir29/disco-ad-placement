@@ -1,0 +1,248 @@
+{
+  "analysis": {
+    "businessProfile": {
+      "productSummary": "A low-cost, impulse-driven consumer product, likely a snack or functional beverage, marketed with a nonchalant, low-friction trial offer.",
+      "category": "functional_beverages",
+      "priceTier": "budget",
+      "estimatedAovUsd": 25,
+      "brandVoice": "playful"
+    },
+    "inputQuality": {
+      "rating": "vague",
+      "assumptions": [
+        "The product is a low-cost consumer good (CPG) with a low barrier to entry.",
+        "The phrase 'just try it' implies an impulse-buy nature rather than a high-consideration purchase.",
+        "The advertiser intends to use a casual, experimental brand voice to drive trial.",
+        "The product is likely a physical good compatible with retail delivery or subscription trial."
+      ],
+      "clarifyingQuestions": [
+        "What specific product or service are you selling?",
+        "What is the actual price point or average order value for a first-time customer?",
+        "Are you targeting a specific lifestyle category like fitness, pets, or beauty?",
+        "Is there a specific 'hook' or benefit beyond the low-friction trial?"
+      ]
+    },
+    "rankedPublishers": [
+      {
+        "id": "pub_001",
+        "fitScore": 92,
+        "reasons": [
+          "Lowest AOV in the catalog ($28) aligns with a budget-tier impulse product.",
+          "Notes specifically mention 'impulse-friendly' and 'high-frequency' traffic, perfect for a 'just try it' message."
+        ]
+      },
+      {
+        "id": "pub_020",
+        "fitScore": 85,
+        "reasons": [
+          "Matches the assumed functional beverage category.",
+          "Audience is 'indulgence-seeking' and 'health-curious', making them prime targets for a low-risk trial of a new drink."
+        ]
+      },
+      {
+        "id": "pub_018",
+        "fitScore": 74,
+        "reasons": [
+          "Explicitly mentions that a 'playful brand voice converts best', which matches the advertiser's nonchalant tone.",
+          "Low AOV ($35) supports a low-friction trial strategy."
+        ]
+      },
+      {
+        "id": "pub_013",
+        "fitScore": 62,
+        "reasons": [
+          "Gen Z and Millennial audience responds well to identity-driven, minimalist, and experimental brand tones.",
+          "AOV of $61 is manageable for a trial-focused campaign in the beauty/lifestyle space."
+        ]
+      }
+    ],
+    "excludedPublishers": [
+      {
+        "id": "pub_002",
+        "reason": "High AOV and fitness focus require more specific performance claims than a vague trial offer provides."
+      },
+      {
+        "id": "pub_003",
+        "reason": "Appointment-based wellness services are high-consideration and do not fit an impulse-buy 'just try it' model."
+      },
+      {
+        "id": "pub_004",
+        "reason": "Older affluent demographic responds to quality and craftsmanship messaging, not nonchalant or vague prompts."
+      },
+      {
+        "id": "pub_005",
+        "reason": "Conservative brand sensibility and the highest apparel AOV in the catalog are incompatible with this casual tone."
+      },
+      {
+        "id": "pub_006",
+        "reason": "Audience values specific fit-focused and inclusive messaging rather than generic trial offers."
+      },
+      {
+        "id": "pub_007",
+        "reason": "Subscription-heavy and premium positioning requires more trust-building than a 'just try it' message allows."
+      },
+      {
+        "id": "pub_008",
+        "reason": "Values-driven shoppers require ingredient transparency and sustainability claims which are absent here."
+      },
+      {
+        "id": "pub_009",
+        "reason": "Broad pet audience is better suited for established brands with clear utility rather than experimental trial messaging."
+      },
+      {
+        "id": "pub_010",
+        "reason": "Audience responds to social-good and gifting messaging, which requires more substance than the current input."
+      },
+      {
+        "id": "pub_011",
+        "reason": "High AOV and design-conscious urban buyers require specific aesthetic or functional value propositions."
+      },
+      {
+        "id": "pub_012",
+        "reason": "Audience is explicitly skeptical of unsubstantiated claims and requires science-forward messaging."
+      },
+      {
+        "id": "pub_014",
+        "reason": "Sustainability-motivated kitchen buyers require deep product education and have a very high AOV."
+      },
+      {
+        "id": "pub_015",
+        "reason": "Meal kits are high-commitment subscriptions that clash with a low-friction impulse-buy strategy."
+      },
+      {
+        "id": "pub_016",
+        "reason": "Professional women at this price point require specific claims about sustainability or utility."
+      },
+      {
+        "id": "pub_017",
+        "reason": "Tech-adjacent professionals expect comfort and sustainability details rather than a vague call to action."
+      },
+      {
+        "id": "pub_019",
+        "reason": "Personalization-motivated audience requires a high-friction quiz-based onboarding that contradicts 'just try it'."
+      }
+    ],
+    "selectedPersonas": [
+      {
+        "id": "persona_003",
+        "whyRelevant": "This persona values brand voice, novelty, and discovery over technical performance claims.",
+        "keyMessage": "Low stakes, high vibe—just give it a go."
+      },
+      {
+        "id": "persona_007",
+        "whyRelevant": "Urban millennials who value speed and frictionlessness will respond to a low-effort trial offer.",
+        "keyMessage": "The easiest decision you'll make today."
+      },
+      {
+        "id": "persona_008",
+        "whyRelevant": "If the price point is low, this persona will trial a product based on clear value and low risk.",
+        "keyMessage": "A small price for a big discovery."
+      }
+    ]
+  },
+  "creatives": {
+    "variants": [
+      {
+        "personaId": "persona_003",
+        "headline": "Low stakes, high vibe. Just give it a go.",
+        "body": "We are skipping the corporate pitch. This is a functional drink that looks as good as it tastes. No complex claims, just a playful addition to your daily routine. If you are looking for a new favorite that fits your aesthetic, give this a try. It is that simple.",
+        "rationale": "This copy uses a nonchalant, anti-corporate tone and focuses on the visual and lifestyle fit to appeal to the Gen Z aesthetic preference."
+      },
+      {
+        "personaId": "persona_007",
+        "headline": "The easiest decision you will make today.",
+        "body": "Skip the grocery run and the decision fatigue. This functional beverage is designed for speed and convenience. One simple order gets it to your door so you can keep moving. It is a low-cost, low-friction way to stay refreshed without any of the hassle. Just try it.",
+        "rationale": "The messaging emphasizes speed, low friction, and ease of purchase to cater to the convenience-first millennial mindset."
+      },
+      {
+        "personaId": "persona_008",
+        "headline": "A small price for a big discovery.",
+        "body": "Looking for a high-value find without the premium price tag? This functional beverage offers a smart, budget-friendly way to refresh your routine. It is a low-cost impulse buy that delivers real satisfaction. Check out why value-conscious shoppers are making the switch. Give it a try today.",
+        "rationale": "This variant highlights the low-cost and high-value nature of the product to appeal to shoppers who prioritize smart deals and reviews."
+      }
+    ]
+  },
+  "config": {
+    "objective": "awareness",
+    "bidStrategy": {
+      "type": "cpm",
+      "suggestedRangeUsd": [
+        10.8,
+        14.85
+      ],
+      "rationale": "Impulse-priced product under $40: buy impressions around the estimated $13.5 blended CPM and let placement volume drive discovery"
+    },
+    "budget": {
+      "suggestedMonthlyUsd": 4500,
+      "suggestedDailyUsd": 150,
+      "rationale": "$1500/publisher/month floor for statistically useful volume × 4 publishers × 0.75 budget-tier multiplier"
+    },
+    "publisherAllocations": [
+      {
+        "publisherId": "pub_001",
+        "publisherName": "Swiftcart",
+        "sharePct": 29,
+        "monthlyBudgetUsd": 1305,
+        "estCpmUsd": 12,
+        "projectedMonthlyImpressions": 108750,
+        "rationale": "92/100 fit score → 29% of budget"
+      },
+      {
+        "publisherId": "pub_020",
+        "publisherName": "Pop & Sip",
+        "sharePct": 27,
+        "monthlyBudgetUsd": 1215,
+        "estCpmUsd": 18,
+        "projectedMonthlyImpressions": 67500,
+        "rationale": "85/100 fit score → 27% of budget"
+      },
+      {
+        "publisherId": "pub_018",
+        "publisherName": "Tailcrate",
+        "sharePct": 24,
+        "monthlyBudgetUsd": 1080,
+        "estCpmUsd": 12,
+        "projectedMonthlyImpressions": 90000,
+        "rationale": "74/100 fit score → 24% of budget"
+      },
+      {
+        "publisherId": "pub_013",
+        "publisherName": "Velvetline",
+        "sharePct": 20,
+        "monthlyBudgetUsd": 900,
+        "estCpmUsd": 12,
+        "projectedMonthlyImpressions": 75000,
+        "rationale": "62/100 fit score → 20% of budget"
+      }
+    ],
+    "targeting": {
+      "personaIds": [
+        "persona_003",
+        "persona_007",
+        "persona_008"
+      ],
+      "geos": [
+        "nationwide"
+      ],
+      "interests": [
+        "beauty",
+        "fashion",
+        "functional_beverages",
+        "home_decor",
+        "small_batch",
+        "instant_delivery",
+        "meal_kits",
+        "subscription_services"
+      ]
+    },
+    "flightDays": 30,
+    "assumptions": [
+      "The product is a low-cost consumer good (CPG) with a low barrier to entry.",
+      "The phrase 'just try it' implies an impulse-buy nature rather than a high-consideration purchase.",
+      "The advertiser intends to use a casual, experimental brand voice to drive trial.",
+      "The product is likely a physical good compatible with retail delivery or subscription trial.",
+      "CPMs are heuristic estimates by audience income tier, not quoted rates",
+      "Estimated AOV of $25 inferred from the advertiser's description"
+    ]
+  }
+}

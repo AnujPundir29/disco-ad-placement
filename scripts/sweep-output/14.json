@@ -1,0 +1,275 @@
+{
+  "analysis": {
+    "businessProfile": {
+      "productSummary": "Premium, breathable linen bedding manufactured in Portugal, targeting sophisticated consumers seeking a mature alternative to trendy DTC brands.",
+      "category": "home_textiles",
+      "priceTier": "premium",
+      "estimatedAovUsd": 185,
+      "brandVoice": "sophisticated"
+    },
+    "inputQuality": {
+      "rating": "clear",
+      "assumptions": [
+        "Assumed target age range is 30-65 based on the 'grown-up' and 'post-Brooklinen' positioning.",
+        "Assumed price point is significantly higher than entry-level DTC bedding due to European manufacturing and linen material.",
+        "Assumed the 'breathable' claim is a primary functional benefit for temperature-sensitive sleepers."
+      ],
+      "clarifyingQuestions": []
+    },
+    "rankedPublishers": [
+      {
+        "id": "pub_011",
+        "fitScore": 98,
+        "reasons": [
+          "Direct category match with bedding and home textiles.",
+          "AOV of $164 is highly compatible with premium linen pricing.",
+          "Audience is described as design-conscious urban/suburban buyers, matching the 'grown-up' aesthetic target."
+        ]
+      },
+      {
+        "id": "pub_014",
+        "fitScore": 85,
+        "reasons": [
+          "High AOV of $198 aligns with premium home goods.",
+          "Audience is sustainability-motivated, which pairs well with European manufacturing and natural linen.",
+          "Strong alignment with 'new-home' life events which are primary triggers for bedding purchases."
+        ]
+      },
+      {
+        "id": "pub_005",
+        "fitScore": 82,
+        "reasons": [
+          "Highest AOV in the catalog ($128) for apparel, suggesting a customer base with high disposable income for home upgrades.",
+          "Conservative brand sensibility matches the advertiser's desire for a 'grown-up' aesthetic.",
+          "Audience age skew (50-70) represents the demographic that has moved past millennial-focused brands."
+        ]
+      },
+      {
+        "id": "pub_004",
+        "fitScore": 76,
+        "reasons": [
+          "Audience of affluent women (45-65) responds specifically to quality-focused messaging.",
+          "High AOV and low impulse behavior suggest a customer who researches and invests in long-term home goods."
+        ]
+      },
+      {
+        "id": "pub_016",
+        "fitScore": 68,
+        "reasons": [
+          "High AOV ($142) and professional female audience overlap with the target demographic.",
+          "Sustainability and quality claims are noted as high-resonance for this group."
+        ]
+      },
+      {
+        "id": "pub_017",
+        "fitScore": 62,
+        "reasons": [
+          "Tech-adjacent urban professionals often seek high-performance natural materials like breathable linen.",
+          "Comfort and sustainability messaging notes align with the product's core value props."
+        ]
+      }
+    ],
+    "excludedPublishers": [
+      {
+        "id": "pub_001",
+        "reason": "AOV of $28 is far too low for premium bedding, and the impulse-friendly convenience focus contradicts a high-consideration home purchase."
+      },
+      {
+        "id": "pub_002",
+        "reason": "Audience skews toward activewear and wellness subscriptions rather than high-end home decor."
+      },
+      {
+        "id": "pub_003",
+        "reason": "Focus is on appointment-based fitness and spa services rather than physical home products."
+      },
+      {
+        "id": "pub_006",
+        "reason": "Mid-tier income and apparel focus do not align with the premium positioning of imported linen bedding."
+      },
+      {
+        "id": "pub_007",
+        "reason": "Publisher is focused exclusively on pet health and food subscriptions."
+      },
+      {
+        "id": "pub_008",
+        "reason": "While high income, the audience is focused on organic groceries and pantry staples rather than home textiles."
+      },
+      {
+        "id": "pub_009",
+        "reason": "Broad pet-focused audience lacks the specific design-conscious intent required for this product."
+      },
+      {
+        "id": "pub_010",
+        "reason": "Low AOV and focus on basic apparel like socks and underwear do not match a luxury home textile buyer."
+      },
+      {
+        "id": "pub_012",
+        "reason": "Science-forward wellness audience is focused on low-AOV supplements rather than premium home goods."
+      },
+      {
+        "id": "pub_013",
+        "reason": "Gen Z and younger millennial audience is the exact demographic the advertiser is trying to move away from."
+      },
+      {
+        "id": "pub_015",
+        "reason": "Meal kit audience is nationwide and convenience-motivated, lacking the specific high-end design focus of this brand."
+      },
+      {
+        "id": "pub_018",
+        "reason": "Playful brand voice and low-AOV pet toys are a poor match for a sophisticated bedding brand."
+      },
+      {
+        "id": "pub_019",
+        "reason": "Focus is on personalized beauty and haircare with a much younger age skew."
+      },
+      {
+        "id": "pub_020",
+        "reason": "Beverage-focused audience with mid-range AOV does not demonstrate intent for premium home investments."
+      }
+    ],
+    "selectedPersonas": [
+      {
+        "id": "persona_005",
+        "whyRelevant": "This persona values quality and longevity over trends and is explicitly disinterested in 'trendy language' or 'influencer positioning'.",
+        "keyMessage": "Timeless Portuguese craftsmanship and superior linen quality that outlasts fleeting bedroom trends."
+      },
+      {
+        "id": "persona_001",
+        "whyRelevant": "The 'actually-breathable' claim is a major selling point for someone who treats sleep as a system to be optimized.",
+        "keyMessage": "Optimize your sleep environment with naturally breathable, temperature-regulating linen from Portugal."
+      },
+      {
+        "id": "persona_006",
+        "whyRelevant": "Linen is a sustainable fiber and European manufacturing implies a more transparent supply chain than mass-market competitors.",
+        "keyMessage": "Ethically made in Portugal: Sustainable, breathable linen for the conscious home."
+      },
+      {
+        "id": "persona_010",
+        "whyRelevant": "High-end bedding is a premier gift for weddings and housewarmings, especially when it has a 'grown-up' aesthetic.",
+        "keyMessage": "The sophisticated housewarming gift: Premium breathable linen for a more mature home."
+      }
+    ]
+  },
+  "creatives": {
+    "variants": [
+      {
+        "personaId": "persona_005",
+        "headline": "Heirloom Quality Linen Crafted by Portuguese Artisans",
+        "body": "Experience the enduring elegance of linen woven with traditional techniques. Designed for longevity rather than fleeting trends, our bedding offers a refined texture and superior breathability that improves with every wash. Invest in a bedroom staple built to last for decades.",
+        "rationale": "This copy emphasizes heritage and craftsmanship while avoiding trendy buzzwords to appeal to a customer who values longevity and understated quality."
+      },
+      {
+        "personaId": "persona_001",
+        "headline": "Optimize Your Sleep Recovery with Temperature Regulating Linen",
+        "body": "Enhance your sleep hygiene with high-performance natural fibers. Our Portuguese linen is naturally breathable and moisture-wicking, maintaining a stable thermal environment throughout the night. Achieve deeper rest by reducing heat-related disruptions with functional, breathable bedding.",
+        "rationale": "The messaging focuses on physiological outcomes and technical material performance to satisfy the optimizer's desire for science-backed sleep improvements."
+      },
+      {
+        "personaId": "persona_006",
+        "headline": "Ethically Manufactured Linen from a Transparent Portuguese Supply Chain",
+        "body": "Choose bedding that respects the planet and the people who make it. Our linen is woven in Portugal within a localized supply chain that prioritizes ethical labor and durable, natural materials. Invest in sustainable textiles designed to minimize environmental impact without compromise.",
+        "rationale": "By highlighting the specific supply chain and ethical labor in Portugal, this variant addresses the buyer's skepticism regarding vague environmental claims."
+      },
+      {
+        "personaId": "persona_010",
+        "headline": "An Elegant Housewarming Gift of Premium Portuguese Linen",
+        "body": "Give a gift that signals a new level of sophistication. Our breathable linen bedding sets arrive with the premium presentation required for weddings and housewarmings. It is the perfect choice for recipients who have outgrown trendy brands and appreciate a mature home aesthetic.",
+        "rationale": "This variant positions the product as a high-end gift for life events, focusing on premium presentation and the 'grown-up' nature of the brand."
+      }
+    ]
+  },
+  "config": {
+    "objective": "conversions",
+    "bidStrategy": {
+      "type": "target_cpa",
+      "suggestedRangeUsd": [
+        37,
+        64.75
+      ],
+      "rationale": "Considered purchase at ~$185 AOV: bid to a target CPA of 20-35% of order value so first-order economics stay profitable"
+    },
+    "budget": {
+      "suggestedMonthlyUsd": 9375,
+      "suggestedDailyUsd": 313,
+      "rationale": "$1500/publisher/month floor for statistically useful volume × 5 publishers × 1.25 premium-tier multiplier"
+    },
+    "publisherAllocations": [
+      {
+        "publisherId": "pub_011",
+        "publisherName": "Northbed",
+        "sharePct": 24,
+        "monthlyBudgetUsd": 2250,
+        "estCpmUsd": 25,
+        "projectedMonthlyImpressions": 90000,
+        "rationale": "98/100 fit score → 24% of budget"
+      },
+      {
+        "publisherId": "pub_014",
+        "publisherName": "Hearthstone Goods",
+        "sharePct": 21,
+        "monthlyBudgetUsd": 1969,
+        "estCpmUsd": 25,
+        "projectedMonthlyImpressions": 78760,
+        "rationale": "85/100 fit score → 21% of budget"
+      },
+      {
+        "publisherId": "pub_005",
+        "publisherName": "Linden Park",
+        "sharePct": 20,
+        "monthlyBudgetUsd": 1875,
+        "estCpmUsd": 25,
+        "projectedMonthlyImpressions": 75000,
+        "rationale": "82/100 fit score → 20% of budget"
+      },
+      {
+        "publisherId": "pub_004",
+        "publisherName": "Marlowe & Co.",
+        "sharePct": 19,
+        "monthlyBudgetUsd": 1781,
+        "estCpmUsd": 25,
+        "projectedMonthlyImpressions": 71240,
+        "rationale": "76/100 fit score → 19% of budget"
+      },
+      {
+        "publisherId": "pub_016",
+        "publisherName": "Stride & Stem",
+        "sharePct": 17,
+        "monthlyBudgetUsd": 1594,
+        "estCpmUsd": 25,
+        "projectedMonthlyImpressions": 63760,
+        "rationale": "68/100 fit score → 17% of budget"
+      }
+    ],
+    "targeting": {
+      "personaIds": [
+        "persona_005",
+        "persona_001",
+        "persona_006",
+        "persona_010"
+      ],
+      "geos": [
+        "US-Northeast",
+        "US-West",
+        "US-South"
+      ],
+      "interests": [
+        "classic_apparel",
+        "home_goods",
+        "travel",
+        "premium_grocery",
+        "wellness",
+        "fitness",
+        "supplements",
+        "clean_beauty"
+      ]
+    },
+    "flightDays": 30,
+    "assumptions": [
+      "Assumed target age range is 30-65 based on the 'grown-up' and 'post-Brooklinen' positioning.",
+      "Assumed price point is significantly higher than entry-level DTC bedding due to European manufacturing and linen material.",
+      "Assumed the 'breathable' claim is a primary functional benefit for temperature-sensitive sleepers.",
+      "CPMs are heuristic estimates by audience income tier, not quoted rates",
+      "Estimated AOV of $185 inferred from the advertiser's description"
+    ]
+  }
+}

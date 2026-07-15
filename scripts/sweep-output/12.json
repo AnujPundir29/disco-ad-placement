@@ -1,0 +1,269 @@
+{
+  "analysis": {
+    "businessProfile": {
+      "productSummary": "A three-month subscription box for new cat owners featuring toys, food samples, and educational guides.",
+      "category": "pet_supplies",
+      "priceTier": "mid",
+      "estimatedAovUsd": 45,
+      "brandVoice": "educational, supportive, and playful"
+    },
+    "inputQuality": {
+      "rating": "clear",
+      "assumptions": [
+        "The subscription is priced competitively for the mid-market, likely between $35 and $55 per month.",
+        "The primary target audience is first-time cat owners or those adopting a kitten.",
+        "The 'food samples' imply a discovery-based model where owners are looking for brands to stick with long-term."
+      ],
+      "clarifyingQuestions": []
+    },
+    "rankedPublishers": [
+      {
+        "id": "pub_007",
+        "fitScore": 95,
+        "reasons": [
+          "Direct category match with pet_supplies and subscription subcategories.",
+          "Audience is noted as health-conscious about pets, which aligns with the 'food samples' and educational 'what to expect' booklet.",
+          "High AOV ($64) suggests a willingness to spend on premium pet care."
+        ]
+      },
+      {
+        "id": "pub_009",
+        "fitScore": 92,
+        "reasons": [
+          "Largest pet audience in the catalog, providing the necessary scale for a niche 'new owner' product.",
+          "Broad nationwide demographics capture the wide range of people who might adopt a cat.",
+          "Repeat-purchase behavior noted in the audience is a strong indicator of subscription success."
+        ]
+      },
+      {
+        "id": "pub_018",
+        "fitScore": 88,
+        "reasons": [
+          "Direct match for 'toys' and 'subscription' subcategories.",
+          "While notes mention dogs, the millennial audience treating pets as family is the exact psychographic for a kitten starter box.",
+          "The 'fun, playful brand voice' mentioned for this publisher aligns with the advertiser's toy-focused offering."
+        ]
+      },
+      {
+        "id": "pub_015",
+        "fitScore": 68,
+        "reasons": [
+          "Strong overlap in 'subscription' behavior among family and couples households.",
+          "Convenience-motivated audience is likely to appreciate a 'starter kit' that removes the friction of new pet ownership."
+        ]
+      },
+      {
+        "id": "pub_008",
+        "fitScore": 62,
+        "reasons": [
+          "Values-driven shoppers who care about ingredients will respond well to curated food samples.",
+          "High subscription affinity among the audience makes the business model a natural fit."
+        ]
+      }
+    ],
+    "excludedPublishers": [
+      {
+        "id": "pub_001",
+        "reason": "The low AOV and impulse-driven convenience focus of Swiftcart is a poor match for a multi-month educational subscription."
+      },
+      {
+        "id": "pub_002",
+        "reason": "Audience is focused on fitness and activewear with no relevance to pet ownership or supplies."
+      },
+      {
+        "id": "pub_003",
+        "reason": "Wellness services and yoga bookings do not align with the physical product and life-stage needs of a new pet owner."
+      },
+      {
+        "id": "pub_004",
+        "reason": "The 45-65 female demographic focused on workwear is not the primary growth segment for new kitten ownership."
+      },
+      {
+        "id": "pub_005",
+        "reason": "Highest-AOV apparel for seniors is a demographic mismatch for the likely younger cohort of first-time cat owners."
+      },
+      {
+        "id": "pub_006",
+        "reason": "Focus on inclusive sizing and intimates provides no contextual or audience overlap with pet care."
+      },
+      {
+        "id": "pub_010",
+        "reason": "While gifting is a potential angle, the core audience for basics like socks and underwear is too broad and untargeted for this niche."
+      },
+      {
+        "id": "pub_011",
+        "reason": "Design-conscious home textile buyers are focused on aesthetics rather than the functional and educational needs of pet care."
+      },
+      {
+        "id": "pub_012",
+        "reason": "Science-forward human vitamins are too specialized to capture shoppers looking for pet-related discovery."
+      },
+      {
+        "id": "pub_013",
+        "reason": "Gen Z beauty and makeup focus is identity-driven for the individual, not for household pet management."
+      },
+      {
+        "id": "pub_014",
+        "reason": "High-AOV cookware for sustainability-motivated buyers is too far removed from the playful and sample-based nature of this box."
+      },
+      {
+        "id": "pub_016",
+        "reason": "Professional women's footwear focus does not overlap with the life event of adopting a new pet."
+      },
+      {
+        "id": "pub_017",
+        "reason": "Tech-adjacent urban professionals buying sustainable shoes are not a primary target for a kitten-specific subscription."
+      },
+      {
+        "id": "pub_019",
+        "reason": "Personalized haircare is a specific beauty niche that does not translate to the pet supply category."
+      },
+      {
+        "id": "pub_020",
+        "reason": "Functional beverages for gut health are a wellness niche that lacks any connection to the pet category."
+      }
+    ],
+    "selectedPersonas": [
+      {
+        "id": "persona_004",
+        "whyRelevant": "This is the core audience; they treat pets as family and are willing to pay for quality and health-conscious samples.",
+        "keyMessage": "Expertly curated essentials to help your new kitten thrive from day one."
+      },
+      {
+        "id": "persona_002",
+        "whyRelevant": "Busy parents value the convenience of a subscription that handles the research and shopping for a new household addition.",
+        "keyMessage": "The stress-free way to welcome your new cat home with everything they need."
+      },
+      {
+        "id": "persona_007",
+        "whyRelevant": "Urban millennials who default to subscriptions for ease of use and discovery of new brands.",
+        "keyMessage": "The ultimate kitten starter kit, delivered to your door so you can focus on the cuddles."
+      },
+      {
+        "id": "persona_010",
+        "whyRelevant": "New pet ownership is a major life event that friends and family often want to celebrate with a high-quality gift.",
+        "keyMessage": "The perfect 'Welcome Home' gift for the new cat parent in your life."
+      }
+    ]
+  },
+  "creatives": {
+    "variants": [
+      {
+        "personaId": "persona_004",
+        "headline": "Give Your New Kitten a Healthy Start with Expertly Curated Care",
+        "body": "Your kitten deserves the best. Our subscription box features high-quality food samples and toys designed for their specific developmental needs. With our educational guide, you will understand exactly how to help your newest family member thrive during these crucial first months.",
+        "rationale": "This copy emphasizes developmental health and quality curation to appeal to the persona's focus on pet well-being and ingredient transparency."
+      },
+      {
+        "personaId": "persona_002",
+        "headline": "The Stress-Free Way to Welcome Your New Cat Home",
+        "body": "Managing a household is hard enough. Let us handle the kitten prep. This all-in-one subscription delivers food samples, toys, and expert advice directly to your door. It is the trusted, time-saving solution that ensures your family is ready for your new pet from day one.",
+        "rationale": "The messaging focuses on household efficiency and time-saving convenience, which are primary drivers for a busy parent."
+      },
+      {
+        "personaId": "persona_007",
+        "headline": "Your Kitten Starter Kit Delivered in One Click",
+        "body": "Skip the store and spend more time with your new kitten. Our seamless subscription delivers toys and food samples right when you need them. It is the easiest way to manage your pet's first three months with zero friction and maximum convenience.",
+        "rationale": "This version highlights the frictionless, one-click nature of the subscription to appeal to a convenience-motivated urban professional."
+      },
+      {
+        "personaId": "persona_010",
+        "headline": "The Perfect Welcome Home Gift for New Cat Parents",
+        "body": "Celebrate a friend's new arrival with a curated gift set designed for the first three months of kittenhood. This premium box includes toys, food samples, and a helpful guide, making it an impressive and thoughtful way to help any new cat owner get started.",
+        "rationale": "The copy frames the subscription as a premium gift set, focusing on the celebratory aspect and impressive presentation for the recipient."
+      }
+    ]
+  },
+  "config": {
+    "objective": "conversions",
+    "bidStrategy": {
+      "type": "manual_cpc",
+      "suggestedRangeUsd": [
+        0.45,
+        0.9
+      ],
+      "rationale": "Mid-AOV product: pay per click at 1-2% of order value, a sustainable CPC if roughly 1 in 30 clicks converts"
+    },
+    "budget": {
+      "suggestedMonthlyUsd": 7500,
+      "suggestedDailyUsd": 250,
+      "rationale": "$1500/publisher/month floor for statistically useful volume × 5 publishers × 1 mid-tier multiplier"
+    },
+    "publisherAllocations": [
+      {
+        "publisherId": "pub_007",
+        "publisherName": "Pawline",
+        "sharePct": 23,
+        "monthlyBudgetUsd": 1725,
+        "estCpmUsd": 18,
+        "projectedMonthlyImpressions": 95833,
+        "rationale": "95/100 fit score → 23% of budget"
+      },
+      {
+        "publisherId": "pub_009",
+        "publisherName": "Ruffco",
+        "sharePct": 23,
+        "monthlyBudgetUsd": 1725,
+        "estCpmUsd": 12,
+        "projectedMonthlyImpressions": 143750,
+        "rationale": "92/100 fit score → 23% of budget"
+      },
+      {
+        "publisherId": "pub_018",
+        "publisherName": "Tailcrate",
+        "sharePct": 22,
+        "monthlyBudgetUsd": 1650,
+        "estCpmUsd": 12,
+        "projectedMonthlyImpressions": 137500,
+        "rationale": "88/100 fit score → 22% of budget"
+      },
+      {
+        "publisherId": "pub_015",
+        "publisherName": "Kitchenly",
+        "sharePct": 17,
+        "monthlyBudgetUsd": 1275,
+        "estCpmUsd": 18,
+        "projectedMonthlyImpressions": 70833,
+        "rationale": "68/100 fit score → 17% of budget"
+      },
+      {
+        "publisherId": "pub_008",
+        "publisherName": "Pantrygood",
+        "sharePct": 15,
+        "monthlyBudgetUsd": 1125,
+        "estCpmUsd": 25,
+        "projectedMonthlyImpressions": 45000,
+        "rationale": "62/100 fit score → 15% of budget"
+      }
+    ],
+    "targeting": {
+      "personaIds": [
+        "persona_004",
+        "persona_002",
+        "persona_007",
+        "persona_010"
+      ],
+      "geos": [
+        "nationwide"
+      ],
+      "interests": [
+        "pet_food",
+        "pet_supplies",
+        "pet_health",
+        "subscription_boxes",
+        "meal_kits",
+        "household",
+        "kids_products",
+        "convenience"
+      ]
+    },
+    "flightDays": 30,
+    "assumptions": [
+      "The subscription is priced competitively for the mid-market, likely between $35 and $55 per month.",
+      "The primary target audience is first-time cat owners or those adopting a kitten.",
+      "The 'food samples' imply a discovery-based model where owners are looking for brands to stick with long-term.",
+      "CPMs are heuristic estimates by audience income tier, not quoted rates",
+      "Estimated AOV of $45 inferred from the advertiser's description"
+    ]
+  }
+}

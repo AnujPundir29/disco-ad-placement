@@ -1,0 +1,291 @@
+{
+  "analysis": {
+    "businessProfile": {
+      "productSummary": "High-protein snack bars marketed on superior flavor and texture compared to traditional chalky alternatives.",
+      "category": "packaged_food",
+      "priceTier": "mid",
+      "estimatedAovUsd": 35,
+      "brandVoice": "playful"
+    },
+    "inputQuality": {
+      "rating": "vague",
+      "assumptions": [
+        "The product is sold in multi-bar packs or bundles to reach a $30+ AOV.",
+        "The brand operates primarily as a Direct-to-Consumer (DTC) or impulse-buy retail product.",
+        "The target audience is health-conscious but prioritizes sensory experience over clinical macros.",
+        "The product does not have niche dietary restrictions (e.g., keto, vegan) that would further narrow the audience."
+      ],
+      "clarifyingQuestions": [
+        "What is the specific price point per box or bundle?",
+        "Are there specific dietary certifications like Gluten-Free, Vegan, or Keto?",
+        "Is the primary sales channel your own website or a third-party delivery platform?"
+      ]
+    },
+    "rankedPublishers": [
+      {
+        "id": "pub_001",
+        "fitScore": 92,
+        "reasons": [
+          "High-frequency impulse purchasers match the snack category perfectly.",
+          "The 18-34 age skew aligns with the brand's irreverent 'not cardboard' messaging.",
+          "Late-night traffic spikes on Swiftcart suggest a high demand for convenient, tasty snacks."
+        ]
+      },
+      {
+        "id": "pub_020",
+        "fitScore": 88,
+        "reasons": [
+          "Strong audience overlap with 'health-curious but indulgence-seeking' shoppers.",
+          "Functional beverage buyers are the primary demographic for high-protein snacks.",
+          "The AOV of $42 is highly compatible with a protein bar bundle or subscription."
+        ]
+      },
+      {
+        "id": "pub_002",
+        "fitScore": 85,
+        "reasons": [
+          "Fitness-engaged shoppers on Movewell are the core consumer base for protein supplements.",
+          "Strong crossover with wellness and activewear categories ensures high intent.",
+          "The brand's playful voice fits the modern, wellness-focused aesthetic of this publisher."
+        ]
+      },
+      {
+        "id": "pub_003",
+        "fitScore": 82,
+        "reasons": [
+          "Users actively spending on fitness classes and personal training require post-workout nutrition.",
+          "High-income tier allows for premium-priced protein bars that prioritize taste.",
+          "The West/Northeast geo focus matches typical early-adopter markets for new food brands."
+        ]
+      },
+      {
+        "id": "pub_008",
+        "fitScore": 78,
+        "reasons": [
+          "Pantrygood's focus on natural and organic groceries fits the 'clean' profile of modern protein bars.",
+          "Values-driven shoppers respond well to transparent, no-nonsense brand claims.",
+          "Subscription-heavy model is ideal for recurring snack purchases."
+        ]
+      },
+      {
+        "id": "pub_012",
+        "fitScore": 70,
+        "reasons": [
+          "Audience is already purchasing supplements and vitamins, making protein bars a logical cross-sell.",
+          "The science-forward audience will appreciate a bar that solves the 'cardboard' texture problem through better formulation.",
+          "Mid-high income tier supports the likely price premium for better-tasting ingredients."
+        ]
+      },
+      {
+        "id": "pub_015",
+        "fitScore": 65,
+        "reasons": [
+          "Convenience-motivated food buyers are likely to add snacks to their weekly meal routines.",
+          "Large nationwide reach provides the scale needed for a mass-market snack product.",
+          "The $74 AOV suggests a household budget that can accommodate premium pantry additions."
+        ]
+      }
+    ],
+    "excludedPublishers": [
+      {
+        "id": "pub_004",
+        "reason": "The 45-65 age skew and workwear focus are less likely to respond to the irreverent, 'anti-cardboard' snack messaging."
+      },
+      {
+        "id": "pub_005",
+        "reason": "The conservative brand sensibility and very high AOV for apparel do not align with a playful, low-cost snack item."
+      },
+      {
+        "id": "pub_006",
+        "reason": "Focus on plus-size workwear and intimates lacks a clear fitness or grocery crossover for protein bars."
+      },
+      {
+        "id": "pub_007",
+        "reason": "This is a pet-specific publisher; human protein bars are irrelevant to pet food subscribers."
+      },
+      {
+        "id": "pub_009",
+        "reason": "The audience is shopping for pet supplies and pharmacy needs, not human nutrition."
+      },
+      {
+        "id": "pub_010",
+        "reason": "Audience intent is focused on basics like socks and underwear, with little signal for health food interest."
+      },
+      {
+        "id": "pub_011",
+        "reason": "Home textiles and bedding buyers have low immediate intent for purchasing perishable snacks."
+      },
+      {
+        "id": "pub_013",
+        "reason": "Beauty and makeup shoppers on Velvetline prioritize aesthetic identity over functional nutrition."
+      },
+      {
+        "id": "pub_014",
+        "reason": "Kitchenware buyers are focused on durable goods and home cooking rather than ready-to-eat snacks."
+      },
+      {
+        "id": "pub_016",
+        "reason": "Professional women shopping for sustainable shoes are a lower-intent audience for fitness snacks than gym-goers."
+      },
+      {
+        "id": "pub_017",
+        "reason": "While tech-adjacent, the primary intent is footwear and comfort, not dietary supplements."
+      },
+      {
+        "id": "pub_018",
+        "reason": "The audience is focused on dog toys and treats, which does not translate to human snack sales."
+      },
+      {
+        "id": "pub_019",
+        "reason": "Personalized haircare shoppers are looking for cosmetic solutions, not nutritional ones."
+      }
+    ],
+    "selectedPersonas": [
+      {
+        "id": "persona_009",
+        "whyRelevant": "They are the primary consumers of protein supplements and value performance without sacrificing lifestyle quality.",
+        "keyMessage": "The protein you need for recovery, with the flavor you actually want."
+      },
+      {
+        "id": "persona_007",
+        "whyRelevant": "Urban professionals who need quick, tasty fuel between meetings and value friction-less snacking.",
+        "keyMessage": "The ultimate zero-friction snack that finally tastes like real food."
+      },
+      {
+        "id": "persona_003",
+        "whyRelevant": "They respond to the brand's direct, irreverent voice and are likely to share a 'not cardboard' snack on social media.",
+        "keyMessage": "A protein bar that isn't a vibe-killer. Tastes good, looks good, feels good."
+      },
+      {
+        "id": "persona_001",
+        "whyRelevant": "They track their intake and need high-quality protein sources but are tired of overly processed, poor-tasting options.",
+        "keyMessage": "Clean macros meet culinary standards: the protein bar for people who love food."
+      }
+    ]
+  },
+  "creatives": {
+    "variants": [
+      {
+        "personaId": "persona_009",
+        "headline": "Stop punishing your taste buds for your PRs",
+        "body": "You hit the gym four times a week to see results, not to suffer through chalky snacks. Get the high-quality protein your recovery demands in a bar that actually tastes like food. It is high-performance fuel that does not require a water chaser to get down.",
+        "rationale": "It positions the product as a performance-supporting tool that removes the common trade-off between high protein intake and edible flavor."
+      },
+      {
+        "personaId": "persona_007",
+        "headline": "The easiest high-protein snack in your rotation",
+        "body": "Stop settling for mediocre meal replacements when you are on the move. Our bars offer a zero-friction way to hit your macros without the cardboard texture. Set up a subscription and keep your pantry stocked with real flavor that fits your schedule.",
+        "rationale": "Focuses on the frictionless nature of the product and the convenience of subscription-based purchasing for a fast-paced lifestyle."
+      },
+      {
+        "personaId": "persona_003",
+        "headline": "Finally, a protein bar that is actually a vibe",
+        "body": "Most protein bars look and taste like industrial waste. We made one that actually belongs in your feed. With playful packaging and flavor that is never chalky, it is the snack that looks as good as it tastes. No cardboard, just vibes.",
+        "rationale": "Leans into aesthetic-forward language and a playful brand voice to appeal to a visually-driven, identity-expressive consumer."
+      },
+      {
+        "personaId": "persona_001",
+        "headline": "Superior macros meet real culinary standards",
+        "body": "You track every input to optimize your output, so why settle for ultra-processed textures? These bars deliver the protein your system requires without the chalky mouthfeel of traditional supplements. It is evidence-backed nutrition for people who refuse to compromise on food quality.",
+        "rationale": "Appeals to the optimizer's need for high-quality inputs by framing the bar as a culinary-grade tool for their biological system."
+      }
+    ]
+  },
+  "config": {
+    "objective": "awareness",
+    "bidStrategy": {
+      "type": "cpm",
+      "suggestedRangeUsd": [
+        15.68,
+        21.56
+      ],
+      "rationale": "Impulse-priced product under $40: buy impressions around the estimated $19.6 blended CPM and let placement volume drive discovery"
+    },
+    "budget": {
+      "suggestedMonthlyUsd": 7500,
+      "suggestedDailyUsd": 250,
+      "rationale": "$1500/publisher/month floor for statistically useful volume × 5 publishers × 1 mid-tier multiplier"
+    },
+    "publisherAllocations": [
+      {
+        "publisherId": "pub_001",
+        "publisherName": "Swiftcart",
+        "sharePct": 22,
+        "monthlyBudgetUsd": 1650,
+        "estCpmUsd": 12,
+        "projectedMonthlyImpressions": 137500,
+        "rationale": "92/100 fit score → 22% of budget"
+      },
+      {
+        "publisherId": "pub_020",
+        "publisherName": "Pop & Sip",
+        "sharePct": 21,
+        "monthlyBudgetUsd": 1575,
+        "estCpmUsd": 18,
+        "projectedMonthlyImpressions": 87500,
+        "rationale": "88/100 fit score → 21% of budget"
+      },
+      {
+        "publisherId": "pub_002",
+        "publisherName": "Movewell",
+        "sharePct": 20,
+        "monthlyBudgetUsd": 1500,
+        "estCpmUsd": 18,
+        "projectedMonthlyImpressions": 83333,
+        "rationale": "85/100 fit score → 20% of budget"
+      },
+      {
+        "publisherId": "pub_003",
+        "publisherName": "Studiogrid",
+        "sharePct": 19,
+        "monthlyBudgetUsd": 1425,
+        "estCpmUsd": 25,
+        "projectedMonthlyImpressions": 57000,
+        "rationale": "82/100 fit score → 19% of budget"
+      },
+      {
+        "publisherId": "pub_008",
+        "publisherName": "Pantrygood",
+        "sharePct": 18,
+        "monthlyBudgetUsd": 1350,
+        "estCpmUsd": 25,
+        "projectedMonthlyImpressions": 54000,
+        "rationale": "78/100 fit score → 18% of budget"
+      }
+    ],
+    "targeting": {
+      "personaIds": [
+        "persona_009",
+        "persona_007",
+        "persona_003",
+        "persona_001"
+      ],
+      "geos": [
+        "US-East",
+        "US-Midwest",
+        "US-West",
+        "US-Northeast",
+        "US-South"
+      ],
+      "interests": [
+        "activewear",
+        "supplements",
+        "fitness_services",
+        "functional_beverages",
+        "recovery",
+        "instant_delivery",
+        "meal_kits",
+        "subscription_services"
+      ]
+    },
+    "flightDays": 30,
+    "assumptions": [
+      "The product is sold in multi-bar packs or bundles to reach a $30+ AOV.",
+      "The brand operates primarily as a Direct-to-Consumer (DTC) or impulse-buy retail product.",
+      "The target audience is health-conscious but prioritizes sensory experience over clinical macros.",
+      "The product does not have niche dietary restrictions (e.g., keto, vegan) that would further narrow the audience.",
+      "CPMs are heuristic estimates by audience income tier, not quoted rates",
+      "Estimated AOV of $35 inferred from the advertiser's description"
+    ]
+  }
+}

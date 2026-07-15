@@ -1,0 +1,259 @@
+{
+  "analysis": {
+    "businessProfile": {
+      "productSummary": "Handcrafted, custom-fit Italian leather handbags made to order in Florence.",
+      "category": "luxury_handbags",
+      "priceTier": "luxury",
+      "estimatedAovUsd": 1200,
+      "brandVoice": "Sophisticated, artisanal, and heritage-focused."
+    },
+    "inputQuality": {
+      "rating": "clear",
+      "assumptions": [
+        "The primary target audience is female, given the handbag focus.",
+        "Customers are willing to accept a 6-week lead time in exchange for artisanal quality.",
+        "The brand values craftsmanship and exclusivity over mass-market speed."
+      ],
+      "clarifyingQuestions": []
+    },
+    "rankedPublishers": [
+      {
+        "id": "pub_005",
+        "fitScore": 95,
+        "reasons": [
+          "Highest AOV apparel publisher in the catalog ($128), indicating a customer base comfortable with premium pricing.",
+          "Audience skew (50-70, 98% female) perfectly matches the 'Affluent Classic' persona most likely to buy $1,200 handbags.",
+          "Conservative brand sensibility aligns with the heritage and craftsmanship of Florentine leather."
+        ]
+      },
+      {
+        "id": "pub_004",
+        "fitScore": 90,
+        "reasons": [
+          "High-income audience of older women (45-65) who respond specifically to quality-focused messaging.",
+          "High AOV ($112) and low impulse behavior suggest a shopper who researches and invests in long-term pieces.",
+          "Subcategories like 'workwear' and 'classic' align with the utility of a high-end leather handbag."
+        ]
+      },
+      {
+        "id": "pub_016",
+        "fitScore": 84,
+        "reasons": [
+          "Audience consists of professional women with high income who already invest in high-AOV footwear ($142).",
+          "Strong category overlap between premium shoes and luxury handbags.",
+          "The focus on 'sustainable' and 'professional' suggests an appreciation for slow fashion and quality materials."
+        ]
+      },
+      {
+        "id": "pub_011",
+        "fitScore": 68,
+        "reasons": [
+          "Design-conscious urban/suburban buyers with high income and high AOV ($164).",
+          "Audience values aesthetics and high-quality textiles, which translates well to premium leather goods."
+        ]
+      },
+      {
+        "id": "pub_014",
+        "fitScore": 62,
+        "reasons": [
+          "High AOV ($198) and high-income tier indicate a customer base with significant disposable income.",
+          "Strong gifting focus aligns with the 'impressive' nature of a $1,200 custom Italian handbag."
+        ]
+      }
+    ],
+    "excludedPublishers": [
+      {
+        "id": "pub_001",
+        "reason": "The $28 AOV and impulse-driven convenience audience is a complete mismatch for a $1,200 made-to-order luxury item."
+      },
+      {
+        "id": "pub_002",
+        "reason": "Activewear and fitness-focused shoppers are looking for performance and utility rather than artisanal luxury accessories."
+      },
+      {
+        "id": "pub_003",
+        "reason": "While the income is high, the spending is focused on services and self-care rather than high-ticket physical goods."
+      },
+      {
+        "id": "pub_006",
+        "reason": "Mid-income tier and focus on inclusive basics/intimates does not align with the luxury price point or heritage positioning."
+      },
+      {
+        "id": "pub_007",
+        "reason": "Pet food subscription shoppers are focused on health and recurring needs, not one-off luxury fashion investments."
+      },
+      {
+        "id": "pub_008",
+        "reason": "Values-driven grocery shoppers prioritize sustainability and wellness over high-end fashion accessories."
+      },
+      {
+        "id": "pub_009",
+        "reason": "Broad nationwide mid-income audience is too general for a niche $1,200 handcrafted product."
+      },
+      {
+        "id": "pub_010",
+        "reason": "Audience focuses on low-AOV basics like socks and underwear, which is a significant price-point mismatch."
+      },
+      {
+        "id": "pub_012",
+        "reason": "Science-forward wellness audience is looking for health outcomes, not aesthetic luxury goods."
+      },
+      {
+        "id": "pub_013",
+        "reason": "Gen Z and younger millennial audience with mid-income levels cannot afford the $1,200 price point."
+      },
+      {
+        "id": "pub_015",
+        "reason": "Convenience-motivated meal kit users are unlikely to wait 6 weeks for a made-to-order luxury product."
+      },
+      {
+        "id": "pub_017",
+        "reason": "Tech-adjacent urban professional focus on comfort and machine-washable items clashes with delicate, handcrafted leather."
+      },
+      {
+        "id": "pub_018",
+        "reason": "Playful brand voice and low-AOV pet toy focus is tonally incompatible with a sophisticated luxury brand."
+      },
+      {
+        "id": "pub_019",
+        "reason": "Audience is too young and focused on low-AOV personalized beauty products."
+      },
+      {
+        "id": "pub_020",
+        "reason": "Functional beverage audience is focused on health and immediate consumption, not long-term luxury investments."
+      }
+    ],
+    "selectedPersonas": [
+      {
+        "id": "persona_005",
+        "whyRelevant": "This persona values craftsmanship, heritage, and longevity, and has the lowest price sensitivity in the catalog.",
+        "keyMessage": "Timeless Florentine craftsmanship that lasts a lifetime."
+      },
+      {
+        "id": "persona_010",
+        "whyRelevant": "A $1,200 custom-fit Italian bag is a premier 'impressive' gift for major life events or holidays.",
+        "keyMessage": "The ultimate gift: Handcrafted in Italy, tailored specifically for her."
+      },
+      {
+        "id": "persona_006",
+        "whyRelevant": "The made-to-order model and handcrafted nature appeal to those avoiding fast fashion and seeking transparent supply chains.",
+        "keyMessage": "Slow fashion at its finest: Handcrafted to order, reducing waste through artisanal excellence."
+      }
+    ]
+  },
+  "creatives": {
+    "variants": [
+      {
+        "personaId": "persona_005",
+        "headline": "Florentine Heritage: A Handbag Built for a Lifetime",
+        "body": "Invest in the enduring artistry of Florence. Our leather handbags are handcrafted by master artisans using traditional techniques passed down through generations. Each piece is custom-fitted to your specifications, ensuring a sophisticated staple that transcends seasonal trends.",
+        "rationale": "This copy emphasizes generational craftsmanship and longevity to appeal to the persona's preference for quality-focused, understated luxury."
+      },
+      {
+        "personaId": "persona_010",
+        "headline": "An Unforgettable Gift: Custom Italian Leather Handcrafted in Florence",
+        "body": "Make a lasting impression with a gift tailored specifically for her. Handcrafted in Italy, our custom-fit leather handbags arrive with the prestige of Florentine artistry. While artisanal excellence takes six weeks to ship, the result is a one-of-a-kind treasure she will cherish forever.",
+        "rationale": "The copy focuses on the impressive nature of the custom-fit purchase and its suitability as a unique, high-prestige gift."
+      },
+      {
+        "personaId": "persona_006",
+        "headline": "Ethical Artistry: Handcrafted in Florence to Eliminate Excess",
+        "body": "Reject mass production with our made-to-order model. By crafting each leather handbag specifically for you in our Florentine workshop, we reduce waste and uphold the principles of slow fashion. Experience a transparent supply chain rooted in traditional Italian craftsmanship.",
+        "rationale": "By highlighting the made-to-order process as a method to reduce waste, the copy speaks directly to the persona's interest in slow fashion and ethical supply chains."
+      }
+    ]
+  },
+  "config": {
+    "objective": "conversions",
+    "bidStrategy": {
+      "type": "target_cpa",
+      "suggestedRangeUsd": [
+        240,
+        420
+      ],
+      "rationale": "Considered purchase at ~$1200 AOV: bid to a target CPA of 20-35% of order value so first-order economics stay profitable"
+    },
+    "budget": {
+      "suggestedMonthlyUsd": 11250,
+      "suggestedDailyUsd": 375,
+      "rationale": "$1500/publisher/month floor for statistically useful volume × 5 publishers × 1.5 luxury-tier multiplier"
+    },
+    "publisherAllocations": [
+      {
+        "publisherId": "pub_005",
+        "publisherName": "Linden Park",
+        "sharePct": 24,
+        "monthlyBudgetUsd": 2700,
+        "estCpmUsd": 25,
+        "projectedMonthlyImpressions": 108000,
+        "rationale": "95/100 fit score → 24% of budget"
+      },
+      {
+        "publisherId": "pub_004",
+        "publisherName": "Marlowe & Co.",
+        "sharePct": 23,
+        "monthlyBudgetUsd": 2588,
+        "estCpmUsd": 25,
+        "projectedMonthlyImpressions": 103520,
+        "rationale": "90/100 fit score → 23% of budget"
+      },
+      {
+        "publisherId": "pub_016",
+        "publisherName": "Stride & Stem",
+        "sharePct": 21,
+        "monthlyBudgetUsd": 2363,
+        "estCpmUsd": 25,
+        "projectedMonthlyImpressions": 94520,
+        "rationale": "84/100 fit score → 21% of budget"
+      },
+      {
+        "publisherId": "pub_011",
+        "publisherName": "Northbed",
+        "sharePct": 17,
+        "monthlyBudgetUsd": 1913,
+        "estCpmUsd": 25,
+        "projectedMonthlyImpressions": 76520,
+        "rationale": "68/100 fit score → 17% of budget"
+      },
+      {
+        "publisherId": "pub_014",
+        "publisherName": "Hearthstone Goods",
+        "sharePct": 16,
+        "monthlyBudgetUsd": 1800,
+        "estCpmUsd": 25,
+        "projectedMonthlyImpressions": 72000,
+        "rationale": "62/100 fit score → 16% of budget"
+      }
+    ],
+    "targeting": {
+      "personaIds": [
+        "persona_005",
+        "persona_010",
+        "persona_006"
+      ],
+      "geos": [
+        "US-Northeast",
+        "US-South",
+        "US-West"
+      ],
+      "interests": [
+        "classic_apparel",
+        "home_goods",
+        "travel",
+        "premium_grocery",
+        "apparel",
+        "beauty",
+        "gourmet_food",
+        "premium_basics"
+      ]
+    },
+    "flightDays": 30,
+    "assumptions": [
+      "The primary target audience is female, given the handbag focus.",
+      "Customers are willing to accept a 6-week lead time in exchange for artisanal quality.",
+      "The brand values craftsmanship and exclusivity over mass-market speed.",
+      "CPMs are heuristic estimates by audience income tier, not quoted rates",
+      "Estimated AOV of $1200 inferred from the advertiser's description"
+    ]
+  }
+}

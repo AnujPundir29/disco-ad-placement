@@ -1,0 +1,276 @@
+{
+  "analysis": {
+    "businessProfile": {
+      "productSummary": "Sells budget-friendly workout supplements like protein and pre-workout by offering the same formulations as premium brands at half the price.",
+      "category": "supplements",
+      "priceTier": "budget",
+      "estimatedAovUsd": 45,
+      "brandVoice": "Direct, functional, and value-oriented."
+    },
+    "inputQuality": {
+      "rating": "clear",
+      "assumptions": [
+        "Assumed an AOV of $45 based on typical market rates for multi-serving supplement tubs.",
+        "Assumed the 'same formulations' claim implies standard industry ingredients like whey protein isolate and creatine monohydrate."
+      ],
+      "clarifyingQuestions": []
+    },
+    "rankedPublishers": [
+      {
+        "id": "pub_002",
+        "fitScore": 88,
+        "reasons": [
+          "Audience consists of fitness-engaged shoppers who are the primary consumers of pre-workout and protein.",
+          "The 'activewear' subcategory has a high crossover with supplement users."
+        ]
+      },
+      {
+        "id": "pub_012",
+        "fitScore": 85,
+        "reasons": [
+          "Direct category match for supplements and vitamins.",
+          "The 'science-forward' audience will appreciate the 'same formulation' claim if backed by ingredient labels."
+        ]
+      },
+      {
+        "id": "pub_017",
+        "fitScore": 78,
+        "reasons": [
+          "Balanced gender split aligns with the universal appeal of workout supplements.",
+          "Audience of urban professionals often seeks efficient, high-performance fitness solutions."
+        ]
+      },
+      {
+        "id": "pub_001",
+        "fitScore": 74,
+        "reasons": [
+          "High-frequency purchasers are ideal for recurring supplement needs.",
+          "Mid-income tier aligns well with the advertiser's budget-friendly price point."
+        ]
+      },
+      {
+        "id": "pub_003",
+        "fitScore": 70,
+        "reasons": [
+          "Users are actively spending on personal training and fitness classes, indicating high intent for performance products.",
+          "Strong US-West and Northeast presence matches key fitness markets."
+        ]
+      },
+      {
+        "id": "pub_020",
+        "fitScore": 65,
+        "reasons": [
+          "Functional beverage audience has a high affinity for performance-enhancing powders and drinks.",
+          "Health-curious demographic is likely to trial new supplement brands that offer better value."
+        ]
+      },
+      {
+        "id": "pub_015",
+        "fitScore": 60,
+        "reasons": [
+          "Large nationwide audience of health-conscious households that value convenience and routine.",
+          "Mid-high income tier provides enough disposable income for consistent supplement stacks."
+        ]
+      }
+    ],
+    "excludedPublishers": [
+      {
+        "id": "pub_004",
+        "reason": "Audience of older affluent women (45-65) is not the primary demographic for high-intensity workout supplements like pre-workout."
+      },
+      {
+        "id": "pub_005",
+        "reason": "Highest-AOV apparel publisher with a conservative brand sensibility that clashes with a budget-disruptor supplement brand."
+      },
+      {
+        "id": "pub_006",
+        "reason": "Focus on plus-size workwear and intimates does not align with the performance-heavy messaging of workout supplements."
+      },
+      {
+        "id": "pub_007",
+        "reason": "Publisher is dedicated to pet health and supplies, offering no relevant audience for human fitness supplements."
+      },
+      {
+        "id": "pub_008",
+        "reason": "Values-driven organic shoppers often prioritize expensive certifications and 'clean' branding over the advertiser's price-first 'same formulation' pitch."
+      },
+      {
+        "id": "pub_009",
+        "reason": "Large-scale pet supply audience lacks the specific fitness-intent signal required for supplement conversion."
+      },
+      {
+        "id": "pub_010",
+        "reason": "Audience is focused on gifting and basic apparel, which does not overlap with the functional needs of athletes."
+      },
+      {
+        "id": "pub_011",
+        "reason": "Home and bedding shoppers are focused on domestic comfort rather than athletic performance and nutrition."
+      },
+      {
+        "id": "pub_013",
+        "reason": "Gen Z beauty audience prioritizes aesthetic-forward branding, which the advertiser explicitly rejects in favor of price competition."
+      },
+      {
+        "id": "pub_014",
+        "reason": "Kitchenware and cookware buyers are focused on home life and sustainability rather than gym-focused supplementation."
+      },
+      {
+        "id": "pub_016",
+        "reason": "Professional women's shoe audience is too niche and focused on workwear to be a primary target for creatine and protein."
+      },
+      {
+        "id": "pub_018",
+        "reason": "Audience is shopping for dog toys and treats, which is irrelevant to human workout nutrition."
+      },
+      {
+        "id": "pub_019",
+        "reason": "Personalized haircare audience is seeking beauty solutions, not athletic performance supplements."
+      }
+    ],
+    "selectedPersonas": [
+      {
+        "id": "persona_009",
+        "whyRelevant": "They are the core consumer of these products and often spend heavily on supplements, making them prime targets for a 'half the cost' value prop.",
+        "keyMessage": "Get the exact same performance results and formulations as the big brands for half the price."
+      },
+      {
+        "id": "persona_008",
+        "whyRelevant": "This persona actively looks for deals and comparison shops, making them highly responsive to the advertiser's price-competitive stance.",
+        "keyMessage": "Stop paying the 'marketing tax' on your protein; get the same quality for a fraction of the cost."
+      },
+      {
+        "id": "persona_001",
+        "whyRelevant": "As an optimizer, they care about ingredients and outcomes; if the formulation is identical, they will logically switch to the better value.",
+        "keyMessage": "Check the labels: identical formulations and clinical dosages without the premium markup."
+      },
+      {
+        "id": "persona_007",
+        "whyRelevant": "Urban millennials who use supplements as part of a fast-paced lifestyle will appreciate a no-nonsense, high-value recurring purchase.",
+        "keyMessage": "The essential workout stack you need, delivered for less by cutting out the fancy marketing."
+      }
+    ]
+  },
+  "creatives": {
+    "variants": [
+      {
+        "personaId": "persona_009",
+        "headline": "Pro-Grade Performance Formulations Without the Brand Markup",
+        "body": "Your training demands elite fuel. Get the exact same clinical formulations as the premium brands for half the cost. Whether it is pure creatine monohydrate or high-impact pre-workout, our supplements deliver the performance results you expect from the industry leaders.",
+        "rationale": "This copy focuses on performance outcomes and the equivalence of the formulations to the pro-level brands this persona usually identifies with."
+      },
+      {
+        "personaId": "persona_008",
+        "headline": "Stop Paying the Marketing Tax on Your Protein",
+        "body": "Why pay double for a fancy label? We offer the same high-quality protein and supplements as the leading brands for half the price. Get the exact same ingredients and clear value without the expensive branding. Compare our prices and save on every tub.",
+        "rationale": "It uses the marketing tax concept to highlight a clear value proposition and comparison-shopping appeal."
+      },
+      {
+        "personaId": "persona_001",
+        "headline": "Identical Formulations and Clinical Dosages for Less",
+        "body": "Optimize your system with transparency. Our supplements feature the exact same clinical dosages and ingredient profiles as premium brands. Check the labels and see for yourself: we provide the evidence-backed formulations your body requires without the unnecessary price markup.",
+        "rationale": "This variant appeals to the optimizer's need for data, ingredient transparency, and clinical evidence over brand hype."
+      },
+      {
+        "personaId": "persona_007",
+        "headline": "Your Essential Supplement Stack Delivered for Less",
+        "body": "Get the high-quality protein and pre-workout you need without the friction. We cut out the fancy marketing to deliver the same formulations as the big brands directly to you at half the cost. Simple, effective, and priced to keep your fitness routine effortless.",
+        "rationale": "The messaging emphasizes the essential nature of the product and the lack of friction in the purchase process."
+      }
+    ]
+  },
+  "config": {
+    "objective": "conversions",
+    "bidStrategy": {
+      "type": "manual_cpc",
+      "suggestedRangeUsd": [
+        0.45,
+        0.9
+      ],
+      "rationale": "Mid-AOV product: pay per click at 1-2% of order value, a sustainable CPC if roughly 1 in 30 clicks converts"
+    },
+    "budget": {
+      "suggestedMonthlyUsd": 5625,
+      "suggestedDailyUsd": 188,
+      "rationale": "$1500/publisher/month floor for statistically useful volume × 5 publishers × 0.75 budget-tier multiplier"
+    },
+    "publisherAllocations": [
+      {
+        "publisherId": "pub_002",
+        "publisherName": "Movewell",
+        "sharePct": 22,
+        "monthlyBudgetUsd": 1238,
+        "estCpmUsd": 18,
+        "projectedMonthlyImpressions": 68778,
+        "rationale": "88/100 fit score → 22% of budget"
+      },
+      {
+        "publisherId": "pub_012",
+        "publisherName": "Daily Form",
+        "sharePct": 22,
+        "monthlyBudgetUsd": 1238,
+        "estCpmUsd": 18,
+        "projectedMonthlyImpressions": 68778,
+        "rationale": "85/100 fit score → 22% of budget"
+      },
+      {
+        "publisherId": "pub_017",
+        "publisherName": "Cloudfoot",
+        "sharePct": 20,
+        "monthlyBudgetUsd": 1125,
+        "estCpmUsd": 18,
+        "projectedMonthlyImpressions": 62500,
+        "rationale": "78/100 fit score → 20% of budget"
+      },
+      {
+        "publisherId": "pub_001",
+        "publisherName": "Swiftcart",
+        "sharePct": 19,
+        "monthlyBudgetUsd": 1069,
+        "estCpmUsd": 12,
+        "projectedMonthlyImpressions": 89083,
+        "rationale": "74/100 fit score → 19% of budget"
+      },
+      {
+        "publisherId": "pub_003",
+        "publisherName": "Studiogrid",
+        "sharePct": 18,
+        "monthlyBudgetUsd": 1013,
+        "estCpmUsd": 25,
+        "projectedMonthlyImpressions": 40520,
+        "rationale": "70/100 fit score → 18% of budget"
+      }
+    ],
+    "targeting": {
+      "personaIds": [
+        "persona_009",
+        "persona_008",
+        "persona_001",
+        "persona_007"
+      ],
+      "geos": [
+        "US-West",
+        "US-South",
+        "US-Northeast",
+        "US-East",
+        "US-Midwest"
+      ],
+      "interests": [
+        "activewear",
+        "supplements",
+        "fitness_services",
+        "functional_beverages",
+        "recovery",
+        "apparel",
+        "household",
+        "groceries"
+      ]
+    },
+    "flightDays": 30,
+    "assumptions": [
+      "Assumed an AOV of $45 based on typical market rates for multi-serving supplement tubs.",
+      "Assumed the 'same formulations' claim implies standard industry ingredients like whey protein isolate and creatine monohydrate.",
+      "CPMs are heuristic estimates by audience income tier, not quoted rates",
+      "Estimated AOV of $45 inferred from the advertiser's description"
+    ]
+  }
+}
