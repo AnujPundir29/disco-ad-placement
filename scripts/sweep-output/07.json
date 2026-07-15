@@ -1,0 +1,108 @@
+{
+  "analysis": {
+    "businessProfile": {
+      "productSummary": "B2B SaaS that automates patient recall workflows for dental practices.",
+      "category": "B2B SaaS",
+      "priceTier": "premium",
+      "estimatedAovUsd": 150,
+      "brandVoice": "clinical"
+    },
+    "inputQuality": {
+      "rating": "off_catalog",
+      "assumptions": [
+        "The advertiser is looking to target dental practice owners, dentists, or office managers.",
+        "The product is a B2B software subscription with no direct consumer-facing retail application."
+      ],
+      "clarifyingQuestions": [
+        "Are you looking to target dental professionals in their capacity as business owners, or are you looking for consumer-facing channels?",
+        "Since our network is focused on consumer retail and lifestyle brands, would you be open to B2B-specific networks like LinkedIn, dental trade associations, or professional directories?"
+      ]
+    },
+    "rankedPublishers": [],
+    "excludedPublishers": [
+      {
+        "id": "pub_001",
+        "reason": "This is an instant delivery grocery and convenience service, which does not reach B2B dental practice decision-makers."
+      },
+      {
+        "id": "pub_002",
+        "reason": "This is an activewear apparel brand targeting fitness-engaged consumers, not B2B dental software buyers."
+      },
+      {
+        "id": "pub_003",
+        "reason": "This is a wellness and fitness booking service targeting consumers looking for self-care, not professional dental software."
+      },
+      {
+        "id": "pub_004",
+        "reason": "This is a women's workwear and casual apparel brand targeting older affluent consumers, not B2B dental practices."
+      },
+      {
+        "id": "pub_005",
+        "reason": "This is a high-AOV classic women's apparel brand, which is entirely irrelevant to B2B dental workflow automation."
+      },
+      {
+        "id": "pub_006",
+        "reason": "This is an inclusive plus-size women's apparel brand, which does not align with B2B dental software procurement."
+      },
+      {
+        "id": "pub_007",
+        "reason": "This is a pet food and supplies subscription service targeting pet owners, not dental business owners."
+      },
+      {
+        "id": "pub_008",
+        "reason": "This is an organic grocery subscription service targeting health-conscious consumers, not professional dental SaaS buyers."
+      },
+      {
+        "id": "pub_009",
+        "reason": "This is a large-scale pet supply and pharmacy retailer, which has no audience overlap with dental practice decision-makers."
+      },
+      {
+        "id": "pub_010",
+        "reason": "This is a basics and gifting apparel brand, which does not reach professional B2B software buyers."
+      },
+      {
+        "id": "pub_011",
+        "reason": "This is a premium home bedding and textiles brand, which is a consumer-facing store with no B2B dental utility."
+      },
+      {
+        "id": "pub_012",
+        "reason": "This is a science-forward women's vitamin and supplement brand, which does not target dental practice workflows."
+      },
+      {
+        "id": "pub_013",
+        "reason": "This is a DTC beauty and skincare brand targeting Gen Z and millennial consumers, not professional dental practices."
+      },
+      {
+        "id": "pub_014",
+        "reason": "This is a premium non-toxic cookware and kitchen brand, which does not reach B2B dental software buyers."
+      },
+      {
+        "id": "pub_015",
+        "reason": "This is a consumer meal kit subscription service, which is completely unrelated to dental patient recall automation."
+      },
+      {
+        "id": "pub_016",
+        "reason": "This is a professional women's shoe brand, which targets individual consumers rather than dental practice procurement."
+      },
+      {
+        "id": "pub_017",
+        "reason": "This is a sustainable shoe and activewear brand targeting tech-adjacent professionals, not B2B dental software buyers."
+      },
+      {
+        "id": "pub_018",
+        "reason": "This is a playful dog toy and treat subscription service, which does not reach dental practice decision-makers."
+      },
+      {
+        "id": "pub_019",
+        "reason": "This is a personalized DTC haircare brand, which has no relevance to B2B dental practice software."
+      },
+      {
+        "id": "pub_020",
+        "reason": "This is a functional beverage brand targeting health-curious consumers, which does not align with B2B dental software."
+      }
+    ],
+    "selectedPersonas": []
+  },
+  "creatives": null,
+  "config": null
+}

@@ -37,7 +37,10 @@ async function main() {
   mkdirSync(outDir, { recursive: true });
 
   let failures = 0;
-  for (const i of indices) {
+  for (const [n, i] of indices.entries()) {
+    // ponytail: fixed pause keeps us under the free-tier requests/minute cap;
+    // switch to real 429-aware backoff if this script ever runs on paid tiers
+    if (n > 0) await new Promise((r) => setTimeout(r, 20_000));
     const input = exampleAdvertisers[i];
     const label = `#${String(i + 1).padStart(2, "0")}`;
     process.stdout.write(`${label} "${input.slice(0, 50)}"… `);

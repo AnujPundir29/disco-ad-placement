@@ -1,0 +1,212 @@
+{
+  "analysis": {
+    "businessProfile": {
+      "productSummary": "High-end technical outerwear and ski shells designed for professional ski patrollers and serious backcountry skiers.",
+      "category": "activewear",
+      "priceTier": "luxury",
+      "estimatedAovUsd": 700,
+      "brandVoice": "serious, technical, and performance-driven"
+    },
+    "inputQuality": {
+      "rating": "clear",
+      "assumptions": [],
+      "clarifyingQuestions": []
+    },
+    "rankedPublishers": [
+      {
+        "id": "pub_017",
+        "fitScore": 85,
+        "reasons": [
+          "High concentration of tech-adjacent urban professionals in US-West and US-Northeast who have the disposable income for $650+ outerwear and a high propensity for outdoor sports like skiing.",
+          "Balanced gender split (52% female, 47% male) aligns well with backcountry skiing demographics.",
+          "Audience values high-quality, sustainable, and functional apparel."
+        ]
+      },
+      {
+        "id": "pub_002",
+        "fitScore": 60,
+        "reasons": [
+          "Audience is highly fitness-engaged and actively purchases activewear.",
+          "Strong presence in US-West, a key geographic region for backcountry skiing.",
+          "While heavily female-skewing (82%), it represents a highly relevant segment of affluent women looking for high-performance athletic apparel."
+        ]
+      }
+    ],
+    "excludedPublishers": [
+      {
+        "id": "pub_001",
+        "reason": "Extremely low average order value ($28) and convenience focus do not align with a $650+ luxury technical outerwear product."
+      },
+      {
+        "id": "pub_003",
+        "reason": "Focuses on local wellness and fitness class bookings rather than premium physical apparel retail."
+      },
+      {
+        "id": "pub_004",
+        "reason": "Audience consists of older women seeking casual and workwear apparel, not high-performance backcountry ski gear."
+      },
+      {
+        "id": "pub_005",
+        "reason": "Conservative brand sensibility and focus on classic workwear/casual apparel do not match the technical, rugged nature of backcountry ski shells."
+      },
+      {
+        "id": "pub_006",
+        "reason": "Focuses on inclusive everyday workwear and intimates with a mid-tier price point, lacking the high-income demographic needed for $650+ outerwear."
+      },
+      {
+        "id": "pub_007",
+        "reason": "Pet food and supplies subscription service with no relevance to high-end ski apparel."
+      },
+      {
+        "id": "pub_008",
+        "reason": "Organic grocery subscription service whose audience is focused on nutrition and wellness rather than high-end outdoor sports gear."
+      },
+      {
+        "id": "pub_009",
+        "reason": "Broad demographic pet supply retailer with low relevance to luxury technical ski outerwear."
+      },
+      {
+        "id": "pub_010",
+        "reason": "Focuses on low-AOV basics like socks and underwear, which does not align with a $650+ luxury price point."
+      },
+      {
+        "id": "pub_011",
+        "reason": "Home textiles and bedding retailer with no connection to outdoor activewear or technical ski gear."
+      },
+      {
+        "id": "pub_012",
+        "reason": "DTC vitamin and supplement subscription service with a low AOV and no relevance to technical outerwear."
+      },
+      {
+        "id": "pub_013",
+        "reason": "Beauty and skincare retailer catering to Gen Z and younger millennials with a mid-tier budget, mismatching the luxury price point."
+      },
+      {
+        "id": "pub_014",
+        "reason": "Premium cookware and kitchenware retailer with no crossover into outdoor performance apparel."
+      },
+      {
+        "id": "pub_015",
+        "reason": "Mass-market meal kit subscription service with no relevance to high-end backcountry skiing gear."
+      },
+      {
+        "id": "pub_016",
+        "reason": "Focuses on women's professional shoes and sustainable fashion rather than technical, unisex outdoor performance gear."
+      },
+      {
+        "id": "pub_018",
+        "reason": "Playful pet toy and treat subscription service that is completely irrelevant to serious backcountry skiers."
+      },
+      {
+        "id": "pub_019",
+        "reason": "Personalized haircare service with no connection to high-end technical outerwear."
+      },
+      {
+        "id": "pub_020",
+        "reason": "Functional beverage brand focused on gut health and soda alternatives, which does not align with luxury ski apparel."
+      }
+    ],
+    "selectedPersonas": [
+      {
+        "id": "persona_009",
+        "whyRelevant": "They prioritize high-performance gear, value technical fabrics, and are willing to pay a premium for apparel that actually performs under extreme conditions.",
+        "keyMessage": "Patrol-tested, professional-grade technical outerwear engineered to survive the harshest backcountry conditions."
+      },
+      {
+        "id": "persona_005",
+        "whyRelevant": "They have high disposable income, low price sensitivity, and value long-lasting craftsmanship and heritage over fast-fashion trends.",
+        "keyMessage": "An investment in ultimate durability and timeless, uncompromising protection on the mountain."
+      },
+      {
+        "id": "persona_001",
+        "whyRelevant": "They treat outdoor activities as a serious pursuit, value evidence-backed performance claims, and are willing to pay a premium for safety and optimization.",
+        "keyMessage": "Science-backed, professional-grade protection designed to optimize your safety and performance in extreme alpine environments."
+      }
+    ]
+  },
+  "creatives": {
+    "variants": [
+      {
+        "personaId": "persona_009",
+        "headline": "Engineered for the Backcountry: Patrol-Tested Technical Shells",
+        "body": "Built for elite performance. Our professional-grade technical shells are trusted by ski patrollers to withstand the harshest alpine environments. Featuring high-performance technical fabric designed for maximum mobility and complete storm protection during intense backcountry climbs.",
+        "rationale": "This copy directly appeals to the fitness enthusiast by highlighting athletic performance, mobility, technical fabrics, and the endorsement of professional ski patrollers."
+      },
+      {
+        "personaId": "persona_005",
+        "headline": "An Investment in Mountain Protection: The Professional Ski Shell",
+        "body": "Crafted for ultimate durability and performance, our technical shells are built to endure season after season. Trusted by professional ski patrollers, this outerwear offers understated design and uncompromising protection on the mountain. A timeless piece engineered to last.",
+        "rationale": "This copy lands with the affluent classic by focusing on craftsmanship, longevity, understated aesthetics, and lasting value as a premium investment."
+      },
+      {
+        "personaId": "persona_001",
+        "headline": "Optimize Alpine Performance: Technically Engineered Ski Shells",
+        "body": "Protect your body in extreme alpine conditions. Engineered with advanced technical fabrics, our shells are trusted by professional ski patrollers for reliable thermal and environmental regulation. Designed to optimize your safety and physical output during demanding backcountry ascents.",
+        "rationale": "This copy addresses the wellness optimizer by framing the outerwear as a tool for physical optimization, thermal regulation, and systematic safety in extreme conditions."
+      }
+    ]
+  },
+  "config": {
+    "objective": "conversions",
+    "bidStrategy": {
+      "type": "target_cpa",
+      "suggestedRangeUsd": [
+        140,
+        245
+      ],
+      "rationale": "Considered purchase at ~$700 AOV: bid to a target CPA of 20-35% of order value so first-order economics stay profitable"
+    },
+    "budget": {
+      "suggestedMonthlyUsd": 4500,
+      "suggestedDailyUsd": 150,
+      "rationale": "$1500/publisher/month floor for statistically useful volume × 2 publishers × 1.5 luxury-tier multiplier"
+    },
+    "publisherAllocations": [
+      {
+        "publisherId": "pub_017",
+        "publisherName": "Cloudfoot",
+        "sharePct": 59,
+        "monthlyBudgetUsd": 2655,
+        "estCpmUsd": 18,
+        "projectedMonthlyImpressions": 147500,
+        "rationale": "85/100 fit score → 59% of budget"
+      },
+      {
+        "publisherId": "pub_002",
+        "publisherName": "Movewell",
+        "sharePct": 41,
+        "monthlyBudgetUsd": 1845,
+        "estCpmUsd": 18,
+        "projectedMonthlyImpressions": 102500,
+        "rationale": "60/100 fit score → 41% of budget"
+      }
+    ],
+    "targeting": {
+      "personaIds": [
+        "persona_009",
+        "persona_005",
+        "persona_001"
+      ],
+      "geos": [
+        "US-West",
+        "US-Northeast",
+        "US-South"
+      ],
+      "interests": [
+        "activewear",
+        "supplements",
+        "fitness_services",
+        "functional_beverages",
+        "recovery",
+        "classic_apparel",
+        "home_goods",
+        "travel"
+      ]
+    },
+    "flightDays": 30,
+    "assumptions": [
+      "CPMs are heuristic estimates by audience income tier, not quoted rates",
+      "Estimated AOV of $700 inferred from the advertiser's description"
+    ]
+  }
+}

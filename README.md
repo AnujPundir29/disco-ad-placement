@@ -5,7 +5,7 @@ publishers** (with reasons, and reasons for every exclusion), **3–5 ad creativ
 tuned to a specific shopper persona, and a **draft campaign config** — budget split, bid
 strategy, targeting — with every assumption surfaced.
 
-**Live demo:** _(URL after deploy)_ · Try the dropdown examples, especially #5 (vague), #7 (B2B
+**Live demo:** https://disco-ad-placement.vercel.app · Try the dropdown examples, especially #5 (vague), #7 (B2B
 mismatch), and #15 (garbage) — messy input is handled, not ignored.
 
 ## Run it

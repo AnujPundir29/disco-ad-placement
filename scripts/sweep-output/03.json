@@ -1,0 +1,266 @@
+{
+  "analysis": {
+    "businessProfile": {
+      "productSummary": "A premium non-alcoholic sparkling beverage infused with adaptogens, targeting health-conscious consumers looking for a functional cocktail alternative.",
+      "category": "functional_beverages",
+      "priceTier": "premium",
+      "estimatedAovUsd": 40,
+      "brandVoice": "sophisticated, wellness-oriented, and social"
+    },
+    "inputQuality": {
+      "rating": "clear",
+      "assumptions": [],
+      "clarifyingQuestions": []
+    },
+    "rankedPublishers": [
+      {
+        "id": "pub_020",
+        "fitScore": 98,
+        "reasons": [
+          "Direct category match for functional beverages and soda alternatives.",
+          "Audience is explicitly described as health-curious but indulgence-seeking, which perfectly fits a functional cocktail alternative.",
+          "Strong overlap with wellness and premium grocery demographics."
+        ]
+      },
+      {
+        "id": "pub_008",
+        "fitScore": 92,
+        "reasons": [
+          "High-AOV organic and natural grocery audience.",
+          "Shoppers are values-driven and highly responsive to clean-ingredient and wellness claims, matching the adaptogen profile."
+        ]
+      },
+      {
+        "id": "pub_001",
+        "fitScore": 85,
+        "reasons": [
+          "Instant delivery platform with an active alcohol subcategory, making it a prime spot to capture shoppers looking for alternatives.",
+          "Late-night traffic spike and impulse-friendly nature align with social, immediate-consumption beverage purchases."
+        ]
+      },
+      {
+        "id": "pub_012",
+        "fitScore": 75,
+        "reasons": [
+          "DTC wellness and supplement focus aligns well with functional adaptogenic ingredients.",
+          "Audience is highly health-conscious and actively invests in wellness routines."
+        ]
+      },
+      {
+        "id": "pub_003",
+        "fitScore": 70,
+        "reasons": [
+          "High-income audience actively spending on self-care and wellness services.",
+          "Strong geographic alignment with urban wellness hubs in the US-West and US-Northeast."
+        ]
+      },
+      {
+        "id": "pub_002",
+        "fitScore": 65,
+        "reasons": [
+          "Fitness-engaged shoppers with a documented strong crossover into wellness and beauty products."
+        ]
+      }
+    ],
+    "excludedPublishers": [
+      {
+        "id": "pub_004",
+        "reason": "Audience skews older (45-65) and is focused on workwear and casual apparel rather than trendy functional beverages."
+      },
+      {
+        "id": "pub_005",
+        "reason": "Target demographic is older (50-70) with a conservative brand sensibility, making them a poor fit for modern adaptogenic drinks."
+      },
+      {
+        "id": "pub_006",
+        "reason": "Focuses exclusively on plus-size apparel and intimates, offering no category or audience alignment with functional beverages."
+      },
+      {
+        "id": "pub_007",
+        "reason": "A subscription service for pet food and supplies, which is completely unrelated to human beverage products."
+      },
+      {
+        "id": "pub_009",
+        "reason": "A high-volume pet retailer with no relevance to human wellness or functional beverage categories."
+      },
+      {
+        "id": "pub_010",
+        "reason": "Focuses on basic apparel like socks and underwear, which lacks any crossover with consumable wellness products."
+      },
+      {
+        "id": "pub_011",
+        "reason": "A premium bedding and bath textile retailer, which does not align with a consumable beverage product."
+      },
+      {
+        "id": "pub_013",
+        "reason": "A beauty and skincare DTC platform targeting Gen Z makeup buyers, which is too far removed from functional food and beverage categories."
+      },
+      {
+        "id": "pub_014",
+        "reason": "Focuses on high-AOV cookware and kitchen goods, targeting home setup rather than consumable wellness drinks."
+      },
+      {
+        "id": "pub_015",
+        "reason": "A meal kit subscription service focused on family dinners, which is a poor fit for single-serve functional beverages."
+      },
+      {
+        "id": "pub_016",
+        "reason": "A professional women's sustainable footwear brand with no logical crossover with adaptogenic drinks."
+      },
+      {
+        "id": "pub_017",
+        "reason": "An apparel and shoe brand that, while sustainable, lacks direct alignment with consumable wellness or beverage categories."
+      },
+      {
+        "id": "pub_018",
+        "reason": "A pet toy and treat subscription box, entirely unrelated to human functional beverages."
+      },
+      {
+        "id": "pub_019",
+        "reason": "A personalized haircare DTC brand with a specialized audience that does not align with functional beverage consumption."
+      }
+    ],
+    "selectedPersonas": [
+      {
+        "id": "persona_001",
+        "whyRelevant": "This persona actively seeks out functional ingredients like adaptogens to optimize well-being and avoids the negative health impacts of alcohol and ultra-processed ingredients.",
+        "keyMessage": "Elevate your evening ritual with clean, adaptogen-infused sparkling botanicals that support your body without the hangover."
+      },
+      {
+        "id": "persona_003",
+        "whyRelevant": "Highly receptive to trendy, aesthetic-forward functional beverages and non-alcoholic social alternatives that fit a curated lifestyle.",
+        "keyMessage": "The chic, delicious cocktail alternative that looks as good as it makes you feel."
+      },
+      {
+        "id": "persona_009",
+        "whyRelevant": "Prioritizes physical performance and recovery, making a zero-hangover, functional beverage highly appealing for social occasions.",
+        "keyMessage": "Socialize without sacrificing your morning workout: zero alcohol, active adaptogens, pure recovery."
+      },
+      {
+        "id": "persona_007",
+        "whyRelevant": "Urban, mid-to-high income professionals who value convenience and are likely to purchase premium non-alcoholic options via instant delivery for social gatherings.",
+        "keyMessage": "Premium functional cocktails delivered to your door in minutes—no prep, no hangover."
+      }
+    ]
+  },
+  "creatives": {
+    "variants": [
+      {
+        "personaId": "persona_001",
+        "headline": "Clean botanicals for your evening ritual.",
+        "body": "Optimize your downtime. Our sparkling botanical beverage is infused with active adaptogens that support stress recovery and cognitive clarity, with zero synthetic additives. Elevate your evening ritual without disrupting your sleep architecture or next-day performance.",
+        "rationale": "This copy appeals to the Wellness Optimizer by focusing on active adaptogens, sleep architecture, and zero synthetic additives to support a highly optimized lifestyle."
+      },
+      {
+        "personaId": "persona_003",
+        "headline": "The new look of social hour.",
+        "body": "Meet the gorgeous, adaptogen-infused sparkling drink made for slow sipping and high vibes. Beautifully canned, naturally delicious, and completely alcohol-free. It is the sophisticated social ritual your bar cart has been missing.",
+        "rationale": "This copy targets the Gen Z Aesthete by emphasizing visual appeal, beautiful packaging, and a playful, high-vibe social narrative."
+      },
+      {
+        "personaId": "persona_009",
+        "headline": "Socialize tonight. Crush your workout tomorrow.",
+        "body": "Do not let a night out derail your training block. Our sparkling drink features active adaptogens to support recovery while staying completely alcohol-free. Keep your social habits aligned with your fitness goals and wake up ready to perform.",
+        "rationale": "This copy appeals to the Fitness Enthusiast by positioning the product as a recovery-friendly alternative that preserves their training progress and morning performance."
+      },
+      {
+        "personaId": "persona_007",
+        "headline": "Premium adaptogen drinks, delivered to your door.",
+        "body": "Skip the complex mixology and the next-day hangover. Get premium, ready-to-drink adaptogen sparkling cocktails delivered directly to your doorstep. Subscribe today to set your social calendar on autopilot with effortless, instant delivery.",
+        "rationale": "This copy targets the Convenience-First Millennial by highlighting zero-prep ease, rapid doorstep delivery, and a seamless subscription model."
+      }
+    ]
+  },
+  "config": {
+    "objective": "conversions",
+    "bidStrategy": {
+      "type": "manual_cpc",
+      "suggestedRangeUsd": [
+        0.4,
+        0.8
+      ],
+      "rationale": "Mid-AOV product: pay per click at 1-2% of order value, a sustainable CPC if roughly 1 in 30 clicks converts"
+    },
+    "budget": {
+      "suggestedMonthlyUsd": 9375,
+      "suggestedDailyUsd": 313,
+      "rationale": "$1500/publisher/month floor for statistically useful volume × 5 publishers × 1.25 premium-tier multiplier"
+    },
+    "publisherAllocations": [
+      {
+        "publisherId": "pub_020",
+        "publisherName": "Pop & Sip",
+        "sharePct": 23,
+        "monthlyBudgetUsd": 2156,
+        "estCpmUsd": 18,
+        "projectedMonthlyImpressions": 119778,
+        "rationale": "98/100 fit score → 23% of budget"
+      },
+      {
+        "publisherId": "pub_008",
+        "publisherName": "Pantrygood",
+        "sharePct": 22,
+        "monthlyBudgetUsd": 2063,
+        "estCpmUsd": 25,
+        "projectedMonthlyImpressions": 82520,
+        "rationale": "92/100 fit score → 22% of budget"
+      },
+      {
+        "publisherId": "pub_001",
+        "publisherName": "Swiftcart",
+        "sharePct": 20,
+        "monthlyBudgetUsd": 1875,
+        "estCpmUsd": 12,
+        "projectedMonthlyImpressions": 156250,
+        "rationale": "85/100 fit score → 20% of budget"
+      },
+      {
+        "publisherId": "pub_012",
+        "publisherName": "Daily Form",
+        "sharePct": 18,
+        "monthlyBudgetUsd": 1688,
+        "estCpmUsd": 18,
+        "projectedMonthlyImpressions": 93778,
+        "rationale": "75/100 fit score → 18% of budget"
+      },
+      {
+        "publisherId": "pub_003",
+        "publisherName": "Studiogrid",
+        "sharePct": 17,
+        "monthlyBudgetUsd": 1594,
+        "estCpmUsd": 25,
+        "projectedMonthlyImpressions": 63760,
+        "rationale": "70/100 fit score → 17% of budget"
+      }
+    ],
+    "targeting": {
+      "personaIds": [
+        "persona_001",
+        "persona_003",
+        "persona_009",
+        "persona_007"
+      ],
+      "geos": [
+        "US-West",
+        "US-Northeast",
+        "US-East",
+        "US-Midwest"
+      ],
+      "interests": [
+        "wellness",
+        "fitness",
+        "supplements",
+        "clean_beauty",
+        "organic_grocery",
+        "beauty",
+        "fashion",
+        "functional_beverages"
+      ]
+    },
+    "flightDays": 30,
+    "assumptions": [
+      "CPMs are heuristic estimates by audience income tier, not quoted rates",
+      "Estimated AOV of $40 inferred from the advertiser's description"
+    ]
+  }
+}

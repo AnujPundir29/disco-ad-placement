@@ -1,0 +1,241 @@
+{
+  "analysis": {
+    "businessProfile": {
+      "productSummary": "Premium, vet-formulated subscription dog food designed to support joint health and longevity in senior dogs.",
+      "category": "pet_food",
+      "priceTier": "premium",
+      "estimatedAovUsd": 75,
+      "brandVoice": "clinical"
+    },
+    "inputQuality": {
+      "rating": "clear",
+      "assumptions": [
+        "Assumed an average order value of $75 USD based on typical premium pet food subscription market rates."
+      ],
+      "clarifyingQuestions": []
+    },
+    "rankedPublishers": [
+      {
+        "id": "pub_007",
+        "fitScore": 98,
+        "reasons": [
+          "Direct category match with pet food and pet supplies subcategories.",
+          "Subscription-heavy audience notes align perfectly with the advertiser's subscription-based model.",
+          "Audience is explicitly noted as health-conscious about pets and highly responsive to premium positioning."
+        ]
+      },
+      {
+        "id": "pub_009",
+        "fitScore": 92,
+        "reasons": [
+          "Largest pet audience in the catalog, offering massive reach for pet owners.",
+          "Includes a pet pharmacy subcategory, which strongly aligns with joint health, longevity, and vet-formulated messaging.",
+          "Average order value of $73 is highly compatible with the estimated premium product price point."
+        ]
+      },
+      {
+        "id": "pub_018",
+        "fitScore": 72,
+        "reasons": [
+          "Dedicated pet audience that treats dogs as family members, making them highly receptive to premium care products.",
+          "Subscription-based model matches the publisher's subscription subcategory.",
+          "Though the publisher's voice is playful and AOV is lower ($35), the high concentration of dog owners makes it a valuable channel."
+        ]
+      },
+      {
+        "id": "pub_008",
+        "fitScore": 60,
+        "reasons": [
+          "High-income, health-conscious subscription shoppers who value clean ingredients and wellness claims.",
+          "Strong crossover potential for premium, grain-free, and organic-adjacent products.",
+          "Average order value of $86 aligns well with premium pet food pricing."
+        ]
+      }
+    ],
+    "excludedPublishers": [
+      {
+        "id": "pub_001",
+        "reason": "This instant delivery service has a low average order value and targets young consumers looking for impulse buys rather than premium pet subscriptions."
+      },
+      {
+        "id": "pub_002",
+        "reason": "This publisher focuses exclusively on activewear apparel and lacks any relevant audience crossover for pet health products."
+      },
+      {
+        "id": "pub_003",
+        "reason": "This is an appointment-based booking platform for fitness and spa services, which does not support physical pet product sales."
+      },
+      {
+        "id": "pub_004",
+        "reason": "This platform specializes in women's workwear and casual apparel, making it an indirect and inefficient channel for pet food."
+      },
+      {
+        "id": "pub_005",
+        "reason": "This high-AOV apparel publisher targets conservative fashion shoppers and has no category alignment with pet care."
+      },
+      {
+        "id": "pub_006",
+        "reason": "This is an inclusive-sizing apparel brand with no audience data or subcategories related to pet nutrition."
+      },
+      {
+        "id": "pub_010",
+        "reason": "This publisher focuses on basics, socks, and seasonal gifting apparel, which is completely unrelated to senior dog health."
+      },
+      {
+        "id": "pub_011",
+        "reason": "This is a premium home textiles and bedding retailer with no logical connection to pet food or veterinary products."
+      },
+      {
+        "id": "pub_012",
+        "reason": "This platform sells human vitamins and supplements, and its science-forward audience is not looking for pet-specific nutrition here."
+      },
+      {
+        "id": "pub_013",
+        "reason": "This beauty and skincare publisher targets Gen Z and young millennials focused on personal aesthetics rather than senior pet care."
+      },
+      {
+        "id": "pub_014",
+        "reason": "This kitchenware and cookware brand targets home cooks and is entirely unrelated to subscription-based dog food."
+      },
+      {
+        "id": "pub_015",
+        "reason": "This meal kit service is designed for human households and does not offer pet food options or target pet-specific health needs."
+      },
+      {
+        "id": "pub_016",
+        "reason": "This sustainable shoe retailer targets professional women and has no relevance to the pet food market."
+      },
+      {
+        "id": "pub_017",
+        "reason": "This activewear and shoe brand targets urban professionals with comfort messaging, offering no alignment with senior dog health."
+      },
+      {
+        "id": "pub_019",
+        "reason": "This personalized haircare platform uses quiz-based onboarding for human beauty, making it completely irrelevant for pet food."
+      },
+      {
+        "id": "pub_020",
+        "reason": "This functional beverage brand targets health-curious humans seeking soda alternatives, not premium pet nutrition."
+      }
+    ],
+    "selectedPersonas": [
+      {
+        "id": "persona_004",
+        "whyRelevant": "This persona explicitly treats pets as family, reads ingredient labels, and is willing to pay a premium for vet-recommended health solutions.",
+        "keyMessage": "Give your senior dog the gift of pain-free play with our premium, vet-formulated joint health recipe."
+      },
+      {
+        "id": "persona_001",
+        "whyRelevant": "They are obsessed with science-backed optimization, ingredient transparency, and longevity, and will naturally extend this high-standard care to their aging pet.",
+        "keyMessage": "Scientifically optimized nutrition to extend your dog's active years and support joint longevity."
+      },
+      {
+        "id": "persona_005",
+        "whyRelevant": "This affluent older demographic values longevity, premium quality, and trusted heritage, matching the premium, vet-formulated nature of the product.",
+        "keyMessage": "Invest in your loyal companion's golden years with uncompromising, vet-formulated nutrition."
+      }
+    ]
+  },
+  "creatives": {
+    "variants": [
+      {
+        "personaId": "persona_004",
+        "headline": "Love them longer with vet-formulated joint support",
+        "body": "Your senior dog is family. Help them stay active with our premium, grain-free recipe. Vet-formulated with transparent, high-quality ingredients to support joint health and longevity, delivered monthly by subscription. Because they deserve the absolute best in their golden years.",
+        "rationale": "This copy combines an emotional, family-focused connection with the transparent, vet-formulated credentials that pet parents trust."
+      },
+      {
+        "personaId": "persona_001",
+        "headline": "Scientifically optimized joint nutrition for your senior dog",
+        "body": "Extend your dog's active years with our vet-formulated, grain-free senior recipe. Specifically engineered for joint longevity and mobility, our premium subscription delivers precise, clean nutrition to optimize your dog's physical health and support structural recovery.",
+        "rationale": "It utilizes outcome-focused, scientific terminology like 'engineered' and 'structural recovery' to appeal to the wellness optimizer's systematic approach to health."
+      },
+      {
+        "personaId": "persona_005",
+        "headline": "Uncompromising joint nutrition for your loyal companion",
+        "body": "Honor your dog's lifetime of loyalty with our premium, vet-formulated senior recipe. Crafted for joint health and longevity, this grain-free, subscription-based nutrition provides the reliable, high-quality support your companion deserves in their golden years.",
+        "rationale": "The copy adopts an understated, respectful tone focusing on 'loyalty' and 'craftsmanship' to align with the affluent buyer's appreciation for classic quality."
+      }
+    ]
+  },
+  "config": {
+    "objective": "conversions",
+    "bidStrategy": {
+      "type": "manual_cpc",
+      "suggestedRangeUsd": [
+        0.75,
+        1.5
+      ],
+      "rationale": "Mid-AOV product: pay per click at 1-2% of order value, a sustainable CPC if roughly 1 in 30 clicks converts"
+    },
+    "budget": {
+      "suggestedMonthlyUsd": 7500,
+      "suggestedDailyUsd": 250,
+      "rationale": "$1500/publisher/month floor for statistically useful volume × 4 publishers × 1.25 premium-tier multiplier"
+    },
+    "publisherAllocations": [
+      {
+        "publisherId": "pub_007",
+        "publisherName": "Pawline",
+        "sharePct": 30,
+        "monthlyBudgetUsd": 2250,
+        "estCpmUsd": 18,
+        "projectedMonthlyImpressions": 125000,
+        "rationale": "98/100 fit score → 30% of budget"
+      },
+      {
+        "publisherId": "pub_009",
+        "publisherName": "Ruffco",
+        "sharePct": 29,
+        "monthlyBudgetUsd": 2175,
+        "estCpmUsd": 12,
+        "projectedMonthlyImpressions": 181250,
+        "rationale": "92/100 fit score → 29% of budget"
+      },
+      {
+        "publisherId": "pub_018",
+        "publisherName": "Tailcrate",
+        "sharePct": 22,
+        "monthlyBudgetUsd": 1650,
+        "estCpmUsd": 12,
+        "projectedMonthlyImpressions": 137500,
+        "rationale": "72/100 fit score → 22% of budget"
+      },
+      {
+        "publisherId": "pub_008",
+        "publisherName": "Pantrygood",
+        "sharePct": 19,
+        "monthlyBudgetUsd": 1425,
+        "estCpmUsd": 25,
+        "projectedMonthlyImpressions": 57000,
+        "rationale": "60/100 fit score → 19% of budget"
+      }
+    ],
+    "targeting": {
+      "personaIds": [
+        "persona_004",
+        "persona_001",
+        "persona_005"
+      ],
+      "geos": [
+        "nationwide"
+      ],
+      "interests": [
+        "pet_food",
+        "pet_supplies",
+        "pet_health",
+        "subscription_boxes",
+        "wellness",
+        "fitness",
+        "supplements",
+        "clean_beauty"
+      ]
+    },
+    "flightDays": 30,
+    "assumptions": [
+      "Assumed an average order value of $75 USD based on typical premium pet food subscription market rates.",
+      "CPMs are heuristic estimates by audience income tier, not quoted rates",
+      "Estimated AOV of $75 inferred from the advertiser's description"
+    ]
+  }
+}

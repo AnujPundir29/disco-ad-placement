@@ -1,0 +1,253 @@
+{
+  "analysis": {
+    "businessProfile": {
+      "productSummary": "A premium women's activewear brand crafting high-performance apparel from recycled ocean plastic.",
+      "category": "activewear",
+      "priceTier": "premium",
+      "estimatedAovUsd": 95,
+      "brandVoice": "inspiring, conscious, and performance-driven"
+    },
+    "inputQuality": {
+      "rating": "clear",
+      "assumptions": [],
+      "clarifyingQuestions": []
+    },
+    "rankedPublishers": [
+      {
+        "id": "pub_002",
+        "fitScore": 95,
+        "reasons": [
+          "Direct category match with activewear and women's apparel subcategories.",
+          "Highly aligned target audience with an 82% female demographic and a 25-44 age skew.",
+          "The publisher's notes highlight fitness-engaged shoppers with strong crossovers in wellness, matching the brand's core customer profile."
+        ]
+      },
+      {
+        "id": "pub_016",
+        "fitScore": 90,
+        "reasons": [
+          "Strong subcategory match for women's sustainable apparel.",
+          "High average order value ($142) aligns perfectly with the premium price tier of the brand.",
+          "Notes explicitly state that sustainability claims resonate deeply with their 94% female professional audience."
+        ]
+      },
+      {
+        "id": "pub_003",
+        "fitScore": 85,
+        "reasons": [
+          "Subcategories like fitness classes and yoga represent direct use-cases for activewear.",
+          "High-income audience skew matches the premium pricing tier.",
+          "Audience is actively spending on self-care and fitness, making them highly receptive to premium activewear."
+        ]
+      },
+      {
+        "id": "pub_017",
+        "fitScore": 80,
+        "reasons": [
+          "Direct subcategory match for activewear and sustainable apparel.",
+          "High average order value ($118) matches the premium positioning.",
+          "Audience responds strongly to comfort and sustainability messaging, which aligns with recycled ocean plastic construction."
+        ]
+      },
+      {
+        "id": "pub_008",
+        "fitScore": 75,
+        "reasons": [
+          "High-income, values-driven audience with a strong female skew (71%).",
+          "Notes indicate high responsiveness to sustainability and wellness claims, offering excellent cross-sell potential for eco-friendly activewear."
+        ]
+      }
+    ],
+    "excludedPublishers": [
+      {
+        "id": "pub_001",
+        "reason": "Focuses on instant convenience and grocery delivery with a low average order value ($28) that does not align with premium apparel."
+      },
+      {
+        "id": "pub_004",
+        "reason": "Targets older women (45-65) looking for workwear and casual clothing rather than activewear."
+      },
+      {
+        "id": "pub_005",
+        "reason": "Focuses on conservative, classic workwear for older women (50-70) which does not align with sustainable activewear."
+      },
+      {
+        "id": "pub_006",
+        "reason": "Focuses on plus-size workwear and intimates rather than activewear."
+      },
+      {
+        "id": "pub_007",
+        "reason": "Focuses on pet food and supplies, which has no relevance to women's activewear."
+      },
+      {
+        "id": "pub_009",
+        "reason": "Large pet audience with no relevance to women's sustainable apparel."
+      },
+      {
+        "id": "pub_010",
+        "reason": "Focuses on low-AOV basic socks and underwear rather than premium activewear."
+      },
+      {
+        "id": "pub_011",
+        "reason": "Focuses on home textiles and bedding, which is outside the apparel and fitness category."
+      },
+      {
+        "id": "pub_012",
+        "reason": "Focuses on science-forward vitamins and supplements rather than sustainable fashion."
+      },
+      {
+        "id": "pub_013",
+        "reason": "Focuses on beauty and skincare for a younger Gen Z demographic with a lower average order value."
+      },
+      {
+        "id": "pub_014",
+        "reason": "Focuses on premium kitchenware and cookware, which does not match activewear."
+      },
+      {
+        "id": "pub_015",
+        "reason": "Focuses on meal kits and groceries for families, which is irrelevant to women's activewear."
+      },
+      {
+        "id": "pub_018",
+        "reason": "Focuses on pet toys and treats, which is irrelevant to women's activewear."
+      },
+      {
+        "id": "pub_019",
+        "reason": "Focuses on personalized haircare, which does not align with activewear."
+      },
+      {
+        "id": "pub_020",
+        "reason": "Focuses on functional beverages and gut health rather than apparel."
+      }
+    ],
+    "selectedPersonas": [
+      {
+        "id": "persona_001",
+        "whyRelevant": "She actively works out, buys premium fitness products, and avoids fast fashion, making sustainable premium activewear a perfect fit.",
+        "keyMessage": "High-performance activewear engineered for your body and designed to respect the planet."
+      },
+      {
+        "id": "persona_006",
+        "whyRelevant": "The product is made from recycled ocean plastic, directly appealing to her demand for genuine, traceable sustainability in apparel.",
+        "keyMessage": "Premium activewear crafted entirely from recycled ocean plastic, turning waste into high-performance wear."
+      },
+      {
+        "id": "persona_009",
+        "whyRelevant": "She is a high-frequency activewear buyer who prioritizes performance and quality, matching the premium positioning.",
+        "keyMessage": "Uncompromising performance meets premium comfort in activewear designed to move with you."
+      }
+    ]
+  },
+  "creatives": {
+    "variants": [
+      {
+        "personaId": "persona_001",
+        "headline": "Engineered for Recovery and Peak Physical Performance",
+        "body": "Optimize your daily movement with activewear engineered to support your body's natural biomechanics. Crafted from recycled ocean plastic, this high-performance fabric offers precise compression and breathability to help you sustain energy and recover efficiently from every workout.",
+        "rationale": "This copy focuses on physical optimization, body mechanics, and biological recovery to appeal to her systems-based approach to wellness."
+      },
+      {
+        "personaId": "persona_006",
+        "headline": "Premium Activewear Crafted Entirely From Recycled Ocean Plastic",
+        "body": "Turn ocean waste into your new favorite workout gear. Our premium activewear is made directly from diverted ocean plastics, offering a transparently sourced, high-durability alternative to traditional synthetic fabrics without compromising on conscious quality or construction.",
+        "rationale": "It highlights the specific, transparent source material of recycled ocean plastic and frames the product as a direct alternative to synthetic fast fashion."
+      },
+      {
+        "personaId": "persona_009",
+        "headline": "Technical Activewear Built for High-Intensity Performance",
+        "body": "Push your limits in gear that holds up. Made from premium, high-strength recycled ocean fibers, this activewear delivers unmatched shape retention, moisture-wicking, and four-way stretch. Engineered specifically for athletes who train hard multiple days a week.",
+        "rationale": "This copy emphasizes high-performance technical fabric features like shape retention and moisture-wicking, appealing directly to her active, athlete-centric lifestyle."
+      }
+    ]
+  },
+  "config": {
+    "objective": "conversions",
+    "bidStrategy": {
+      "type": "manual_cpc",
+      "suggestedRangeUsd": [
+        0.95,
+        1.9
+      ],
+      "rationale": "Mid-AOV product: pay per click at 1-2% of order value, a sustainable CPC if roughly 1 in 30 clicks converts"
+    },
+    "budget": {
+      "suggestedMonthlyUsd": 9375,
+      "suggestedDailyUsd": 313,
+      "rationale": "$1500/publisher/month floor for statistically useful volume × 5 publishers × 1.25 premium-tier multiplier"
+    },
+    "publisherAllocations": [
+      {
+        "publisherId": "pub_002",
+        "publisherName": "Movewell",
+        "sharePct": 22,
+        "monthlyBudgetUsd": 2063,
+        "estCpmUsd": 18,
+        "projectedMonthlyImpressions": 114611,
+        "rationale": "95/100 fit score → 22% of budget"
+      },
+      {
+        "publisherId": "pub_016",
+        "publisherName": "Stride & Stem",
+        "sharePct": 21,
+        "monthlyBudgetUsd": 1969,
+        "estCpmUsd": 25,
+        "projectedMonthlyImpressions": 78760,
+        "rationale": "90/100 fit score → 21% of budget"
+      },
+      {
+        "publisherId": "pub_003",
+        "publisherName": "Studiogrid",
+        "sharePct": 20,
+        "monthlyBudgetUsd": 1875,
+        "estCpmUsd": 25,
+        "projectedMonthlyImpressions": 75000,
+        "rationale": "85/100 fit score → 20% of budget"
+      },
+      {
+        "publisherId": "pub_017",
+        "publisherName": "Cloudfoot",
+        "sharePct": 19,
+        "monthlyBudgetUsd": 1781,
+        "estCpmUsd": 18,
+        "projectedMonthlyImpressions": 98944,
+        "rationale": "80/100 fit score → 19% of budget"
+      },
+      {
+        "publisherId": "pub_008",
+        "publisherName": "Pantrygood",
+        "sharePct": 18,
+        "monthlyBudgetUsd": 1688,
+        "estCpmUsd": 25,
+        "projectedMonthlyImpressions": 67520,
+        "rationale": "75/100 fit score → 18% of budget"
+      }
+    ],
+    "targeting": {
+      "personaIds": [
+        "persona_001",
+        "persona_006",
+        "persona_009"
+      ],
+      "geos": [
+        "US-West",
+        "US-South",
+        "US-Northeast"
+      ],
+      "interests": [
+        "wellness",
+        "fitness",
+        "supplements",
+        "clean_beauty",
+        "organic_grocery",
+        "sustainable_apparel",
+        "home_goods",
+        "refillable_products"
+      ]
+    },
+    "flightDays": 30,
+    "assumptions": [
+      "CPMs are heuristic estimates by audience income tier, not quoted rates",
+      "Estimated AOV of $95 inferred from the advertiser's description"
+    ]
+  }
+}
